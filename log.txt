@@ -1,0 +1,1582 @@
+If the title screen is black, resources are still downloading. Please be patient until the title screen appears.
+You have unread updates in the changelog.
+ Meth-Chan: anyone else lagging?
+ Soldier101: im crashing
+ MrFaust96: that might be my fault
+ MrFaust96: I am working on atmos
+[Common] Nickster Wilson says, "Good"
+Sending Resources...
+[Common] Nickster Wilson says, "I'm cauterizing after using the autopsy scanner"
+ NickSho_: Oh my god this fucking lag
+If the title screen is black, resources are still downloading. Please be patient until the title screen appears.
+You have unread updates in the changelog.
+Sending Resources...
+Sending Resources...
+ That's a console. It is a normal-sized item.
+A stationary computer.
+ That's an electronic cigarette. It is a tiny item.
+A cheap electronic cigarette. The metal still has a few shavings from being rolled in an autolathe.
+Unrecognized or inaccessible verb: switch_intent
+
+newscaster beeps, "Breaking news from Nyx Daily!"
+Unrecognized or inaccessible verb: intent
+
+ Meth-Chan: Uhh
+*---------*
+This is  Vince Alpha, a ˙Human!
+He is wearing  a grey jumpsuit.
+He is wearing  a science winter coat.
+He has  an industrial backpack on his back.
+He has  a tool-belt about his waist.
+He is wearing  some magboots on his feet.
+He has  a radio headset on his left ear.
+He is wearing  PDA-Vince Alpha (Junior Xenobiologist).
+He isn't responding to anything around him and seems to be unconscious.
+He is fast asleep.
+He looks like he can't smile at all.... More...
+*---------*
+
+ Meth-Chan: I think we're good now?
+ Soldier101: better
+ Soldier101: but i still seem cant access the console
+Karn Driez snores.
+Vince Alpha snores.
+Karn Driez snores.
+*---------*
+This is  Jason Bennett, a ˙Human!
+He is wearing  some young folks jeans (30) with  a suspenders (150) attached.
+He is wearing  a beret (200) on his head.
+He has  a black leather satchel on his back.
+He is holding  50 Ethericoin in his left hand.
+He has  some work gloves on his hands.
+He is wearing  some leather shoes (100) on his feet.
+He has  a menthol cigarette on his face.
+He is wearing  PDA-Jason Bennett (Janitor).
+He has a tiny bruise on his upper body.
+Average build verging on athletic. R... More...
+*---------*
+
+Jason Bennett handed 50 Ethericoin to Jack Trasen.
+Jason Bennett says, "Here's what I've got."
+Medbot beeps, "There's always a catch, and it's the best there is."
+Unrecognized or inaccessible verb: wswwwwwwwwwswsay
+
+[Common] Korl Adams says, "Warning"
+Korl Adams says, "warning"
+[Common] Korl Adams says, "We dont need 2500$"
+Korl Adams says, "we dont need 2500$"
+[Common] Korl Adams says, "WE NEED 5000$"
+Korl Adams says, "WE NEED 5000$"
+[Common] Korl Adams says, "Fuck that"
+Korl Adams says, "fuck that"
+Unrecognized or inaccessible verb: sa
+
+[Common] Korl Adams says, "Gonna find other way"
+Korl Adams says, "gonna find other way"
+[Common] Korl Adams says, "To get it up"
+Korl Adams says, "to get it up"
+Building machine frame ...
+ That's a circuit board (bluespace satellite). It is a small item.
+
+You start to add cables to the frame.
+You add cables to the frame.
+You add the circuit board to the frame.
+Requires 1 subspace ansible, 1 hyperwave filter, 2 micro-manipulator, 1 micro-laser, 1 subspace amplifier and 1 bluespace crystal.
+ That's a machine frame. 
+Requires 1 matter bin, 1 micro-manipulator, 1 scanning module and 1 capacitor.
+ That's Science. 
+A telepad used to recieve imports and send exports.
+[Common] Luis Ribeiro says, "Test."
+[Common] Luis Ribeiro asks, "What's happening?"
+[Common] Jason Bennett asks, "Nothing, you in the lobby?"
+*---------*
+This is  Amelia Felrow, a ˙Human!
+She is wearing  a grey jumpsuit.
+She has  a messenger bag on her back.
+She is wearing  some black shoes on her feet.
+She has  a radio headset on her left ear.
+She is wearing  Amelia Felrow's ID Card (Unassigned).
+She has a pair of small scabs on her head.
+She has a pair of small scabs on her left hand.
+She has a pair of small scabs on her right hand.
+*---------*
+
+Korl Adams exclaims, "JOIN ADVANCED SCIENCE!"
+[Common] Luis Ribeiro says, "Yes."
+You press the power button but the telescreen (Cargo Requests) does not respond
+You press the power button but the telescreen (Cargo Requests) does not respond
+You press the power button but the telescreen (Cargo Requests) does not respond
+[Common] Jason Bennett says, "You're gonna have to go through the disposals chute in the topmost security checkpoint."
+[Common] Jason Bennett says, "Head east, look north."
+[Common] Jason Bennett says, "I'll let you out in disposals."
+*---------*
+This is  Vince Alpha, a ˙Human!
+He is wearing  a grey jumpsuit.
+He is wearing  a science winter coat.
+He has  an industrial backpack on his back.
+He has  a tool-belt about his waist.
+He is wearing  some magboots on his feet.
+He has  a radio headset on his left ear.
+He is wearing  PDA-Vince Alpha (Junior Xenobiologist).
+He isn't responding to anything around him and seems to be unconscious.
+He is fast asleep.
+He looks like he can't smile at all.... More...
+*---------*
+
+Vince Alpha snores.
+[Common] Korl Adams exclaims, "JOIN ADVANCED SCIENCE PLEASE!"
+Korl Adams exclaims, "JOIN ADVANCED SCIENCE PLEASE!"
+[Common] Luis Ribeiro says, "Jason, the path is blocked."
+[Common] Jason Bennett asks, "Are you still in the lobby?"
+Medbot beeps, "I knew it, I should've been a plastic surgeon."
+[Common] Luis Ribeiro says, "Im goin to the disposals of the lower one."
+You remove the ID from the PDA-Korl Adams (Research Supervisor).
+You insert Korl Adams's ID Card NT-(Research Supervisor) into the console.
+[Common] Luis Ribeiro says, "Yes."
+The console flashes an "RFID Error - Unable to scan ID" warning.
+The console flashes an "RFID Error - Unable to scan ID" warning.
+PDA-Korl Adams (Research Supervisor) does not have an ID in it.
+[Common] Jason Bennett says, "Alright it doesn't matter which one."
+You remove the card from the console
+[Common] Jason Bennett says, "I'll meet you in disposals."
+[Common] Luis Ribeiro says, "Roger that."
+You insert Korl Adams's ID Card NT-(Research Supervisor) into the console.
+[Common] Luis Ribeiro says, "Here I go then."
+You remove the card from the console
+Karn Driez snores.
+[Common] Amelia Felrow asks, "Where do I apply for job?"
+You insert Korl Adams's ID Card NT-(Research Supervisor) into the console.
+You remove the card from the console
+There is no card in the console
+[Common] Jason Bennett says, "There isn't really anyone around to give you one."
+[Common] Jason Bennett says, "I hear fighting."
+[Common] Korl Adams says, "IM AM"
+Korl Adams(as Unknown) says, "IM AM"
+Vince Alpha snores.
+[Common] Korl Adams exclaims, "JOIN ADVANCED SCIENCE!!"
+Korl Adams(as Unknown) exclaims, "JOIN ADVANCED SCIENCE!!"
+There is no card in the console
+You insert Korl Adams's ID Card NT-(Research Supervisor) into the console.
+[Common] Korl Adams says, "I got full access to give job"
+Korl Adams(as Unknown) says, "i got full access to give job"
+You remove the card from the console
+You put Korl Adams's ID Card NT-(Research Supervisor) into the backpack.
+[Common] Jason Bennett asks, "Luis?"
+Vince Alpha snores.
+[Common] Jason Bennett asks, "Luis you alive?"
+[Common] Luis Ribeiro says, "Gonna take awhile before this thing engages."
+[Common] Amelia Felrow asks, "On what floor?"
+You put the ID into PDA-Korl Adams (Research Supervisor)'s slot.
+Vince Alpha snores.
+[Common] Jason Bennett says, "Oh thank Christ."
+[Common] Jason Bennett says, "I heard screaming and thought you were killed in the crusher."
+[Common] Jason Bennett says, "I turned off the lever it should be safe."
+[Common] Korl Adams says, "Crushers wont crush peoples"
+Korl Adams says, "crushers wont crush peoples"
+[Common] Jason Bennett says, "Not if it was tampered with."
+ That's a space jukebox. 
+
+[Common] Amelia Felrow asks, "Where do I go?"
+[Common] Luis Ribeiro says, "Taking years for this to engage."
+[Common] Korl Adams asks, "To join advanced science?"
+Korl Adams asks, "to join advanced science?"
+The steel chair has been hit by Jack Trasen with the nano printer.
+You install the nano printer into the console
+[Common] Amelia Felrow says, "To apply"
+You remove the ID from the PDA-Korl Adams (Research Supervisor).
+You put Korl Adams's ID Card NT-(Research Supervisor) into the backpack.
+You put the ID into PDA-Korl Adams (Research Supervisor)'s slot.
+The console shuts down.
+You press the power button and start up the console
+[Common] Korl Adams exclaims, "JOIN ADVANCED SCIENCE PLEASE GUYS!"
+Korl Adams exclaims, "JOIN ADVANCED SCIENCE PLEASE GUYS!"
+[Common] Korl Adams exclaims, "WE NEED PEOPLES!"
+Korl Adams exclaims, "WE NEED PEOPLES!"
+[Common] Amelia Felrow says, "I can join advanced science"
+[Common] Korl Adams says, "Okay come to deck 1"
+Korl Adams says, "okay come to deck 1"
+[Common] Korl Adams says, "Waiting right at elevator"
+Korl Adams says, "waiting right at elevator"
+*---------*
+This is  Jason Bennett, a ˙Human!
+He is wearing  some young folks jeans (30) with  a suspenders (150) attached.
+He is wearing  a beret (200) on his head.
+He is wearing  a leather jacket (200).
+He has  a black leather satchel on his back.
+He is holding  a hand labeler in his right hand.
+He has  some work gloves on his hands.
+He is wearing  some leather shoes (100) on his feet.
+He is wearing  PDA-Jason Bennett (Janitor).
+Average build verging on athletic. R... More...
+*---------*
+
+The elevator descends smoothly.
+*---------*
+This is  Amelia Felrow, a ˙Human!
+She is wearing  a grey jumpsuit.
+She has  a messenger bag on her back.
+She is wearing  some black shoes on her feet.
+She is wearing  Amelia Felrow's ID Card (Unassigned).
+She has a pair of small scabs on her head.
+She has a pair of small scabs on her left hand.
+She has a pair of small scabs on her right hand.
+*---------*
+
+The elevator announces, "Ding!"
+Korl Adams says, "So"
+[Common] Jason Bennett says, "Sorry about telling people to go through disposals but there's no other way out of the lobby."
+Korl Adams says, "Come"
+[Common] Korl Adams says, "There is"
+Korl Adams says, "there is"
+[Common] Korl Adams says, "I got an RCD"
+Korl Adams says, "i got an RCD"
+[Common] Korl Adams says, "I will make lobby all access door"
+Korl Adams says, "i will make lobby all access door"
+You push the steel wall, but nothing happens.
+newscaster beeps, "Breaking news from Nyx Daily!"
+Korl Adams says, "So"
+[Common] Jason Bennett says, "Security'll love that."
+Korl Adams asks, "For what job do you want join up?"
+Korl Adams says, "We got Botany Kitchen science and engineering"
+It won't budge!
+Korl Adams asks, "So?"
+[Common] Edward Jones says, "I need some help at the disposal"
+Amelia Felrow says, "I am known for mass producing naturally selected plants, conserving ingredients to dishes and I have some experience with science"
+[Common] Edward Jones says, "I am wounded real bad."
+Korl Adams says, "So Science"
+[Common] Nickster Wilson says, "Come at medbay"
+Korl Adams says, "Food science"
+[Common] Edward Jones says, "Bring some meds with you"
+Korl Adams says, "Plants science"
+Korl Adams says, "And R&D"
+Korl Adams asks, "Yeah?"
+Amelia Felrow says, "I normally do not inject plants"
+[Common] Edward Jones stutters, "L-L-Locked b-behind d-doors."
+[Common] Jason Bennett says, "I'll come help you out."
+Your the neural lace buzzes, letting you know that you should be getting paid.
+Karn Driez snores.
+Vince Alpha snores.
+Vince Alpha snores.
+[Common] Jason Bennett says, "The idea for people to use disposals was mine, sorry about that."
+Korl Adams says, "Print new id on the console"
+*---------*
+This is  Amelia Felrow, a ˙Human!
+She is wearing  a grey jumpsuit.
+She has  a messenger bag on her back.
+She is wearing  some black shoes on her feet.
+She has  a radio headset on her left ear.
+She is wearing  Amelia Felrow's ID Card NT-(Junior Researcher).
+She has a pair of small scabs on her head.
+She has a pair of small scabs on her left hand.
+She has a pair of small scabs on her right hand.
+*---------*
+
+[Common] Jason Bennett says, "Its how I got in, and until someone starts manning the checkpoints thats the only way through."
+Vince Alpha snores.
+Korl Adams says, "Welcome"
+Amelia Felrow says, "Updated"
+[Common] Edward Jones stutters, "Well I-I-I hope I g-g-get some compensation for my b-b-broken left arm."
+Korl Adams says, "Fix the checkpoint i need"
+Medbot beeps, "Delicious!"
+Amelia Felrow asks, "So what is my first assignment?"
+ That's a rapid construction device. It is a normal-sized item.
+Small, portable, and far, far heavier than it looks, this gun-shaped device has a port into which one may insert compressed matter cartridges.
+The current mode is 'Deconstruction'
+It currently holds 0/30 matter-units.
+Korl Adams says, "Sciencist"
+[Common] Jason Bennett says, "I'd take it up with the company for not employing enough security staff."
+Korl Adams says, "How id card says"
+[Common] Jason Bennett says, "Testing"
+Korl Adams says, "But you can become supervisor if you work good"
+Amelia Felrow says, "Junior researcher"
+Korl Adams says, "Also"
+[Common] Jason Bennett says, "Take it up with the company for not employing enough security staff."
+*---------*
+This is  Amelia Felrow, a ˙Human!
+She is wearing  a grey jumpsuit.
+She has  a messenger bag on her back.
+She is wearing  some black shoes on her feet.
+She has  a radio headset on her left ear.
+She is wearing  Amelia Felrow's ID Card NT-(Junior Researcher).
+She has a pair of small scabs on her head.
+She has a pair of small scabs on her left hand.
+She has a pair of small scabs on her right hand.
+*---------*
+
+Karn Driez snores.
+Korl Adams says, "Thats why i said print new id"
+You put the rapid construction device into the backpack.
+Korl Adams says, "So you get advanced science official title"
+Sorry, the following is not valid: Amelia-Felrow\'s-ID-Card-(Advanced-Science-Scientist).0xffffffff
+
+usage: Point-To is not accessible
+
+usage: Point-To mob|obj|turf
+
+Jack Trasen points to Amelia Felrow
+You put the high-capacity matter cartridge into the backpack.
+The RCD now holds 30/30 matter-units.
+You put the steel sheets into the backpack.
+The airlock electronics flashes a yellow LED near the ID scanner. Did you remember to scan your ID or PDA?
+You put the airlock electronics into the backpack.
+Jack Trasen presses the lift button.
+You put the steel sheets into the backpack.
+Elevator Door's motors grind as they quickly reverse direction, unable to safely close.
+The elevator button buzzes loudly.
+Jack Trasen presses the lift button.
+The elevator rises smoothly.
+The elevator announces, "Ding!"
+Changed mode to 'Floor & Walls'
+Changed mode to 'Airlock'
+Changed mode to 'Deconstruction'
+You are deconstructing Security Airlock (All Personnel)!
+You put the rapid construction device into the backpack.
+Jack Trasen starts climbing onto the reinforced steel table!
+Jack Trasen climbs onto the reinforced steel table!
+You knock on the reinforced window.
+ Mirkoloio: >When you pop out dead of cryo, but cryo'd alive.
+The airlock electronics flashes a yellow LED near the ID scanner. Did you remember to scan your ID or PDA?
+The airlock electronics flashes a yellow LED near the ID scanner. Did you remember to scan your ID or PDA?
+You put Korl Adams's ID Card NT-(Junior Foreman) into the backpack.
+You can only make assignments in your own category.
+You can only make assignments in your own category.
+You remove the ID from the PDA-Korl Adams (Advanced Science Chief).
+You put the ID into PDA-Korl Adams (Advanced Science Chief)'s slot.
+You can only make assignments in your own category.
+You can only make assignments in your own category.
+You can only make assignments in your own category.
+You can only make assignments in your own category.
+You can only make assignments in your own category.
+Only command staff can grant custom titles.
+You put Korl Adams's ID Card NT-(Junior Foreman) into the backpack.
+Building security airlock assembly ...
+You put the steel sheets into the backpack.
+You starts securing the airlock assembly to the floor.
+You secured the airlock assembly!
+You put the wrench into the tool-belt (100).
+Secured Security Airlock Assembly has been hit by Jack Trasen with the airlock electronics.
+You start to wire the airlock assembly.
+You wire the airlock.
+You start to install electronics into the airlock assembly.
+You installed the airlock electronics!
+Now finishing the airlock.
+You finish the airlock!
+You put the screwdriver into the tool-belt (100).
+The ˙Emergency Shutter is not functioning, you'll have to force it open manually.
+You start forcing the ˙Emergency Shutter open with the pry bar!
+You start forcing the ˙Emergency Shutter open with the pry bar!
+You force the ˙Emergency Shutter open with the pry bar!
+You force the ˙Emergency Shutter closed with the pry bar!
+[Common] Ailia Kellian asks, "Hello?"
+*---------*
+This is  Ailia Kellian, a ˙Human!
+She is wearing  a grey jumpsuit.
+She has  a satchel on her back.
+She has  an extended-capacity emergency oxygen tank about her waist.
+She is wearing  some blood-stained the black shoes on her feet.
+She has  a breath mask on her face.
+She is wearing  Ailia Kellian's ID Card NT-(Unassigned).
+*---------*
+
+You start forcing the ˙Emergency Shutter open with the pry bar!
+You lever off the tiles.
+You start forcing the ˙Emergency Shutter open with the pry bar!
+You force the ˙Emergency Shutter open with the pry bar!
+[Common] Jason Bennett says, "Anyone who is new to the station I guess our commander is the RD."
+You put the pry bar into the tool-belt (100).
+[Common] Jason Bennett says, "And I guess he's also the guy to talk to about getting a job."
+[Common] Korl Adams says, "I got an problem"
+Korl Adams says, "i got an problem"
+[Common] Ailia Kellian asks, "What went on here?"
+Ailia Kellian talks into the radio headset
+[Common] Korl Adams says, "I got no access"
+Korl Adams says, "i got no access"
+[Common] Jason Bennett asks, "Whats up Ailia?"
+[Common] Korl Adams says, "Not longer"
+Korl Adams says, "not longer"
+Jack Trasen presses the lift button.
+Jack Trasen presses the lift button.
+[Common] Ailia Kellian says, "The entrance doesn't look to good"
+The elevator descends smoothly.
+[Common] Ailia Kellian says, "The blood, etc."
+[Common] Jason Bennett says, "Oh that."
+The elevator announces, "Ding!"
+[Common] Jason Bennett says, "Yea I don't know what happened, go through disposals."
+Unrecognized or inaccessible verb: sa
+
+[Common] Korl Adams says, "Fucking i fixed it"
+Korl Adams says, "fucking i fixed it"
+[Common] Korl Adams says, "Stop telling peoples to go through disposals"
+Korl Adams says, "stop telling peoples to go through disposals"
+*---------*
+This is  Luis Ribeiro, a ˙Human!
+He is wearing  a grey jumpsuit.
+He has  a backpack on his back.
+He is wearing  some black shoes on his feet.
+He is wearing  Luis Ribeiro's ID Card NT-(Unassigned).
+He has a tiny bruise on his head.
+He has a pair of small scabs on his left hand.
+He has a pair of small scabs on his right hand.
+*---------*
+
+[Common] Jason Bennett asks, "Oh so there's a door now?"
+Korl Adams exclaims, "What your doing here!"
+[Common] Jason Bennett says, "Forget what I said there's a door now you can leave."
+Korl Adams says, "This is an restricted area"
+Luis Ribeiro says, "THe janitor."
+Luis Ribeiro says, "Brought me here."
+Korl Adams asks, "For the job?"
+[Common] Amelia Felrow asks, "Is it just me, or is the chemical dispenser quite... limited here?"
+Luis Ribeiro says, "No."
+The console flashes an "Access Denied" warning.
+Luis Ribeiro says, "To wash my face."
+Vince Alpha snores.
+Luis Ribeiro asks, "So, what's advanced scince?"
+Jack Trasen points to the sink
+There is apparently no tubing in this. This area doesn't seem to have an Area Reagent Outlet.
+Luis Ribeiro says, "Science rather."
+Korl Adams says, "Oh well"
+Luis Ribeiro says, "Already did."
+[Common] Jason Bennett asks, "Alright fess up, who was fighting in the lobby?"
+Korl Adams says, "We are researchers but we also research many things"
+Korl Adams says, "Not only rnd"
+Korl Adams says, "We are offerring free cloning"
+Luis Ribeiro asks, "Do you research living things?"
+Korl Adams says, "Not for now but planning it"
+The console flashes an "Access Denied" warning.
+The console flashes an "Access Denied" warning.
+Karn Driez snores.
+The console flashes an "Access Denied" warning.
+You put Korl Adams's ID Card (Junior Foreman) into the backpack.
+ID cards have been devalidated. You will need to print a new one.
+Your card devalidate was rejected. You have devalidated your ID card in the last 5 mintues.
+[Common] Amelia Felrow asks, "How am I to make something innovative with only 7 chemicals in the selection?"
+You place Korl Adams's ID Card NT-(Junior Foreman) into the the disposal unit.
+You place Devalidated's ID Card (Devalidated) into the the disposal unit.
+You remove the ID from the PDA-Korl Adams (Advanced Science Chief).
+You place Devalidated's ID Card (Devalidated) into the the disposal unit.
+[Common] Jason Bennett says, "Hey doc we have a dying woman her- Nope they're just dead."
+Luis Ribeiro asks, "And what can i do to join you guys?"
+Vince Alpha snores.
+Korl Adams(as Unknown) says, "Well in what experience do you have"
+Luis Ribeiro says, "None."
+Your card print was rejected. You have printed an ID card in the last 5 mintues.
+Korl Adams(as Unknown) says, "You cant do much"
+Korl Adams(as Unknown) says, "But maybe"
+Korl Adams(as Unknown) asks, "Cooking?"
+Karn Driez snores.
+Luis Ribeiro asks, "Cooking for research?"
+Korl Adams(as Unknown) says, "We arent doing only research"
+Karn Driez snores.
+Korl Adams(as Unknown) says, "Its named food research"
+Korl Adams(as Unknown) says, "Food research plant research R&D"
+Korl Adams(as Unknown) asks, "Computer science?"
+Luis Ribeiro says, "Oh."
+Vince Alpha snores.
+The console shuts down.
+You press a hard-reset button on the console. It displays a brief debug screen before shutting down.
+You press the power button and start up the console
+The console shuts down.
+newscaster beeps, "Breaking news from The Gibson Gazette!"
+[Common] Ailia Kellian asks, "Is anyone able to come to assignments?"
+Luis Ribeiro asks, "And, does it pay well?"
+Korl Adams(as Unknown) says, "We dont do things for money"
+Korl Adams(as Unknown) says, "For do it for research"
+You press the power button and start up the console
+Karn Driez snores.
+The console flashes an "RFID Error - Unable to scan ID" warning.
+Vince Alpha snores.
+There is no card in the console
+[Common] Jason Bennett says, "I guess I'll just stick around the lobby and be a greeter."
+PDA-Korl Adams (Advanced Science Chief) does not have an ID in it.
+Your card print was rejected. You have printed an ID card in the last 5 mintues.
+Luis Ribeiro says, "But research wont put you food in the table as you already know."
+[Common] Jason Bennett says, "All the emergency shutters are down for some reason."
+Vince Alpha snores.
+You remove the pen from PDA-Korl Adams (Advanced Science Chief).
+Luis Ribeiro says, "I sure love research, but moey interests me as well."
+[Common] Styffee Kellian says, "Also wanted to ask if you saw my sibling"
+Luis Ribeiro says, "Money rather."
+Korl Adams(as Unknown) says, "We are low at money"
+Korl Adams(as Unknown) says, "We are collecting 5000$"
+Korl Adams(as Unknown) says, "For business creation"
+[Common] Styffee Kellian asks, "Unless shes not on this station or ship?"
+Karn Driez snores.
+The console shuts down.
+You press a hard-reset button on the console. It displays a brief debug screen before shutting down.
+[Common] Jason Bennett asks, "Name?"
+Luis Ribeiro asks, "How much you got by now?"
+You slide the pen into PDA-Korl Adams (Advanced Science Chief).
+ Unable to log in to account, additional information may be required.
+ Access granted. Welcome user 'Korl Adams.'
+[Common] Styffee Kellian says, "Ailia Kellian"
+[Common] Jason Bennett says, "They're in the lobby."
+Korl Adams(as Unknown) says, "718"
+[Common] Ailia Kellian says, "Trying to get a job"
+[Common] Styffee Kellian says, "Ah"
+Luis Ribeiro says, "Going to take you a while."
+You press the power button and start up the console
+You put the ID into PDA-Korl Adams (Advanced Science Chief)'s slot.
+The console flashes an "Access Denied" warning.
+The console flashes an "Access Denied" warning.
+The console flashes an "Access Denied" warning.
+The console flashes an "Access Denied" warning.
+ That's PDA-Korl Adams (Advanced Science Chief). It is a small item.
+A portable microcomputer by Thinktronic Systems, LTD. Functionality determined by a preprogrammed ROM cartridge.
+The time 02:52 is displayed in the corner of the screen.
+ Luis Ribeiro: btw, how's payment work?
+The console shuts down.
+ Luis Ribeiro: the game pays you?
+[Common] Jason Bennett says, "No one's around to man assignments unfortunately."
+ Luis Ribeiro: or its the station economical flow?
+ Jack Trasen: when you set on duty when you have job
+[Common] Jason Bennett says, "Try asking the RD I think they can get you a job."
+Your duty signal was rejected.
+[Common] Korl Adams says, "Someone is fucking with me"
+Korl Adams says, "someone is fucking with me"
+[Common] Korl Adams says, "Someone demoted me"
+Korl Adams says, "someone demoted me"
+ Luis Ribeiro: then you are paid like every day by the game?
+ Jack Trasen: yeah
+You press the power button and start up the console
+ Luis Ribeiro: oh ok
+[Common] Jason Bennett asks, "Seriously?"
+The console's screen shows "NETWORK ERROR - Unable to connect to NTNet. Please retry. If problem persists contact your system administrator." warning.
+The console shuts down.
+Luis Ribeiro asks, "This is where research works?"
+Korl Adams says, "This is an additional section of research"
+Luis Ribeiro says, "Im seeing a bunch of DA's and things like that."
+Korl Adams says, "The main research is up corridor"
+Korl Adams says, "But its smaller"
+Korl Adams says, "And doesnt include botany"
+ That's a space jukebox. 
+
+Karn Driez snores.
+Luis Ribeiro says, "Oh."
+ That's a neural lace resleever. 
+It's a machine that allows neural laces to be sleeved into new bodies.
+Luis Ribeiro asks, "So you still dont have xenobiology?"
+Korl Adams says, "Main does"
+Korl Adams says, "But this is additional"
+Korl Adams says, "Okay so"
+Korl Adams says, "Main got R&D and xenobiology"
+Korl Adams says, "And additional cooking botany and R&D"
+[Common] Eric McArthur coughs
+Korl Adams says, "But also including medical"
+[Common] Ailia Kellian says, "Someone broke a hole into assignments"
+Karn Driez snores.
+Luis Ribeiro asks, "And how do i get to the main?"
+CA Relay Outpost Update
+
+CA Relay Outpost Update
+
+Ionospheric anomalies detected. Temporary telecommunication failu*3mga;b4;'1v¬-BZZZT
+
+
+newscaster beeps, "New Announcement Available"
+Korl Adams says, "Someone fucked up my job"
+Korl Adams says, "I should have access into main"
+Luis Ribeiro asks, "And you dont have?"
+Korl Adams says, "Yes"
+ Luis Ribeiro: lagging as fuck
+Korl Adams says, "I recommend signing up at maystation"
+Korl Adams says, "F"
+Luis Ribeiro asks, "And how would i apply for xenobiology?"
+ Sodaduija: phew
+Korl Adams says, "At assigments i think"
+Korl Adams says, "At lobby there should be someone to handle it"
+Korl Adams says, "If there isnt i could check it out"
+ MrFaust96: *drinks soda*
+Korl Adams says, "Just i will lock the office"
+Luis Ribeiro says, "But no one's there."
+Korl Adams says, "So wait a while"
+Luis Ribeiro says, "Roger that."
+Jack Trasen presses the lift button.
+ That's Jack Trasen mask (50). It is a normal-sized item.
+CEO of Nanotrasen corporation. Perfect for scaring the unionizing children.
+The elevator descends smoothly.
+The elevator announces, "Ding!"
+You push the elevator panelling reinforced elevator panelling wall, but nothing happens.
+Jack Trasen presses the lift button.
+Jack Trasen presses the lift button.
+The elevator rises smoothly.
+The elevator announces, "Ding!"
+*---------*
+This is  Edward Jones, a ˙Human!
+He is wearing  a grey jumpsuit.
+He has  a messenger bag on his back.
+He is wearing  some blood-stained the black shoes on his feet.
+He has  a radio headset on his left ear.
+He isn't responding to anything around him and seems to be unconscious.
+He is fast asleep.
+He has a small scab on his head.
+He has blood soaking through the grey jumpsuit!
+He has a small scab on his left hand.
+He has a small scab on his right hand.
+He doesn't look too friendly. An av... More...
+*---------*
+
+ Mirkoloio: I wonder when the holster bug is going to be fixed
+ Soldier101: what is the holster bug?
+Cleanbot begins to clean up the dirt
+*---------*
+This is  Ailia Kellian, a ˙Human!
+She is wearing  a grey jumpsuit.
+She has  a satchel on her back.
+She has  an extended-capacity emergency oxygen tank about her waist.
+She is wearing  some blood-stained the black shoes on her feet.
+She has  a breath mask on her face.
+She has  a radio headset on her left ear.
+She is wearing  Ailia Kellian's ID Card (Unassigned).
+*---------*
+
+It is too far away.
+*---------*
+This is  Styffee Kellian, a ˙Human!
+She is wearing  a grey jumpsuit.
+She has  a backpack on her back.
+She has  a green glowstick about her waist.
+She is wearing  some black shoes on her feet.
+She has  a breath mask on her face.
+She is wearing  Styffee Kellian's ID Card NT-(Unassigned).
+*---------*
+
+ MrFaust96: was about to ask the same
+Ailia Kellian says, "No command staff."
+Ailia Kellian says, "No jobs."
+ Mirkoloio: Holsters being unable to use/detach when on clothing, after popping outta cryo.
+You remove the ID from the PDA-Korl Adams (Advanced Science Chief).
+You put the ID into PDA-Korl Adams (Advanced Science Chief)'s slot.
+*---------*
+This is  James Wood, a ˙Human!
+He has  a black pocketbook on his back.
+He is wearing  some black shoes on his feet.
+He is wearing  James Wood's ID Card NT-(Unassigned).
+He isn't responding to anything around him and seems to be unconscious.
+He is fast asleep.
+*---------*
+
+Ailia Kellian points to Jack Trasen
+ Mirkoloio: Need someone else to rip it off you
+Luis Ribeiro asks, "You dont have access?"
+ Mirkoloio: Then re-attach to use
+Ailia Kellian asks, "Are you able to give us jobs?"
+Korl Adams says, "Some fucker demoted me"
+ Mirkoloio: This bug does not affect the Detective's suit, for whatever reason
+Ailia Kellian asks, "How?"
+Korl Adams says, "To junior foreman"
+Korl Adams says, "As i was Research Supervisor"
+Styffee Kellian says, "Ouch"
+*---------*
+This is Unknown (as Eric McArthur)
+They are wearing  a riot security voidsuit helmet on their head.
+They are wearing  a riot security voidsuit.
+They are carrying  an oxygen tank on their riot security voidsuit.
+They have  a messenger bag on their back.
+They are holding  a tactical jumpsuit with  an occupied armpit holster attached in their right hand.
+They have  a combat belt about their waist.
+They are wearing  Eric McArthur's ID Card CYO-(CPS Cadet).
+*---------*
+
+ MrFaust96: can you make something out of the metric ass ton of de-activated IDs laying about?
+Ailia Kellian asks, "Someone with access?"
+Korl Adams says, "No"
+Eric McArthur says, "Nice mask."
+Korl Adams says, "Its some fucker from agency"
+ Andrew Fall: You can put them into a papershredder
+Korl Adams says, "Or something"
+ DimasW: Shred them
+Styffee Kellian asks, "Hm?"
+ Mirkoloio: Shred them
+Ailia Kellian asks, "Someone got into the database?"
+ MrFaust96: thank you senpais
+Ailia Kellian says, "Great security"
+ Mirkoloio: N-NANI?
+ Andrew Fall: Yes you can bring SSD people to cryo
+Eric McArthur says, "I'm not security here."
+Eric McArthur says, "I don't care."
+Ailia Kellian says, "Wasn't talking about you"
+Styffee Kellian says, "Yet you have a riot void suit"
+Adam Keeller snores.
+*---------*
+This is  Madra Tossilan Jr, a ˙Human!
+He is wearing  an executive suit (300).
+He has  a satchel on his back.
+He has  an uranium ring (20) on his hands.
+He is wearing  some dress shoes (200) on his feet.
+He has  an empty corn cob pipe on his face.
+He has  a radio headset on his left ear.
+He is wearing  Madra Tossilan Jr's ID Card NT-(Unassigned).
+*---------*
+
+Eric McArthur says, "I work for Cythos."
+Eric McArthur says, "A different corp"
+May Alexandra snores.
+Eric McArthur says, "Better one, even"
+Madra Tossilan Jr says, "Hum"
+Ailia Kellian says, "Congrats"
+Ailia Kellian says, "I work for no one"
+Ailia Kellian says, "Waiting for a damn job"
+Eric McArthur says, "Sucks to be you."
+Ailia Kellian says, "It does"
+Unknown (as Eric McArthur) puts the tactical jumpsuit into the messenger bag.
+Korl Adams says, "Okay"
+Slab Beefloader finishes eating the protein bar.
+Korl Adams says, "Im giving jobs at advanced science"
+Adam Keeller snores.
+ Luis Ribeiro: cant we just ahelp it?
+Korl Adams says, "Science cooking and botany"
+Current Staff (2/2):
+Andrew Fall is a ˙DevAdmin
+DimasW is a ˙TrialAdmin
+Eric McArthur fluffs up his amazing hair.
+ Luis Ribeiro: since this is causing the game to not progress?
+*---------*
+This is Unknown (as Joshua Rader)
+They are wearing  a salvaged voidsuit helmet on their head.
+They are wearing  a salvaged voidsuit.
+They are carrying  an oxygen tank on their salvaged voidsuit.
+They have  a backpack on their back.
+They have  a tool-belt about their waist.
+They are wearing  PDA-Joshua Rader (F: R&D Director).
+*---------*
+
+Ailia Kellian asks, "What do you expect from your scientists?"
+ Zuperned: still dead? fuck.. i want to respawn man .-. i got reverted to my previous dead state.
+Unknown (as Joshua Rader) was hit by the foam dart!
+Jack Trasen was hit by the foam dart!
+Jack Trasen was hit by the foam dart!
+Ailia Kellian whispers, "I think he has your job."
+*---------*
+This is  Styffee Kellian, a ˙Human!
+She is wearing  a grey jumpsuit.
+She has  a backpack on her back.
+She has  a green glowstick about her waist.
+She is wearing  some black shoes on her feet.
+She has  a breath mask on her face.
+She has  a radio headset on her left ear.
+She is wearing  Styffee Kellian's ID Card NT-(Unassigned).
+*---------*
+
+Styffee Kellian was hit by the foam dart!
+Jason Bennett was hit by the foam dart!
+*---------*
+This is  Jason Bennett, a ˙Human!
+He is wearing  some young folks jeans (30) with  a suspenders (150) attached.
+He is wearing  a beret (200) on his head.
+He is wearing  a leather jacket (200).
+He has  a black leather satchel on his back.
+He has  some work gloves on his hands.
+He is wearing  some blood-stained the leather shoes (100) on his feet.
+He is wearing  PDA-Jason Bennett (Janitor).
+Average build verging on athletic. R... More...
+*---------*
+
+Styffee Kellian has thrown the foam dart.
+Ailia Kellian has been hit in the upper body by the foam dart.
+Changed mode to 'Floor & Walls'
+Changed mode to 'Airlock'
+Changed mode to 'Deconstruction'
+Changed mode to 'Floor & Walls'
+Changed mode to 'Airlock'
+Changed mode to 'Deconstruction'
+Changed mode to 'Floor & Walls'
+Changed mode to 'Airlock'
+Changed mode to 'Deconstruction'
+Changed mode to 'Floor & Walls'
+Changed mode to 'Airlock'
+Changed mode to 'Deconstruction'
+Changed mode to 'Floor & Walls'
+Changed mode to 'Airlock'
+Changed mode to 'Deconstruction'
+Changed mode to 'Floor & Walls'
+Changed mode to 'Airlock'
+Changed mode to 'Deconstruction'
+Changed mode to 'Floor & Walls'
+Changed mode to 'Airlock'
+Changed mode to 'Deconstruction'
+Changed mode to 'Floor & Walls'
+Changed mode to 'Airlock'
+Changed mode to 'Deconstruction'
+Changed mode to 'Floor & Walls'
+Changed mode to 'Airlock'
+Changed mode to 'Deconstruction'
+Changed mode to 'Floor & Walls'
+Changed mode to 'Airlock'
+Changed mode to 'Deconstruction'
+Changed mode to 'Floor & Walls'
+Changed mode to 'Airlock'
+Changed mode to 'Deconstruction'
+Changed mode to 'Floor & Walls'
+Changed mode to 'Airlock'
+Changed mode to 'Deconstruction'
+Changed mode to 'Floor & Walls'
+Changed mode to 'Airlock'
+Changed mode to 'Deconstruction'
+Changed mode to 'Floor & Walls'
+Changed mode to 'Airlock'
+Changed mode to 'Deconstruction'
+Changed mode to 'Floor & Walls'
+Changed mode to 'Airlock'
+Changed mode to 'Deconstruction'
+Changed mode to 'Floor & Walls'
+Changed mode to 'Airlock'
+Changed mode to 'Deconstruction'
+Changed mode to 'Floor & Walls'
+Changed mode to 'Airlock'
+Changed mode to 'Deconstruction'
+Changed mode to 'Floor & Walls'
+Luis Ribeiro says, "Flickerin time."
+Changed mode to 'Airlock'
+Changed mode to 'Deconstruction'
+Changed mode to 'Floor & Walls'
+Changed mode to 'Airlock'
+Changed mode to 'Deconstruction'
+Changed mode to 'Floor & Walls'
+Changed mode to 'Airlock'
+Changed mode to 'Deconstruction'
+Changed mode to 'Floor & Walls'
+Changed mode to 'Airlock'
+Changed mode to 'Deconstruction'
+Changed mode to 'Floor & Walls'
+Changed mode to 'Airlock'
+Jason Bennett says, "Hey uhh"
+Changed mode to 'Deconstruction'
+Ailia Kellian asks, "This gets me a job how?"
+Changed mode to 'Floor & Walls'
+Changed mode to 'Airlock'
+Changed mode to 'Deconstruction'
+Changed mode to 'Floor & Walls'
+Changed mode to 'Airlock'
+Changed mode to 'Deconstruction'
+Changed mode to 'Floor & Walls'
+Changed mode to 'Airlock'
+Changed mode to 'Deconstruction'
+Changed mode to 'Floor & Walls'
+Changed mode to 'Airlock'
+Changed mode to 'Deconstruction'
+Changed mode to 'Floor & Walls'
+Changed mode to 'Airlock'
+Changed mode to 'Deconstruction'
+Changed mode to 'Floor & Walls'
+Changed mode to 'Airlock'
+Changed mode to 'Deconstruction'
+You put the rapid construction device into the backpack.
+Jason Bennett points to Unknown (as Joshua Rader)
+Joshua Rader asks, "What?"
+Jason Bennett asks, "Who're you?"
+Joshua Rader says, "Joshua Rader."
+Jason Bennett says, "Got some pretty fancy space gear."
+Korl Adams asks, "For who you work and whats your assigment?"
+Eric McArthur says, "My NT goggles say he's an asshole."
+Joshua Rader says, "It's not that fancy. I left the science voidsuit back at my office."
+*---------*
+This is  Stefanny Zeroford, a ˙Human!
+She is wearing  a blue jumpsuit.
+She has  a messenger bag on her back.
+She is wearing  some black shoes on her feet.
+She is wearing  Stefanny Zeroford's ID Card NT-(Civilian).
+She has a tiny bruise on her head.
+She has a tiny bruise on her left hand.
+She has a tiny bruise on her right hand.
+*---------*
+
+Eric McArthur says, "Wew, nice hair there, girl."
+Stefanny Zeroford snaps their fingers.
+Jason Bennett was hit by the foam dart!
+*---------*
+This is Unknown (as Joshua Rader)
+They are wearing  a salvaged voidsuit helmet on their head.
+They are wearing  a salvaged voidsuit.
+They are carrying  an oxygen tank on their salvaged voidsuit.
+They have  a backpack on their back.
+They have  a tool-belt about their waist.
+They are wearing  PDA-Joshua Rader (F: R&D Director).
+*---------*
+
+Jason Bennett asks, "Why was I the only one that was friendly to the dude with a space suit?"
+Jack Trasen points to Unknown (as Joshua Rader)
+Jason Bennett was hit by the foam dart!
+Jason Bennett says, "You're all giving a bad name to the crew here."
+Ailia Kellian says, "I was not unfriendly"
+Korl Adams asks, "For what corporation do you work?"
+Jason Bennett was hit by the foam dart!
+Ailia Kellian says, "I just said nothing."
+Jason Bennett was hit by the foam dart!
+Jason Bennett was hit by the foam dart!
+Eric McArthur realized they were out of ammo and starting scrounging for some!
+Styffee Kellian asks, "What happened?"
+Joshua Rader says, "I'm from Shell Inc. I have no idea who the hell you guys are..."
+Ailia Kellian says, "Nothing"
+Stefanny Zeroford asks, "Someone ccan give me a ride to may ?"
+Ailia Kellian says, "That's the issue"
+Ailia Kellian says, "We don't have jobs"
+Jason Bennett says, "I'm the friendly neighbourhood janitor, Bennett."
+Joshua Rader says, "Uhhhhh."
+Eric McArthur asks, "Maystation?"
+Stefanny Zeroford says, "Yeah"
+Eric McArthur says, "Got a suit, I can take you there."
+Joshua Rader says, "Well do to a bluespace storm our entire station lacks air."
+Stefanny Zeroford says, "This is the fourth day i am trying to get there again"
+Joshua Rader says, "Or I would say ours would be decent."
+Korl Adams says, "I need my access back"
+ That's Jack Trasen mask (50). It is a normal-sized item.
+CEO of Nanotrasen corporation. Perfect for scaring the unionizing children.
+Eric McArthur says, "As said, girl, if you got a suit, I can take ya there."
+*---------*
+This is  Steven Butcher, a ˙Human!
+He is wearing  a grey jumpsuit.
+He is wearing  a leather coat.
+He has  a backpack on his back.
+He is wearing  some black shoes on his feet.
+He has  a radio headset on his left ear.
+He is wearing  Steven Butcher's ID Card NT-(Unassigned).
+Looks like a chentaflop. 
+*---------*
+
+Stefanny Zeroford says, "Hmmm"
+Eric McArthur's hailer rasps, "NT SUCKS"
+Ailia Kellian says, "Lets go make a bomb"
+Jason Bennett says, "Uhh"
+Joshua Rader says, "Well I'm getting outta here before I get charged with terorism."
+Jason Bennett asks, "Did no one else hear her say "Lets go make a bomb"?"
+Korl Adams says, "IM GOING BACK TO ADVANCED SCIENCE"
+Eric McArthur shrugs
+Eric McArthur says, "Not my problem."
+Eric McArthur says, "I don't work here."
+Luis Ribeiro says, "Eric."
+Eric McArthur says, "Luis."
+Luis Ribeiro asks, "In your station do you have someone that can assign jobs?"
+Eric McArthur says, "Yes."
+Luis Ribeiro asks, "Could you take me there then?"
+Eric McArthur asks, "Got a spacesuit?"
+Jack Trasen is trying to set Unknown (as Eric McArthur)'s sensors!
+Unknown (as Eric McArthur) blinds Jack Trasen with the flash!
+Luis Ribeiro says, "Fuck, no."
+Unknown (as Eric McArthur) puts the flash into the combat belt.
+Eric McArthur says, "No touching, asshole."
+Eric McArthur says, "Then, can't take ya there."
+Eric McArthur says, "Sorry."
+Jack Trasen attempted to strike Unknown (as Eric McArthur), but missed!
+Unknown (as Eric McArthur) fires the taser gun!
+Jack Trasen is hit by the stun beam in the chest!
+Jack Trasen presses the lift button.
+Jack Trasen presses the lift button.
+Jack Trasen presses the lift button.
+Unknown (as Eric McArthur) fires the taser gun!
+Jack Trasen screams!
+Jack Trasen screams!
+Jack Trasen is hit by the stun beam in the left arm!
+Unknown (as Eric McArthur) fires the taser gun!
+Jack Trasen is hit by the stun beam in the chest!
+Unknown (as Eric McArthur) fires the taser gun!
+The stun beam misses Jack Trasen narrowly!
+*click click*
+The elevator descends smoothly.
+The elevator announces, "Ding!"
+Jack Trasen screams!
+Jack Trasen collapses!
+Dear god, the pain!
+Unknown (as Eric McArthur) fires the taser gun!
+The stun beam misses Jack Trasen narrowly!
+Unknown (as Eric McArthur) fires the taser gun!
+Jack Trasen is hit by the stun beam in the chest!
+The elevator announces, "Ding!"
+Unknown (as Eric McArthur) puts the taser gun into the messenger bag.
+Unknown (as Eric McArthur) attempted to grab Jack Trasen!
+Unknown (as Eric McArthur) has grabbed Jack Trasen's upper body!
+Jack Trasen attempted to disarm Unknown (as Eric McArthur)!
+Unknown (as Eric McArthur) attempted to disarm Jack Trasen!
+[Common] Sigmund Opalite asks, "Looking to become a miner or a trader. how do i start my own business?"
+Jack Trasen attempted to disarm Unknown (as Eric McArthur)!
+Jack Trasen attempted to disarm Unknown (as Eric McArthur)!
+Unknown (as Eric McArthur) sprays Jack Trasen with the pepperspray.
+[Common] Joshua Rader says, "Well first you need five thousand ethercoins."
+[Common] Sigmund Opalite asks, "Ethercoins?"
+Jack Trasen attempted to push Unknown (as Eric McArthur)!
+Unknown (as Eric McArthur) sprays Jack Trasen with the pepperspray.
+Jack Trasen attempted to push Unknown (as Eric McArthur)!
+Unknown (as Eric McArthur) sprays Jack Trasen with the pepperspray.
+Unknown (as Eric McArthur) sprays Jack Trasen with the pepperspray.
+Jack Trasen has disarmed Unknown (as Eric McArthur)!
+Jack Trasen attempted to disarm Unknown (as Eric McArthur)!
+Jack Trasen attempted to disarm Unknown (as Eric McArthur)!
+[Common] Luis Ribeiro says, "First you need someone that assigns you to miner/trader."
+The pepperspray is empty!
+The pepperspray is empty!
+The pepperspray is empty!
+The pepperspray is empty!
+Jack Trasen is having trouble keeping his eyes open.
+You put the pepperspray into the backpack.
+Jack Trasen attempted to disarm Unknown (as Eric McArthur)!
+Jack Trasen attempted to disarm Unknown (as Eric McArthur)!
+Unknown (as Eric McArthur) fires the taser gun!
+Jack Trasen screams!
+Jack Trasen screams!
+Jack Trasen is hit by the stun beam in the head!
+Jack Trasen has disarmed Unknown (as Eric McArthur)!
+[Common] Sigmund Opalite asks, "Who can do that for me?"
+Jack Trasen attempted to disarm Unknown (as Eric McArthur)!
+Unknown (as Eric McArthur) fires the taser gun!
+Jack Trasen screams!
+Jack Trasen is hit by the stun beam in the head!
+The pain is too severe for you to keep going...
+Jack Trasen slumps over, too weak to continue fighting....
+You hear a laser blast!
+Unknown (as Eric McArthur) puts the taser gun into the messenger bag.
+...You almost hear someone talking...
+...You almost hear someone talking...
+Unknown (as Eric McArthur) shakes Jack Trasen trying to wake him up!
+*---------*
+This is  Jack Trasen, a ˙Human!
+He is wearing  a mailman's jumpsuit (100).
+He is wearing  an armor (200).
+He has  a backpack on his back.
+He has  a tool-belt (100) about his waist.
+He is wearing  some blood-stained the black shoes on his feet.
+He has  Jack Trasen mask (50) on his face.
+He has  a science radio headset on his left ear.
+He is wearing  PDA-Korl Adams (Advanced Science Chief).
+He is  handcuffed!
+He has a tiny bruise on his lower body.
+He has a tiny bruise on his head.
+He has a tiny bruise on his left arm.
+He has a tiny bruise on his left leg.
+He has a tiny bruise on his right leg.
+He has a tiny bruise on his left hand.
+He has a tiny bruise on his right hand.
+He has a tiny bruise on his left foot.
+He has a tiny bruise on his right foot.
+*---------*
+
+Your whole body is going numb!
+Unknown (as Eric McArthur) runs the health analyzer over Jack Trasen.
+Eric McArthur says, "Hey, asshole."
+Unknown (as Eric McArthur) puts the health analyzer into the messenger bag.
+Eric McArthur asks, "You gonna continue being a cunt?"
+Korl Adams says, "PLEASE JUST LET ME GO BACK TO MY office fucker"
+[Common] Sigmund Opalite asks, "How is chemistry products doing for sales?"
+You feel a tiny prick!
+Unknown (as Eric McArthur) injects Jack Trasen with the autoinjector.
+*---------*
+This is Unknown (as Eric McArthur)
+They are wearing  a riot security voidsuit helmet on their head.
+They are wearing  a riot security voidsuit.
+They are carrying  an oxygen tank on their riot security voidsuit.
+They have  a messenger bag on their back.
+They are holding  an advanced first-aid kit in their left hand.
+They are holding  an autoinjector in their right hand.
+They have  a combat belt about their waist.
+They are wearing  Eric McArthur's ID Card CYO-(CPS Cadet).
+*---------*
+
+Eric McArthur asks, "Fucker, eh?"
+Eric McArthur puts the autoinjector into the advanced first-aid kit.
+Unknown (as Eric McArthur) puts the advanced first-aid kit into the messenger bag.
+You're restrained! You can't move!
+You're restrained! You can't move!
+You're restrained! You can't move!
+You're restrained! You can't move!
+You're restrained! You can't move!
+You're restrained! You can't move!
+You're restrained! You can't move!
+You're restrained! You can't move!
+You're restrained! You can't move!
+You're restrained! You can't move!
+You're restrained! You can't move!
+You're restrained! You can't move!
+You're restrained! You can't move!
+You're restrained! You can't move!
+You're restrained! You can't move!
+You're restrained! You can't move!
+You're restrained! You can't move!
+You're restrained! You can't move!
+You're restrained! You can't move!
+You're restrained! You can't move!
+Unknown (as Eric McArthur) runs the health analyzer over Jack Trasen.
+*---------*
+This is  Stefanny Zeroford, a ˙Human!
+She is wearing  a blue jumpsuit.
+She has  a messenger bag on her back.
+She is wearing  some black shoes on her feet.
+She is wearing  Stefanny Zeroford's ID Card NT-(Civilian).
+She has a tiny bruise on her head.
+She has a tiny bruise on her left hand.
+She has a tiny bruise on her right hand.
+*---------*
+
+Unknown (as Eric McArthur) puts the health analyzer into the messenger bag.
+Eric McArthur says, "You gotta appologise first."
+[Common] Korl Adams exclaims, "Help me!"
+Korl Adams exclaims, "help me!"
+Unknown (as Eric McArthur) is trying to remove Jack Trasen's backpack!
+Jack Trasen screams!
+Jack Trasen collapses!
+Jack Trasen's body becomes limp.
+Unknown (as Eric McArthur) puts the pepperspray into the messenger bag.
+Unknown (as Eric McArthur) runs the health analyzer over Jack Trasen.
+Eric McArthur says, "I can't hear you say sorry. I'll drag you around till you apologise."
+Unknown (as Eric McArthur) puts the health analyzer into the messenger bag.
+Korl Adams says, "I apologise"
+Korl Adams says, "Sorry"
+Eric McArthur says, "C'Mon. You can do better."
+Korl Adams says, "Just let me go"
+Korl Adams says, "Im very very very sorry man"
+Korl Adams says, "I didnt want to hurt you"
+Unknown (as Eric McArthur) is trying to empty Jack Trasen's pockets!
+Eric McArthur says, "No."
+Eric McArthur says, "Try better."
+Eric McArthur empties Jack Trasen's pockets!
+Unknown (as Eric McArthur) puts the key into the backpack.
+Unknown (as Eric McArthur) presses the lift button.
+Korl Adams says, "Your the best guy on the space"
+Unknown (as Eric McArthur) presses the lift button.
+[Common] Sigmund Opalite says, "I dunno."
+The elevator rises smoothly.
+Eric McArthur says, "Right."
+Eric McArthur says, "Now do it all again, over comms."
+Korl Adams says, "I did very wrong thing"
+The elevator announces, "Ding!"
+Eric McArthur says, "Say over comms what you did wrong."
+Eric McArthur says, "And why it's bad."
+Eric McArthur says, "Then apologise."
+The metal detector sends off an alarm!
+The metal detector sends off an alarm!
+[Common] Adam Tobortim asks, "Yo what do I do?"
+[Common] Korl Adams says, "I did try to hurt Eric McArthur"
+Korl Adams says, "I did try to hurt Eric McArthur"
+Steven Butcher opens a book titled "Nanotrasen Regulations" and begins reading intently.
+[Common] Nikolai Mechnikov asks, "Does somebody going to maystation?"
+[Common] Korl Adams says, "I didnt want to do that"
+Korl Adams says, "I didnt want to do that"
+Steven Butcher puts Nanotrasen Regulations into the backpack.
+Eric McArthur says, "Go on."
+[Common] Korl Adams says, "I want to say sorry to all peoples i did hurt"
+Korl Adams says, "I want to say sorry to all peoples i did hurt"
+Your whole body is going numb!
+[Common] Stefanny Zeroford says, "I am"
+[Common] Sigmund Opalite says, "I am looking for work. or becoming a trader."
+[Common] Stefanny Zeroford says, "Again"
+Eric McArthur says, "There we go."
+Unknown (as Eric McArthur) is trying to remove Jack Trasen's handcuffs!
+[Common] Nikolai Mechnikov says, "That's pretty sad."
+Styffee Kellian says, "Give me my id back"
+Eric McArthur says, "Now get the fuck back to your office."
+Ailia Kellian handed Styffee Kellian's ID Card NT-(Unassigned) to Styffee Kellian.
+Ailia Kellian hugs Styffee Kellian to make her feel better!
+Styffee Kellian says, "Thanks"
+Eric McArthur says, "Before I break out the ral gun"
+Eric McArthur says, "Real, even"
+Unknown (as Eric McArthur) has thrown the backpack.
+Unknown (as Eric McArthur) buckles themselves to the blue chair.
+Ailia Kellian shakes Jack Trasen trying to wake him up!
+Unknown (as Eric McArthur) unbuckled themselves!
+Unknown (as Eric McArthur) buckles themselves to the blue chair.
+Your whole body is going numb!
+*---------*
+This is  Edward Jones, a ˙Human!
+He is wearing  some black pants (30).
+He has  a messenger bag on his back.
+He has  a tool-belt (100) about his waist.
+He is wearing  some blood-stained the black shoes on his feet.
+He has a tiny bruise on his upper body.
+He has a small scab on his head.
+He has a fresh skin on his left arm.
+He has a small scab on his right arm.
+He has a small scab on his left hand.
+He has a small scab on his right hand.
+He doesn't look too friendly. An av... More...
+*---------*
+
+Your heart has stopped!
+...You almost hear someone talking...
+...You almost hear someone talking...
+...You almost hear someone talking...
+You hear metal clanking.
+...You almost hear someone talking...
+...You almost hear someone talking...
+...You hear something about...into
+...You almost hear someone talking...
+You feel a breath of fresh air enter your lungs. It feels good.
+You feel a breath of fresh air enter your lungs. It feels good.
+You feel a breath of fresh air enter your lungs. It feels good.
+...You almost hear someone talking...
+Eric McArthur talks into the radio headset
+...You almost hear someone talking...
+...You almost hear someone talking...
+Eric McArthur talks into the radio headset
+...You almost hear someone talking...
+Eric McArthur hugs Korl Adams to make him feel better!
+Eric McArthur runs the health analyzer over Korl Adams.
+Eric McArthur runs the health analyzer over Korl Adams.
+Eric McArthur runs the health analyzer over Korl Adams.
+Eric McArthur runs the health analyzer over Korl Adams.
+*---------*
+This is  Korl Adams, a ˙Human!
+He is wearing  a mailman's jumpsuit (100).
+He is wearing  an armor (200).
+He has  a backpack on his back.
+He has  a tool-belt (100) about his waist.
+He is wearing  some blood-stained the black shoes on his feet.
+He has  a science radio headset on his left ear.
+He is wearing  PDA-Korl Adams (Advanced Science Chief).
+He is twitching ever so slightly.
+He has a tiny bruise on his lower body.
+He has a tiny bruise on his head.
+He has a tiny bruise on his left arm.
+He has a tiny bruise on his left leg.
+He has a tiny bruise on his right leg.
+He has a tiny bruise on his left hand.
+He has a tiny bruise on his right hand.
+He has a tiny bruise on his left foot.
+He has a tiny bruise on his right foot.
+*---------*
+
+Adam Tobortim says, "Woah"
+Adam Tobortim says, "Brutallity"
+Eric McArthur runs the health analyzer over Korl Adams.
+Korl Adams says, "Deadly tasers"
+Eric McArthur says, "Adrenaline."
+Ailia Kellian asks, "Do you normally terrify people to the extent they nearly die?"
+Adam Tobortim says, "He fucking dead"
+Eric McArthur runs the health analyzer over Edward Jones.
+Styffee Kellian begins placing Styffee Kellian into the cryogenic freezer.
+Eric McArthur checks Edward Jones's pulse.
+Eric McArthur shakes Edward Jones trying to wake him up!
+Eric McArthur says, "He has an infected wound, that one"
+Adam Tobortim asks, "You on meth or some shit kORL?"
+Eric McArthur says, "No"
+Eric McArthur says, "Adrenaline"
+Eric McArthur says, "Went into shock"
+Eric McArthur runs the health analyzer over Korl Adams.
+Eric McArthur runs the health analyzer over Korl Adams.
+Edward Jones is buckled to the blue chair by Adam Tobortim!
+*---------*
+This is  Korl Adams, a ˙Human!
+He is wearing  a mailman's jumpsuit (100).
+He is wearing  an armor (200).
+He has  a backpack on his back.
+He has  a tool-belt (100) about his waist.
+He is wearing  some blood-stained the black shoes on his feet.
+He has  a science radio headset on his left ear.
+He is wearing  PDA-Korl Adams (Advanced Science Chief).
+He is twitching ever so slightly.
+He has a tiny bruise on his lower body.
+He has a tiny bruise on his head.
+He has a tiny bruise on his left arm.
+He has a tiny bruise on his left leg.
+He has a tiny bruise on his right leg.
+He has a tiny bruise on his left hand.
+He has a tiny bruise on his right hand.
+He has a tiny bruise on his left foot.
+He has a tiny bruise on his right foot.
+*---------*
+
+Adam Tobortim says, "He is a-ok"
+Eric McArthur says, "Keep it cool, Korl. And don't ever fuck with the wrong people again."
+*---------*
+This is  Eric McArthur, a ˙Human!
+He is wearing  a riot security voidsuit.
+He is carrying  an oxygen tank on his riot security voidsuit.
+He has  a messenger bag on his back.
+He is holding  a health analyzer in his left hand.
+He has  a combat belt about his waist.
+He has  a tactical goggles covering his eyes.
+He has  a radio headset on his left ear.
+He is wearing  Eric McArthur's ID Card CYO-(CPS Cadet).
+*---------*
+
+Edward Jones unbuckled themselves!
+Korl Adams whispers, "i never stop fucking with peoples"
+Adam Tobortim says, "I am solving issues"
+Eric McArthur has thrown Jack Trasen mask (50).
+Gar Gree says, "I'm hungry and want a job"
+Adam Tobortim says, "Issues solved"
+Ailia Kellian says, "Yeah"
+You are unable to equip that.
+You put Jack Trasen mask (50) into the backpack.
+Korl Adams presses the lift button.
+Korl Adams presses the lift button.
+The elevator descends smoothly.
+The elevator announces, "Ding!"
+[Common] Gar Gree says, "Hi"
+[Common] Gar Gree asks, "Can i get a job please?"
+Your head feels numb and painful.
+[Common] Gar Gree says, "Preferably a science one with slimes"
+[Common] Korl Adams says, "Fuck you Eric McArthur"
+Korl Adams says, "fuck you Eric McArthur"
+[Common] Eric McArthur asks, "You know I can taze you again?"
+[Common] Korl Adams says, "Find me first"
+Korl Adams says, "find me first"
+Vince Alpha snores.
+[Common] Nickster Wilson asks, "Is anybody injured?"
+[Common] Korl Adams says, "ERIC MCARTHUR IS THE WORST PERSON IN THE UNIVERSE"
+Korl Adams says, "ERIC MCARTHUR IS THE WORST PERSON IN THE UNIVERSE"
+*---------*
+This is  Vince Alpha, a ˙Human!
+He is wearing  a grey jumpsuit.
+He is wearing  a science winter coat.
+He has  an industrial backpack on his back.
+He has  a tool-belt about his waist.
+He is wearing  some magboots on his feet.
+He has  a radio headset on his left ear.
+He is wearing  PDA-Vince Alpha (Junior Xenobiologist).
+He isn't responding to anything around him and seems to be unconscious.
+He is fast asleep.
+He looks like he can't smile at all.... More...
+*---------*
+
+You check Vince Alpha's pulse.
+He has a pulse!
+Karn Driez snores.
+Vince Alpha snores.
+[Common] Korl Adams says, "Your going to find me first fucker"
+Korl Adams says, "your going to find me first fucker"
+[Common] Korl Adams asks, "You know where im am?"
+Korl Adams asks, "you know where im am?"
+Your suit will now report your vital lifesigns.
+Medbot beeps, "There's always a catch, and it's the best there is."
+ That's a paper shredder. 
+For those documents you don't want seen.
+[Common] Eric McArthur says, "Yeah"
+[Common] Jason Bennett asks, "Whats going on?"
+[Common] Eric McArthur says, "IN a whole world of pain and trouble."
+[Common] Korl Adams says, "I LOVE THAT PIZZA"
+Korl Adams says, "I LOVE THAT PIZZA"
+You hungrily chew out a piece of Meatpizza slice and gobble it!
+You can taste a hint of pizza crust, a hint of tomato and cheese.
+You hungrily chew out a piece of Meatpizza slice and gobble it!
+You hungrily chew out a piece of Meatpizza slice and gobble it!
+You hungrily chew out a piece of Meatpizza slice and gobble it!
+You hungrily chew out a piece of Meatpizza slice and gobble it!
+You finish eating Meatpizza slice.
+You turn on the electronic cigarette. 
+You turn off the electronic cigarette. 
+You turn on the electronic cigarette. 
+ That's an electronic cigarette. It is a tiny item.
+A cheap electronic cigarette. The metal still has a few shavings from being rolled in an autolathe.
+Vince Alpha snores.
+The soft drink dispenser has been hit by Korl Adams with the electronic cigarette.
+The soft drink dispenser has been hit by Korl Adams with the electronic cigarette.
+You turn on the electronic cigarette. 
+You turn off the electronic cigarette. 
+The soft drink dispenser has been hit by Korl Adams with the electronic cigarette.
+You set the rocks glass on the soft drink dispenser.
+Unrecognized or inaccessible verb: dsay
+
+[Common] Korl Adams asks, "So you know where im am?"
+Korl Adams asks, "so you know where im am?"
+ That's Keypad Airlock. 
+A door with a keypad lock.
+Korl Adams says, "You know where im am?""
+[Common] Korl Adams asks, "So you know where im am?"
+Korl Adams asks, "so you know where im am?"
+[Common] Korl Adams says, "Why your not going in"
+Korl Adams says, "why your not going in"
+Karn Driez snores.
+You fill the autolathe with the steel sheets.
+[Common] Jason Bennett asks, "Uhhh Rader?"
+Karn Driez snores.
+CA Relay Outpost Update
+
+Major Bill's Shipping Critter Sensor
+
+Bioscans indicate that mice have been breeding in the construction 1/4. Clear them out, before this starts to affect productivity.
+
+
+Your head feels numb and painful.
+ Andrew Fall: Love those area names
+[Common] Sigmund Opalite asks, "Can anyone deliver me and a friend to maystation?"
+Current Staff (2/2):
+Andrew Fall is a ˙DevAdmin
+DimasW is a ˙TrialAdmin
+ Soldier101: admins should really think it out
+[Common] Nickster Wilson says, "Joshua, could you come to the medbay? I found a way to cure your lungs"
+ Andrew Fall: Admins don't make those xD
+You feel a dull pain in your head
+ Soldier101: i mean
+ Soldier101: multiple peoples without any job
+Karn Driez snores.
+Your head feels numb and painful.
+ Andrew Fall: We are mostly here to solve bugs, that stuff is player run. However discussions are being made about how to make that a better experience
+Karn Driez snores.
+ LanceLynxx: idea
+ LanceLynxx: pay IAA more.
+[Common] Eric McArthur says, "Fucking hell, I got no time for this."
+[Common] Eric McArthur says, "Going back to Cythos."
+[Common] Nickster Wilson asks, "Any virologists online?"
+[Common] Sigmund Opalite asks, "Can someone deliver us to maystation?"
+ Andrew Fall: Once again, that is a player run thing, someone IC needs to buff their pay for that.
+ LanceLynxx: just sayan
+[Common] Stefanny Zeroford asks, "Oi,nick no way to may still ?"
+ Meth-Chan: thats neat
+[Common] Adam Keeller asks, "Anyone on assigments?"
+ Meth-Chan: could do with someone in command thats online frequently, or more people in command roles that can provide vital functions
+[Common] Natascha Sukhoi says, "I need an engineer to Science"
+ Soldier101: i do!
+ Soldier101: i can!
+[Common] Natascha Sukhoi says, "Someone broke the desk windoor"
+ Soldier101: do much!
+Medbot beeps, "Radar, put a mask on!"
+[Common] Natascha Sukhoi says, "Just had to expel someone from the labs"
+Your head feels numb and painful.
+[Common] Korl Adams says, "Lier"
+Korl Adams says, "lier"
+[Common] Korl Adams says, "No time for this"
+Korl Adams says, "no time for this"
+[Common] Natascha Sukhoi says, "I'm not lying"
+[Common] Natascha Sukhoi says, "Someone broke in to use our chem dispenser"
+[Common] Korl Adams says, "I didnt mean you"
+Korl Adams says, "i didnt mean you"
+[Common] Korl Adams says, "I mean that cythos fucker with security suit"
+Korl Adams says, "i mean that cythos fucker with security suit"
+[Common] Korl Adams says, "Who waits for me to come out"
+Korl Adams says, "who waits for me to come out"
+[Common] Adam Tobortim says, "Yo, anyone from shell willing to talk to me"
+Medbot beeps, "Radar, put a mask on!"
+[Common] Sigmund Opalite says, "This station is horribly managed."
+[Common] Korl Adams says, "Eric"
+Korl Adams says, "Eric"
+[Common] Korl Adams says, "Can we talk"
+Korl Adams says, "can we talk"
+[Common] Sigmund Opalite asks, "Where is the administrators?"
+[Common] Steven Butcher says, "It isn't managed at all."
+[Common] Eric McArthur says, "Sure, open up."
+Karn Driez snores.
+Karn Driez snores.
+[Common] Sigmund Opalite says, "I have an urge to riot or sue this place."
+You put the steel sheets into the backpack.
+[Common] Korl Adams says, "I dont trust you"
+Korl Adams says, "i dont trust you"
+[Common] Adam Tobortim says, "I will join in on the riot"
+[Common] Korl Adams says, "I think you have taser on your hand"
+Korl Adams says, "i think you have taser on your hand"
+[Common] Eric McArthur says, "YOU are the one who fucked up, not I"
+[Common] Korl Adams says, "And willing to arret me"
+Korl Adams says, "and willing to arret me"
+[Common] Natascha Sukhoi asks, "Any engineering available please?"
+[Common] Eric McArthur says, "And my tazer is out of charge-"
+ That's a barsign. 
+A jumbo-sized LED sign. This one seems to be showing its age.
+It says 'The Cavern'
+[Common] Ailia Kellian says, "Maybe we should board a ship"
+[Common] Adam Tobortim asks, "Korl and eric, do you perhaps need a diplomat?"
+[Common] Ailia Kellian says, "And take it to another station"
+[Common] Sigmund Opalite says, "Nobody is willing to send us to another station."
+[Common] Eric McArthur says, "Open it"
+[Common] Sigmund Opalite says, "Cause nobody is willing to help."
+[Common] Korl Adams says, "If you wont arrest me"
+Korl Adams says, "if you wont arrest me"
+[Common] Korl Adams says, "I will"
+Korl Adams says, "i will"
+[Common] Adam Tobortim says, "Guys guys guys"
+[Common] Ailia Kellian says, "That's why we board the ship"
+[Common] Edward Jones says, "We are on our own."
+[Common] Korl Adams says, "But if you do arrest me"
+Korl Adams says, "but if you do arrest me"
+[Common] Eric McArthur says, "I won't."
+[Common] Adam Tobortim says, "We can start a new life on our own"
+[Common] Korl Adams says, "Okay i dont care"
+Korl Adams says, "okay i dont care"
+[Common] Adam Tobortim says, "No need for violence"
+Eric McArthur says, "So"
+Eric McArthur says, "Tal"
+You buckle yourself to the chair.
+Eric McArthur says, "Actually."
+Eric McArthur draws .45 signal pistol, ready to go!
+[Common] Sigmund Opalite says, "We got no work! getting violent is pretty much our option to get things done."
+Korl Adams says, "Come on"
+Korl Adams says, "Stop"
+[Common] Sigmund Opalite says, "As this place is horribly managed and we are stuck on this decrepit hole."
+Eric McArthur asks, "Why should I?"
+Korl Adams says, "Why do you want to kill me"
+Eric McArthur says, "I'll lock the door, nobody will find you."
+[Common] Natascha Sukhoi says, "Go back to where you came from, then"
+[Common] Adam Tobortim says, "Ok everyone, we will al be ok"
+Your head feels numb and painful.
+Medbot beeps, "Radar, put a mask on!"
+Korl Adams says, "Except other me will find me"
+Eric McArthur says, "Except I don't care."
+Eric McArthur says, "Lay down"
+Korl Adams says, "You know"
+Korl Adams attempted to grab Korl Adams!
+You can't grab yourself.
+You unbuckle yourself from the chair.
+Changed mode to 'Floor & Walls'
+Changed mode to 'Airlock'
+Changed mode to 'Deconstruction'
+[Common] Adam Tobortim says, "I'm sure someone will be willing to solve these issues if we all just pray to space jesus"
+Changed mode to 'Floor & Walls'
+You begin constructing a wall.
+You begin constructing a wall.
+You begin constructing a wall.
+You begin constructing a wall.
+Eric McArthur holsters .45 signal pistol.
+Changed mode to 'Airlock'
+Changed mode to 'Deconstruction'
+Eric McArthur blinds Korl Adams with the flash!
+Eric McArthur puts the flash into the large storage pouches.
+Eric McArthur attempted to grab Korl Adams!
+Eric McArthur has grabbed Korl Adams's upper body!
+Korl Adams says, "Come on kill me"
+ Andrew Fall: Try to keep memes IC to a minimum.
+Korl Adams says, "KILL ME"
+Eric McArthur covers Korl Adams's eyes!
+[Common] Sigmund Opalite says, "I bet maystation is bettter then here.."
+Eric McArthur covers Korl Adams's mouth!
+Eric McArthur is attempting to put handcuffs on Korl Adams!
+[Common] Natascha Sukhoi says, "Then leave."
+Korl Adams resists!
+Eric McArthur has put handcuffs on Korl Adams!
+Korl Adams has broken free of Eric McArthur's grip!
+Korl Adams resists!
+You attempt to remove the handcuffs. (This will take around 2 minutes and you need to stand still)
+[Common] Sigmund Opalite asks, "I cant?"
+Eric McArthur is trying to remove Korl Adams's science radio headset!
+[Common] Natascha Sukhoi says, "Sucks to be you"
+Korl Adams says, "COME ON YOU WANTED TO KILL ME"
+You're restrained! You can't move!
+You're restrained! You can't move!
+Eric McArthur has thrown the science radio headset.
+Korl Adams says, "SO DO IT"
+[Common] Sigmund Opalite says, "Well sorry if you felt offended."
+Korl Adams says, "KILL ME MAN"
+Vince Alpha snores.
+Eric McArthur asks, "Who owns this place?"
+Korl Adams says, "KILL ME"
+Korl Adams asks, "Me?"
+[Common] Adam Tobortim asks, "Hey Natashca, can you leave the station?"
+Eric McArthur asks, "Did you buy it?"
+Korl Adams asks, "Yes?"
+[Common] Sigmund Opalite says, "But this place really looks utter crap."
+newscaster beeps, "Breaking news from THE PEOPLE'S GAZETTE!"
+Eric McArthur asks, "From?"
+Eric McArthur is trying to remove Korl Adams's PDA-Korl Adams (Advanced Science Chief)!
+Korl Adams says, "Not your interrest"
+Korl Adams says, "Uncuff me and i will tell you"
+You are buckled to the steel chair by Eric McArthur!
+Karn Driez snores.
+Eric McArthur says, "Sit down while I steal it."
+Korl Adams asks, "You steal what?"
+You attempt to unbuckle yourself. (This will take around 2 minutes and you need to stand still)
+Medbot beeps, "Delicious!"
+Korl Adams asks, "What do you steal?"
+Eric McArthur says, "All mine now."
+Eric McArthur says, "Your money."
+Korl Adams asks, "What mine?"
+Vince Alpha snores.
+Korl Adams says, "Haha"
+Korl Adams says, "You dont even have my money"
+Korl Adams says, "Fucker fucking with me"
+Eric McArthur says, "Not yet."
+You were unbuckled from the steel chair by Eric McArthur.
+Vince Alpha snores.
+Eric McArthur says, "So.."
+Eric McArthur says, "Doorcode.."
+Eric McArthur asks, "78383, or something like tht?"
+You have been banned by andrewfall.
+Reason: Ban Evasion.
+This is a ban until appeal.
+No ban appeals URL has been set.
+Connection died.
+
