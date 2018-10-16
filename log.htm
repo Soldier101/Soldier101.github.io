@@ -1,0 +1,1775 @@
+<html>
+<style>body {font-family: 'MS Sans Serif'; font-size: 10pt; background: #f0f0f0; color: #000000}
+a:link {color: #0000ff; text-decoration: underline}
+a:visited {color: #ff00ff}
+img.icon {width: 16px; height: 16px}
+
+body					{font-family: Verdana, sans-serif;}
+
+h1, h2, h3, h4, h5, h6	{color: #0000ff;font-family: Georgia, Verdana, sans-serif;}
+
+em						{font-style: normal;font-weight: bold;}
+
+.motd					{color: #638500;font-family: Verdana, sans-serif;}
+.motd h1, .motd h2, .motd h3, .motd h4, .motd h5, .motd h6
+						{color: #638500;text-decoration: underline;}
+.motd a, .motd a:link, .motd a:visited, .motd a:active, .motd a:hover
+						{color: #638500;}
+
+.prefix					{font-weight: bold;}
+.log_message			{color: #386aff;	font-weight: bold;}
+
+/* OOC */
+.ooc					{font-weight: bold;}
+.ooc img.text_tag		{width: 32px; height: 10px;}
+
+.ooc .everyone			{color: #002eb8;}
+.ooc .looc				{color: #3a9696;}
+.ooc .elevated			{color: #2e78d9;}
+.ooc .moderator			{color: #184880;}
+.ooc .developer			{color: #1b521f;}
+.ooc .admin				{color: #b82e00;}
+.ooc .aooc				{color: #960018;}
+
+.staffwarn				{color: #ff0000; font-weight:bold; font-size: 150%;}
+/* Admin: Private Messages */
+.pm  .howto				{color: #ff0000;	font-weight: bold;		font-size: 200%;}
+.pm  .in				{color: #ff0000;}
+.pm  .out				{color: #ff0000;}
+.pm  .other				{color: #0000ff;}
+
+/* Admin: Channels */
+.mod_channel			{color: #735638;	font-weight: bold;}
+.mod_channel .admin		{color: #b82e00;	font-weight: bold;}
+.admin_channel			{color: #9611d4;	font-weight: bold;}
+
+/* Radio: Misc */
+.deadsay				{color: #530fad;}
+.radio					{color: #008000;}
+.deptradio				{color: #ff00ff;}	/* when all other department colors fail */
+.newscaster				{color: #750000;}
+
+/* Radio Channels */
+.comradio				{color: #193a7a;}
+.syndradio				{color: #6d3f40;}
+.centradio				{color: #5c5c8a;}
+.airadio				{color: #ff00ff;}
+.entradio				{color: #339966;}
+
+.secradio				{color: #a30000;}
+.engradio				{color: #a66300;}
+.medradio				{color: #008160;}
+.sciradio				{color: #FF3900;}
+.supradio				{color: #5f4519;}
+.srvradio				{color: #6eaa2c;}
+.expradio				{color: #a3a332;}
+
+/* Miscellaneous */
+.name					{font-weight: bold;}
+.say					{}
+.alert					{color: #ff0000;}
+h1.alert, h2.alert		{color: #000000;}
+
+.emote					{font-style: italic;}
+
+/* Game Messages */
+
+.attack					{color: #ff0000;}
+.moderate				{color: #cc0000;}
+.disarm					{color: #990000;}
+.passive				{color: #660000;}
+
+.danger					{color: #ff0000; font-weight: bold;}
+.warning				{color: #ff0000; font-style: italic;}
+.boldannounce			{color: #ff0000; font-weight: bold;}
+.rose					{color: #ff5050;}
+.info					{color: #0000cc;}
+.notice					{color: #000099;}
+.alium					{color: #00ff00;}
+.cult					{color: #800080; font-weight: bold; font-style: italic;}
+
+.reflex_shoot			{color: #000099; font-style: italic;}
+
+/* Languages */
+
+.alien					{color: #543354;}
+.skrell					{color: #00ced1;}
+.soghun					{color: #228b22;}
+.nabber_lang			{color: #525252;}
+.solcom					{color: #22228b;}
+.changeling				{color: #800080;}
+.vox					{color: #aa00aa;}
+.rough					{font-family: "Trebuchet MS", cursive, sans-serif;}
+.say_quote				{font-family: Georgia, Verdana, sans-serif;}
+.terran					{color: #9c250b;}
+.moon					{color: #422863;}
+.spacer					{color: #ff6600;}
+
+.interface				{color: #330033;}
+
+.good                   {color: #4f7529; font-weight: bold;}
+.bad                    {color: #ee0000; font-weight: bold;}
+
+BIG IMG.icon 			{width: 32px; height: 32px;}
+
+</style>
+<style><br>
+body					{font-family: Verdana, sans-serif;}<br>
+<br>
+h1, h2, h3, h4, h5, h6	{color: #0000ff;font-family: Georgia, Verdana, sans-serif;}<br>
+<br>
+em						{font-style: normal;font-weight: bold;}<br>
+<br>
+.motd					{color: #638500;font-family: Verdana, sans-serif;}<br>
+.motd h1, .motd h2, .motd h3, .motd h4, .motd h5, .motd h6<br>
+						{color: #638500;text-decoration: underline;}<br>
+.motd a, .motd a:link, .motd a:visited, .motd a:active, .motd a:hover<br>
+						{color: #638500;}<br>
+<br>
+.prefix					{font-weight: bold;}<br>
+.log_message			{color: #386aff;	font-weight: bold;}<br>
+<br>
+/* OOC */<br>
+.ooc					{font-weight: bold;}<br>
+.ooc img.text_tag		{width: 32px; height: 10px;}<br>
+<br>
+.ooc .everyone			{color: #002eb8;}<br>
+.ooc .looc				{color: #3a9696;}<br>
+.ooc .elevated			{color: #2e78d9;}<br>
+.ooc .moderator			{color: #184880;}<br>
+.ooc .developer			{color: #1b521f;}<br>
+.ooc .admin				{color: #b82e00;}<br>
+.ooc .aooc				{color: #960018;}<br>
+<br>
+.staffwarn				{color: #ff0000; font-weight:bold; font-size: 150%;}<br>
+/* Admin: Private Messages */<br>
+.pm  .howto				{color: #ff0000;	font-weight: bold;		font-size: 200%;}<br>
+.pm  .in				{color: #ff0000;}<br>
+.pm  .out				{color: #ff0000;}<br>
+.pm  .other				{color: #0000ff;}<br>
+<br>
+/* Admin: Channels */<br>
+.mod_channel			{color: #735638;	font-weight: bold;}<br>
+.mod_channel .admin		{color: #b82e00;	font-weight: bold;}<br>
+.admin_channel			{color: #9611d4;	font-weight: bold;}<br>
+<br>
+/* Radio: Misc */<br>
+.deadsay				{color: #530fad;}<br>
+.radio					{color: #008000;}<br>
+.deptradio				{color: #ff00ff;}	/* when all other department colors fail */<br>
+.newscaster				{color: #750000;}<br>
+<br>
+/* Radio Channels */<br>
+.comradio				{color: #193a7a;}<br>
+.syndradio				{color: #6d3f40;}<br>
+.centradio				{color: #5c5c8a;}<br>
+.airadio				{color: #ff00ff;}<br>
+.entradio				{color: #339966;}<br>
+<br>
+.secradio				{color: #a30000;}<br>
+.engradio				{color: #a66300;}<br>
+.medradio				{color: #008160;}<br>
+.sciradio				{color: #FF3900;}<br>
+.supradio				{color: #5f4519;}<br>
+.srvradio				{color: #6eaa2c;}<br>
+.expradio				{color: #a3a332;}<br>
+<br>
+/* Miscellaneous */<br>
+.name					{font-weight: bold;}<br>
+.say					{}<br>
+.alert					{color: #ff0000;}<br>
+h1.alert, h2.alert		{color: #000000;}<br>
+<br>
+.emote					{font-style: italic;}<br>
+<br>
+/* Game Messages */<br>
+<br>
+.attack					{color: #ff0000;}<br>
+.moderate				{color: #cc0000;}<br>
+.disarm					{color: #990000;}<br>
+.passive				{color: #660000;}<br>
+<br>
+.danger					{color: #ff0000; font-weight: bold;}<br>
+.warning				{color: #ff0000; font-style: italic;}<br>
+.boldannounce			{color: #ff0000; font-weight: bold;}<br>
+.rose					{color: #ff5050;}<br>
+.info					{color: #0000cc;}<br>
+.notice					{color: #000099;}<br>
+.alium					{color: #00ff00;}<br>
+.cult					{color: #800080; font-weight: bold; font-style: italic;}<br>
+<br>
+.reflex_shoot			{color: #000099; font-style: italic;}<br>
+<br>
+/* Languages */<br>
+<br>
+.alien					{color: #543354;}<br>
+.skrell					{color: #00ced1;}<br>
+.soghun					{color: #228b22;}<br>
+.nabber_lang			{color: #525252;}<br>
+.solcom					{color: #22228b;}<br>
+.changeling				{color: #800080;}<br>
+.vox					{color: #aa00aa;}<br>
+.rough					{font-family: "Trebuchet MS", cursive, sans-serif;}<br>
+.say_quote				{font-family: Georgia, Verdana, sans-serif;}<br>
+.terran					{color: #9c250b;}<br>
+.moon					{color: #422863;}<br>
+.spacer					{color: #ff6600;}<br>
+<br>
+.interface				{color: #330033;}<br>
+<br>
+.good                   {color: #4f7529; font-weight: bold;}<br>
+.bad                    {color: #ee0000; font-weight: bold;}<br>
+<br>
+BIG IMG.icon 			{width: 32px; height: 32px;}<br>
+<br>
+</style><span class='warning'>If the title screen is black, resources are still downloading. Please be patient until the title screen appears.</span><br>
+<span class='info'>You have unread updates in the changelog.</span><br>
+<span class='ooc'><span class='everyone'><IMG src='[0xc000004]' class='text_tag' iconstate='ooc' alt='OOC:'> <EM>Meth-Chan:</EM> <span class='message'>anyone else lagging?</span></span></span><br>
+<span class='ooc'><span class='everyone'><IMG src='[0xc000004]' class='text_tag' iconstate='ooc' alt='OOC:'> <EM>Soldier101:</EM> <span class='message'>im crashing</span></span></span><br>
+<span class='ooc'><span class='everyone'><IMG src='[0xc000004]' class='text_tag' iconstate='ooc' alt='OOC:'> <EM>MrFaust96:</EM> <span class='message'>that might be my fault</span></span></span><br>
+<span class='ooc'><span class='everyone'><IMG src='[0xc000004]' class='text_tag' iconstate='ooc' alt='OOC:'> <EM>MrFaust96:</EM> <span class='message'>I am working on atmos</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='med_headset'><b>[Common]</b> <span class='name'>Nickster Wilson</span> <span class='message'>says, <span class='body'>"Good"</span></span></span><br>
+Sending Resources...<br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='med_headset'><b>[Common]</b> <span class='name'>Nickster Wilson</span> <span class='message'>says, <span class='body'>"I&#39;m cauterizing after using the autopsy scanner"</span></span></span><br>
+<span class='ooc'><span class='everyone'><IMG src='[0xc000004]' class='text_tag' iconstate='ooc' alt='OOC:'> <EM>NickSho_:</EM> <span class='message'>Oh my god this fucking lag</span></span></span><br>
+<style><br>
+body					{font-family: Verdana, sans-serif;}<br>
+<br>
+h1, h2, h3, h4, h5, h6	{color: #0000ff;font-family: Georgia, Verdana, sans-serif;}<br>
+<br>
+em						{font-style: normal;font-weight: bold;}<br>
+<br>
+.motd					{color: #638500;font-family: Verdana, sans-serif;}<br>
+.motd h1, .motd h2, .motd h3, .motd h4, .motd h5, .motd h6<br>
+						{color: #638500;text-decoration: underline;}<br>
+.motd a, .motd a:link, .motd a:visited, .motd a:active, .motd a:hover<br>
+						{color: #638500;}<br>
+<br>
+.prefix					{font-weight: bold;}<br>
+.log_message			{color: #386aff;	font-weight: bold;}<br>
+<br>
+/* OOC */<br>
+.ooc					{font-weight: bold;}<br>
+.ooc img.text_tag		{width: 32px; height: 10px;}<br>
+<br>
+.ooc .everyone			{color: #002eb8;}<br>
+.ooc .looc				{color: #3a9696;}<br>
+.ooc .elevated			{color: #2e78d9;}<br>
+.ooc .moderator			{color: #184880;}<br>
+.ooc .developer			{color: #1b521f;}<br>
+.ooc .admin				{color: #b82e00;}<br>
+.ooc .aooc				{color: #960018;}<br>
+<br>
+.staffwarn				{color: #ff0000; font-weight:bold; font-size: 150%;}<br>
+/* Admin: Private Messages */<br>
+.pm  .howto				{color: #ff0000;	font-weight: bold;		font-size: 200%;}<br>
+.pm  .in				{color: #ff0000;}<br>
+.pm  .out				{color: #ff0000;}<br>
+.pm  .other				{color: #0000ff;}<br>
+<br>
+/* Admin: Channels */<br>
+.mod_channel			{color: #735638;	font-weight: bold;}<br>
+.mod_channel .admin		{color: #b82e00;	font-weight: bold;}<br>
+.admin_channel			{color: #9611d4;	font-weight: bold;}<br>
+<br>
+/* Radio: Misc */<br>
+.deadsay				{color: #530fad;}<br>
+.radio					{color: #008000;}<br>
+.deptradio				{color: #ff00ff;}	/* when all other department colors fail */<br>
+.newscaster				{color: #750000;}<br>
+<br>
+/* Radio Channels */<br>
+.comradio				{color: #193a7a;}<br>
+.syndradio				{color: #6d3f40;}<br>
+.centradio				{color: #5c5c8a;}<br>
+.airadio				{color: #ff00ff;}<br>
+.entradio				{color: #339966;}<br>
+<br>
+.secradio				{color: #a30000;}<br>
+.engradio				{color: #a66300;}<br>
+.medradio				{color: #008160;}<br>
+.sciradio				{color: #FF3900;}<br>
+.supradio				{color: #5f4519;}<br>
+.srvradio				{color: #6eaa2c;}<br>
+.expradio				{color: #a3a332;}<br>
+<br>
+/* Miscellaneous */<br>
+.name					{font-weight: bold;}<br>
+.say					{}<br>
+.alert					{color: #ff0000;}<br>
+h1.alert, h2.alert		{color: #000000;}<br>
+<br>
+.emote					{font-style: italic;}<br>
+<br>
+/* Game Messages */<br>
+<br>
+.attack					{color: #ff0000;}<br>
+.moderate				{color: #cc0000;}<br>
+.disarm					{color: #990000;}<br>
+.passive				{color: #660000;}<br>
+<br>
+.danger					{color: #ff0000; font-weight: bold;}<br>
+.warning				{color: #ff0000; font-style: italic;}<br>
+.boldannounce			{color: #ff0000; font-weight: bold;}<br>
+.rose					{color: #ff5050;}<br>
+.info					{color: #0000cc;}<br>
+.notice					{color: #000099;}<br>
+.alium					{color: #00ff00;}<br>
+.cult					{color: #800080; font-weight: bold; font-style: italic;}<br>
+<br>
+.reflex_shoot			{color: #000099; font-style: italic;}<br>
+<br>
+/* Languages */<br>
+<br>
+.alien					{color: #543354;}<br>
+.skrell					{color: #00ced1;}<br>
+.soghun					{color: #228b22;}<br>
+.nabber_lang			{color: #525252;}<br>
+.solcom					{color: #22228b;}<br>
+.changeling				{color: #800080;}<br>
+.vox					{color: #aa00aa;}<br>
+.rough					{font-family: "Trebuchet MS", cursive, sans-serif;}<br>
+.say_quote				{font-family: Georgia, Verdana, sans-serif;}<br>
+.terran					{color: #9c250b;}<br>
+.moon					{color: #422863;}<br>
+.spacer					{color: #ff6600;}<br>
+<br>
+.interface				{color: #330033;}<br>
+<br>
+.good                   {color: #4f7529; font-weight: bold;}<br>
+.bad                    {color: #ee0000; font-weight: bold;}<br>
+<br>
+BIG IMG.icon 			{width: 32px; height: 32px;}<br>
+<br>
+</style><span class='warning'>If the title screen is black, resources are still downloading. Please be patient until the title screen appears.</span><br>
+<span class='info'>You have unread updates in the changelog.</span><br>
+Sending Resources...<br>
+Sending Resources...<br>
+<IMG CLASS=icon SRC=[0xc0003fa] ICONSTATE='console'> That's a console. It is a normal-sized item.<br>
+A stationary computer.<br>
+<IMG CLASS=icon SRC=[0xc0002b3] ICONSTATE='ccigoff'> That's an electronic cigarette. It is a tiny item.<br>
+A cheap electronic cigarette. The metal still has a few shavings from being rolled in an autolathe.<br>
+<pre class="system system">Unrecognized or inaccessible verb: switch_intent<br>
+</pre><span class='newscaster'><EM>newscaster</EM> beeps, "Breaking news from Nyx Daily!"</span><br>
+<pre class="system system">Unrecognized or inaccessible verb: intent<br>
+</pre><span class='ooc'><span class='everyone'><IMG src='[0xc000004]' class='text_tag' iconstate='ooc' alt='OOC:'> <EM>Meth-Chan:</EM> <span class='message'>Uhh</span></span></span><br>
+<span class='info'>*---------*<br>
+This is <IMG CLASS=icon SRC=[0xc000d22]> <EM>Vince Alpha</EM>, <b><font color='#ffc896'> a ÿHuman!</font></b><br>He is wearing <IMG CLASS=icon SRC=[0xc000302] ICONSTATE='jumpsuit'> a grey jumpsuit.<br>
+He is wearing <IMG CLASS=icon SRC=[0xc000320] ICONSTATE='coatscience'> a science winter coat.<br>
+He has <IMG CLASS=icon SRC=[0xc000078] ICONSTATE='engiepack'> an industrial backpack on his back.<br>
+He has <IMG CLASS=icon SRC=[0xc0002bf] ICONSTATE='utilitybelt'> a tool-belt about his waist.<br>
+He is wearing <IMG CLASS=icon SRC=[0xc00032a] ICONSTATE='magboots0'> some magboots on his feet.<br>
+He has <IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'> a radio headset on his left ear.<br>
+He is wearing <IMG CLASS=icon SRC=[0xc0002ba] ICONSTATE='pda'> PDA-Vince Alpha (Junior Xenobiologist).<br>
+<span class='warning'>He isn't responding to anything around him and seems to be unconscious.</span><br>
+<span class='deadsay'>He is fast asleep.</span><br>
+<span class='warning'></span><span class='notice'>He looks like he can&#39;t smile at all.... <a href='byond://?src=[0x300093f];flavor_more=1'>More...</a></span><br>
+*---------*</span><br><br>
+<span class='ooc'><span class='everyone'><IMG src='[0xc000004]' class='text_tag' iconstate='ooc' alt='OOC:'> <EM>Meth-Chan:</EM> <span class='message'>I think we&#39;re good now?</span></span></span><br>
+<span class='ooc'><span class='everyone'><IMG src='[0xc000004]' class='text_tag' iconstate='ooc' alt='OOC:'> <EM>Soldier101:</EM> <span class='message'>better</span></span></span><br>
+<span class='ooc'><span class='everyone'><IMG src='[0xc000004]' class='text_tag' iconstate='ooc' alt='OOC:'> <EM>Soldier101:</EM> <span class='message'>but i still seem cant access the console</span></span></span><br>
+<b>Karn Driez</b> snores.<br>
+<b>Vince Alpha</b> snores.<br>
+<b>Karn Driez</b> snores.<br>
+<span class='info'>*---------*<br>
+This is <IMG CLASS=icon SRC=[0xc000e28]> <EM>Jason Bennett</EM>, <b><font color='#ffc896'> a ÿHuman!</font></b><br>He is wearing <IMG CLASS=icon SRC=[0xc000302] ICONSTATE='jeansyoungfolks'> some young folks jeans (30) with <IMG CLASS=icon SRC=[0xc000334] ICONSTATE='suspenders'> a suspenders (150) attached.<br>
+He is wearing <IMG CLASS=icon SRC=[0xc000311] ICONSTATE='beret'> a beret (200) on his head.<br>
+He has <IMG CLASS=icon SRC=[0xc000078] ICONSTATE='satchel_black'> a black leather satchel on his back.<br>
+He is holding <IMG CLASS=icon SRC=[0xc000185] ICONSTATE='spacecash50'> 50 Ethericoin in his left hand.<br>
+He has <IMG CLASS=icon SRC=[0xc00032d] ICONSTATE='black'> some work gloves on his hands.<br>
+He is wearing <IMG CLASS=icon SRC=[0xc00032a] ICONSTATE='leather'> some leather shoes (100) on his feet.<br>
+He has <IMG CLASS=icon SRC=[0xc0002c9] ICONSTATE='cigmentol'> a menthol cigarette on his face.<br>
+He is wearing <IMG CLASS=icon SRC=[0xc0002ba] ICONSTATE='pda-j'> PDA-Jason Bennett (Janitor).<br>
+<span class='warning'>He has a tiny bruise on his upper body.<br></span><span class='notice'>Average build verging on athletic. R... <a href='byond://?src=[0x30008c9];flavor_more=1'>More...</a></span><br>
+*---------*</span><br><br>
+<span class='notice'>Jason Bennett handed 50 Ethericoin to Jack Trasen.</span><br>
+<span class='game say'><span class='name'>Jason Bennett</span> says, <span class='message'><span class='body'>"Here&#39;s what I&#39;ve got."</span></span></span><br>
+<span class='game say'><span class='name'>Medbot</span> beeps, <span class='message'><span class='body'>"There&#39;s always a catch, and it&#39;s the best there is."</span></span></span><br>
+<pre class="system system">Unrecognized or inaccessible verb: wswwwwwwwwwswsay<br>
+</pre><span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"Warning"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"<i>warning</i>"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"We dont need 2500$"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"<i>we dont need 2500$</i>"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"WE NEED 5000$"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"<i>WE NEED 5000$</i>"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"Fuck that"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"<i>fuck that</i>"</span></span></span><br>
+<pre class="system system">Unrecognized or inaccessible verb: sa<br>
+</pre><span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"Gonna find other way"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"<i>gonna find other way</i>"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"To get it up"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"<i>to get it up</i>"</span></span></span><br>
+<span class='notice'>Building machine frame ...</span><br>
+<IMG CLASS=icon SRC=[0xc0002b9] ICONSTATE='id_mod'> That's a circuit board (bluespace satellite). It is a small item.<br>
+<br>
+<span class='notice'>You start to add cables to the frame.</span><br>
+<span class='notice'>You add cables to the frame.</span><br>
+<span class='notice'>You add the circuit board to the frame.</span><br>
+Requires 1 subspace ansible, 1 hyperwave filter, 2 micro-manipulator, 1 micro-laser, 1 subspace amplifier and 1 bluespace crystal.<br>
+<IMG CLASS=icon SRC=[0xc000214] ICONSTATE='box_2'> That's a machine frame. <br>
+Requires 1 matter bin, 1 micro-manipulator, 1 scanning module and 1 capacitor.<br>
+<IMG CLASS=icon SRC=[0xc000286] ICONSTATE='pad-idle'> That's Science. <br>
+A telepad used to recieve imports and send exports.<br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Luis Ribeiro</span> <span class='message'>says, <span class='body'>"Test."</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Luis Ribeiro</span> <span class='message'>asks, <span class='body'>"What&#39;s happening?"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='srv_headset'><b>[Common]</b> <span class='name'>Jason Bennett</span> <span class='message'>asks, <span class='body'>"Nothing, you in the lobby?"</span></span></span><br>
+<span class='info'>*---------*<br>
+This is <IMG CLASS=icon SRC=[0xc000fd4]> <EM>Amelia Felrow</EM>, <b><font color='#ffc896'> a ÿHuman!</font></b><br>She is wearing <IMG CLASS=icon SRC=[0xc000302] ICONSTATE='jumpsuit'> a grey jumpsuit.<br>
+She has <IMG CLASS=icon SRC=[0xc000078] ICONSTATE='courierbag'> a messenger bag on her back.<br>
+She is wearing <IMG CLASS=icon SRC=[0xc00032a] ICONSTATE='black'> some black shoes on her feet.<br>
+She has <IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'> a radio headset on her left ear.<br>
+She is wearing <IMG CLASS=icon SRC=[0xc0002c3] ICONSTATE='id'> Amelia Felrow's ID Card (Unassigned).<br>
+<span class='warning'>She has a pair of small scabs on her head.<br>She has a pair of small scabs on her left hand.<br>She has a pair of small scabs on her right hand.<br></span>*---------*</span><br><br>
+<span class='game say'><span class='name'>Korl Adams</span> exclaims, <span class='message'><span class='body'>"JOIN ADVANCED SCIENCE!"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Luis Ribeiro</span> <span class='message'>says, <span class='body'>"Yes."</span></span></span><br>
+You press the power button but the telescreen (Cargo Requests) does not respond<br>
+You press the power button but the telescreen (Cargo Requests) does not respond<br>
+You press the power button but the telescreen (Cargo Requests) does not respond<br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='srv_headset'><b>[Common]</b> <span class='name'>Jason Bennett</span> <span class='message'>says, <span class='body'>"You&#39;re gonna have to go through the disposals chute in the topmost security checkpoint."</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='srv_headset'><b>[Common]</b> <span class='name'>Jason Bennett</span> <span class='message'>says, <span class='body'>"Head east, look north."</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='srv_headset'><b>[Common]</b> <span class='name'>Jason Bennett</span> <span class='message'>says, <span class='body'>"I&#39;ll let you out in disposals."</span></span></span><br>
+<span class='info'>*---------*<br>
+This is <IMG CLASS=icon SRC=[0xc000d22]> <EM>Vince Alpha</EM>, <b><font color='#ffc896'> a ÿHuman!</font></b><br>He is wearing <IMG CLASS=icon SRC=[0xc000302] ICONSTATE='jumpsuit'> a grey jumpsuit.<br>
+He is wearing <IMG CLASS=icon SRC=[0xc000320] ICONSTATE='coatscience'> a science winter coat.<br>
+He has <IMG CLASS=icon SRC=[0xc000078] ICONSTATE='engiepack'> an industrial backpack on his back.<br>
+He has <IMG CLASS=icon SRC=[0xc0002bf] ICONSTATE='utilitybelt'> a tool-belt about his waist.<br>
+He is wearing <IMG CLASS=icon SRC=[0xc00032a] ICONSTATE='magboots0'> some magboots on his feet.<br>
+He has <IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'> a radio headset on his left ear.<br>
+He is wearing <IMG CLASS=icon SRC=[0xc0002ba] ICONSTATE='pda'> PDA-Vince Alpha (Junior Xenobiologist).<br>
+<span class='warning'>He isn't responding to anything around him and seems to be unconscious.</span><br>
+<span class='deadsay'>He is fast asleep.</span><br>
+<span class='warning'></span><span class='notice'>He looks like he can&#39;t smile at all.... <a href='byond://?src=[0x300093f];flavor_more=1'>More...</a></span><br>
+*---------*</span><br><br>
+<b>Vince Alpha</b> snores.<br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>exclaims, <span class='body'>"JOIN ADVANCED SCIENCE PLEASE!"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> exclaims, <span class='message'><span class='body'>"<i>JOIN ADVANCED SCIENCE PLEASE!</i>"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Luis Ribeiro</span> <span class='message'>says, <span class='body'>"Jason, the path is blocked."</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='srv_headset'><b>[Common]</b> <span class='name'>Jason Bennett</span> <span class='message'>asks, <span class='body'>"Are you still in the lobby?"</span></span></span><br>
+<span class='game say'><span class='name'>Medbot</span> beeps, <span class='message'><span class='body'>"I knew it, I should&#39;ve been a plastic surgeon."</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Luis Ribeiro</span> <span class='message'>says, <span class='body'>"Im goin to the disposals of the lower one."</span></span></span><br>
+<span class='notice'>You remove the ID from the PDA-Korl Adams (Research Supervisor).</span><br>
+You insert Korl Adams's ID Card NT-(Research Supervisor) into the console.<br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Luis Ribeiro</span> <span class='message'>says, <span class='body'>"Yes."</span></span></span><br>
+<span class='notice'>The console flashes an "RFID Error - Unable to scan ID" warning.</span><br>
+<span class='notice'>The console flashes an "RFID Error - Unable to scan ID" warning.</span><br>
+<span class='notice'>PDA-Korl Adams (Research Supervisor) does not have an ID in it.</span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='srv_headset'><b>[Common]</b> <span class='name'>Jason Bennett</span> <span class='message'>says, <span class='body'>"Alright it doesn&#39;t matter which one."</span></span></span><br>
+You remove the card from the console<br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='srv_headset'><b>[Common]</b> <span class='name'>Jason Bennett</span> <span class='message'>says, <span class='body'>"I&#39;ll meet you in disposals."</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Luis Ribeiro</span> <span class='message'>says, <span class='body'>"Roger that."</span></span></span><br>
+You insert Korl Adams's ID Card NT-(Research Supervisor) into the console.<br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Luis Ribeiro</span> <span class='message'>says, <span class='body'>"Here I go then."</span></span></span><br>
+You remove the card from the console<br>
+<b>Karn Driez</b> snores.<br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Amelia Felrow</span> <span class='message'>asks, <span class='body'>"Where do I apply for job?"</span></span></span><br>
+You insert Korl Adams's ID Card NT-(Research Supervisor) into the console.<br>
+You remove the card from the console<br>
+There is no card in the console<br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='srv_headset'><b>[Common]</b> <span class='name'>Jason Bennett</span> <span class='message'>says, <span class='body'>"There isn&#39;t really anyone around to give you one."</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='srv_headset'><b>[Common]</b> <span class='name'>Jason Bennett</span> <span class='message'>says, <span class='body'>"I hear fighting."</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"IM AM"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span>(as Unknown) says, <span class='message'><span class='body'>"<i>IM AM</i>"</span></span></span><br>
+<b>Vince Alpha</b> snores.<br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>exclaims, <span class='body'>"JOIN ADVANCED SCIENCE!!"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span>(as Unknown) exclaims, <span class='message'><span class='body'>"<i>JOIN ADVANCED SCIENCE!!</i>"</span></span></span><br>
+There is no card in the console<br>
+You insert Korl Adams's ID Card NT-(Research Supervisor) into the console.<br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"I got full access to give job"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span>(as Unknown) says, <span class='message'><span class='body'>"<i>i got full access to give job</i>"</span></span></span><br>
+You remove the card from the console<br>
+<span class='notice'>You put Korl Adams's ID Card NT-(Research Supervisor) into the backpack.</span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='srv_headset'><b>[Common]</b> <span class='name'>Jason Bennett</span> <span class='message'>asks, <span class='body'>"Luis?"</span></span></span><br>
+<b>Vince Alpha</b> snores.<br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='srv_headset'><b>[Common]</b> <span class='name'>Jason Bennett</span> <span class='message'>asks, <span class='body'>"Luis you alive?"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Luis Ribeiro</span> <span class='message'>says, <span class='body'>"Gonna take awhile before this thing engages."</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Amelia Felrow</span> <span class='message'>asks, <span class='body'>"On what floor?"</span></span></span><br>
+<span class='notice'>You put the ID into PDA-Korl Adams (Research Supervisor)'s slot.</span><br>
+<b>Vince Alpha</b> snores.<br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='srv_headset'><b>[Common]</b> <span class='name'>Jason Bennett</span> <span class='message'>says, <span class='body'>"Oh thank Christ."</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='srv_headset'><b>[Common]</b> <span class='name'>Jason Bennett</span> <span class='message'>says, <span class='body'>"I heard screaming and thought you were killed in the crusher."</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='srv_headset'><b>[Common]</b> <span class='name'>Jason Bennett</span> <span class='message'>says, <span class='body'>"I turned off the lever it should be safe."</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"Crushers wont crush peoples"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"<i>crushers wont crush peoples</i>"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='srv_headset'><b>[Common]</b> <span class='name'>Jason Bennett</span> <span class='message'>says, <span class='body'>"Not if it was tampered with."</span></span></span><br>
+<IMG CLASS=icon SRC=[0xc000235] ICONSTATE='jukebox2'> That's a space jukebox. <br>
+<br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Amelia Felrow</span> <span class='message'>asks, <span class='body'>"Where do I go?"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Luis Ribeiro</span> <span class='message'>says, <span class='body'>"Taking years for this to engage."</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>asks, <span class='body'>"To join advanced science?"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> asks, <span class='message'><span class='body'>"<i>to join advanced science?</i>"</span></span></span><br>
+<span class='danger'>The steel chair has been hit by Jack Trasen with the nano printer.</span><br>
+You install the nano printer into the console<br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Amelia Felrow</span> <span class='message'>says, <span class='body'>"To apply"</span></span></span><br>
+<span class='notice'>You remove the ID from the PDA-Korl Adams (Research Supervisor).</span><br>
+<span class='notice'>You put Korl Adams's ID Card NT-(Research Supervisor) into the backpack.</span><br>
+<span class='notice'>You put the ID into PDA-Korl Adams (Research Supervisor)'s slot.</span><br>
+The console shuts down.<br>
+You press the power button and start up the console<br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>exclaims, <span class='body'>"JOIN ADVANCED SCIENCE PLEASE GUYS!"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> exclaims, <span class='message'><span class='body'>"<i>JOIN ADVANCED SCIENCE PLEASE GUYS!</i>"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>exclaims, <span class='body'>"WE NEED PEOPLES!"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> exclaims, <span class='message'><span class='body'>"<i>WE NEED PEOPLES!</i>"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Amelia Felrow</span> <span class='message'>says, <span class='body'>"I can join advanced science"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"Okay come to deck 1"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"<i>okay come to deck 1</i>"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"Waiting right at elevator"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"<i>waiting right at elevator</i>"</span></span></span><br>
+<span class='info'>*---------*<br>
+This is <IMG CLASS=icon SRC=[0xc000e28]> <EM>Jason Bennett</EM>, <b><font color='#ffc896'> a ÿHuman!</font></b><br>He is wearing <IMG CLASS=icon SRC=[0xc000302] ICONSTATE='jeansyoungfolks'> some young folks jeans (30) with <IMG CLASS=icon SRC=[0xc000334] ICONSTATE='suspenders'> a suspenders (150) attached.<br>
+He is wearing <IMG CLASS=icon SRC=[0xc000311] ICONSTATE='beret'> a beret (200) on his head.<br>
+He is wearing <IMG CLASS=icon SRC=[0xc000320] ICONSTATE='brown_jacket'> a leather jacket (200).<br>
+He has <IMG CLASS=icon SRC=[0xc000078] ICONSTATE='satchel_black'> a black leather satchel on his back.<br>
+He is holding <IMG CLASS=icon SRC=[0xc00008c] ICONSTATE='labeler0'> a hand labeler in his right hand.<br>
+He has <IMG CLASS=icon SRC=[0xc00032d] ICONSTATE='black'> some work gloves on his hands.<br>
+He is wearing <IMG CLASS=icon SRC=[0xc00032a] ICONSTATE='leather'> some leather shoes (100) on his feet.<br>
+He is wearing <IMG CLASS=icon SRC=[0xc0002ba] ICONSTATE='pda-j'> PDA-Jason Bennett (Janitor).<br>
+<span class='warning'></span><span class='notice'>Average build verging on athletic. R... <a href='byond://?src=[0x30008c9];flavor_more=1'>More...</a></span><br>
+*---------*</span><br><br>
+The elevator descends smoothly.<br>
+<span class='info'>*---------*<br>
+This is <IMG CLASS=icon SRC=[0xc000fd4]> <EM>Amelia Felrow</EM>, <b><font color='#ffc896'> a ÿHuman!</font></b><br>She is wearing <IMG CLASS=icon SRC=[0xc000302] ICONSTATE='jumpsuit'> a grey jumpsuit.<br>
+She has <IMG CLASS=icon SRC=[0xc000078] ICONSTATE='courierbag'> a messenger bag on her back.<br>
+She is wearing <IMG CLASS=icon SRC=[0xc00032a] ICONSTATE='black'> some black shoes on her feet.<br>
+She is wearing <IMG CLASS=icon SRC=[0xc0002c3] ICONSTATE='id'> Amelia Felrow's ID Card (Unassigned).<br>
+<span class='warning'>She has a pair of small scabs on her head.<br>She has a pair of small scabs on her left hand.<br>She has a pair of small scabs on her right hand.<br></span>*---------*</span><br><br>
+<b>The elevator</b> announces, "Ding!"<br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"So"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='srv_headset'><b>[Common]</b> <span class='name'>Jason Bennett</span> <span class='message'>says, <span class='body'>"Sorry about telling people to go through disposals but there&#39;s no other way out of the lobby."</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"Come"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"There is"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"<i>there is</i>"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"I got an RCD"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"<i>i got an RCD</i>"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"I will make lobby all access door"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"<i>i will make lobby all access door</i>"</span></span></span><br>
+<span class='notice'>You push the steel wall, but nothing happens.</span><br>
+<span class='newscaster'><EM>newscaster</EM> beeps, "Breaking news from Nyx Daily!"</span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"So"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='srv_headset'><b>[Common]</b> <span class='name'>Jason Bennett</span> <span class='message'>says, <span class='body'>"Security&#39;ll love that."</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> asks, <span class='message'><span class='body'>"For what job do you want join up?"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"We got Botany Kitchen science and engineering"</span></span></span><br>
+<span class='notice'>It won't budge!</span><br>
+<span class='game say'><span class='name'>Korl Adams</span> asks, <span class='message'><span class='body'>"So?"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Edward Jones</span> <span class='message'>says, <span class='body'>"I need some help at the disposal"</span></span></span><br>
+<span class='game say'><span class='name'>Amelia Felrow</span> says, <span class='message'><span class='body'>"I am known for mass producing naturally selected plants, conserving ingredients to dishes and I have some experience with science"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Edward Jones</span> <span class='message'>says, <span class='body'>"I am wounded real bad."</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"So Science"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='med_headset'><b>[Common]</b> <span class='name'>Nickster Wilson</span> <span class='message'>says, <span class='body'>"Come at medbay"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"Food science"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Edward Jones</span> <span class='message'>says, <span class='body'>"Bring some meds with you"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"Plants science"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"And R&amp;D"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> asks, <span class='message'><span class='body'>"Yeah?"</span></span></span><br>
+<span class='game say'><span class='name'>Amelia Felrow</span> says, <span class='message'><span class='body'>"I normally do not inject plants"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Edward Jones</span> <span class='message'>stutters, <span class='body'>"L-L-Locked b-behind d-doors."</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='srv_headset'><b>[Common]</b> <span class='name'>Jason Bennett</span> <span class='message'>says, <span class='body'>"I&#39;ll come help you out."</span></span></span><br>
+Your the neural lace buzzes, letting you know that you should be getting paid.<br>
+<b>Karn Driez</b> snores.<br>
+<b>Vince Alpha</b> snores.<br>
+<b>Vince Alpha</b> snores.<br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='srv_headset'><b>[Common]</b> <span class='name'>Jason Bennett</span> <span class='message'>says, <span class='body'>"The idea for people to use disposals was mine, sorry about that."</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"Print new id on the console"</span></span></span><br>
+<span class='info'>*---------*<br>
+This is <IMG CLASS=icon SRC=[0xc000fd4]> <EM>Amelia Felrow</EM>, <b><font color='#ffc896'> a ÿHuman!</font></b><br>She is wearing <IMG CLASS=icon SRC=[0xc000302] ICONSTATE='jumpsuit'> a grey jumpsuit.<br>
+She has <IMG CLASS=icon SRC=[0xc000078] ICONSTATE='courierbag'> a messenger bag on her back.<br>
+She is wearing <IMG CLASS=icon SRC=[0xc00032a] ICONSTATE='black'> some black shoes on her feet.<br>
+She has <IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'> a radio headset on her left ear.<br>
+She is wearing <IMG CLASS=icon SRC=[0xc0002c3] ICONSTATE='id'> Amelia Felrow's ID Card NT-(Junior Researcher).<br>
+<span class='warning'>She has a pair of small scabs on her head.<br>She has a pair of small scabs on her left hand.<br>She has a pair of small scabs on her right hand.<br></span>*---------*</span><br><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='srv_headset'><b>[Common]</b> <span class='name'>Jason Bennett</span> <span class='message'>says, <span class='body'>"Its how I got in, and until someone starts manning the checkpoints thats the only way through."</span></span></span><br>
+<b>Vince Alpha</b> snores.<br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"Welcome"</span></span></span><br>
+<span class='game say'><span class='name'>Amelia Felrow</span> says, <span class='message'><span class='body'>"Updated"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Edward Jones</span> <span class='message'>stutters, <span class='body'>"Well I-I-I hope I g-g-get some compensation for my b-b-broken left arm."</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"Fix the checkpoint i need"</span></span></span><br>
+<span class='game say'><span class='name'>Medbot</span> beeps, <span class='message'><span class='body'>"Delicious!"</span></span></span><br>
+<span class='game say'><span class='name'>Amelia Felrow</span> asks, <span class='message'><span class='body'>"So what is my first assignment?"</span></span></span><br>
+<IMG CLASS=icon SRC=[0xc000185] ICONSTATE='rcd'> That's a rapid construction device. It is a normal-sized item.<br>
+Small, portable, and far, far heavier than it looks, this gun-shaped device has a port into which one may insert compressed matter cartridges.<br>
+The current mode is 'Deconstruction'<br>
+It currently holds 0/30 matter-units.<br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"Sciencist"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='srv_headset'><b>[Common]</b> <span class='name'>Jason Bennett</span> <span class='message'>says, <span class='body'>"I&#39;d take it up with the company for not employing enough security staff."</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"How id card says"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='srv_headset'><b>[Common]</b> <span class='name'>Jason Bennett</span> <span class='message'>says, <span class='body'>"Testing"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"But you can become supervisor if you work good"</span></span></span><br>
+<span class='game say'><span class='name'>Amelia Felrow</span> says, <span class='message'><span class='body'>"Junior researcher"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"Also"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='srv_headset'><b>[Common]</b> <span class='name'>Jason Bennett</span> <span class='message'>says, <span class='body'>"Take it up with the company for not employing enough security staff."</span></span></span><br>
+<span class='info'>*---------*<br>
+This is <IMG CLASS=icon SRC=[0xc000fd4]> <EM>Amelia Felrow</EM>, <b><font color='#ffc896'> a ÿHuman!</font></b><br>She is wearing <IMG CLASS=icon SRC=[0xc000302] ICONSTATE='jumpsuit'> a grey jumpsuit.<br>
+She has <IMG CLASS=icon SRC=[0xc000078] ICONSTATE='courierbag'> a messenger bag on her back.<br>
+She is wearing <IMG CLASS=icon SRC=[0xc00032a] ICONSTATE='black'> some black shoes on her feet.<br>
+She has <IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'> a radio headset on her left ear.<br>
+She is wearing <IMG CLASS=icon SRC=[0xc0002c3] ICONSTATE='id'> Amelia Felrow's ID Card NT-(Junior Researcher).<br>
+<span class='warning'>She has a pair of small scabs on her head.<br>She has a pair of small scabs on her left hand.<br>She has a pair of small scabs on her right hand.<br></span>*---------*</span><br><br>
+<b>Karn Driez</b> snores.<br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"Thats why i said print new id"</span></span></span><br>
+<span class='notice'>You put the rapid construction device into the backpack.</span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"So you get advanced science official title"</span></span></span><br>
+<pre class="system system">Sorry, the following is not valid: Amelia-Felrow\'s-ID-Card-(Advanced-Science-Scientist).0xffffffff<br>
+usage: Point-To is not accessible<br>
+usage: Point-To mob|obj|turf<br>
+</pre><b>Jack Trasen</b> points to Amelia Felrow<br>
+<span class='notice'>You put the high-capacity matter cartridge into the backpack.</span><br>
+<span class='notice'>The RCD now holds 30/30 matter-units.</span><br>
+<span class='notice'>You put the steel sheets into the backpack.</span><br>
+<span class='warning'>The airlock electronics flashes a yellow LED near the ID scanner. Did you remember to scan your ID or PDA?</span><br>
+<span class='notice'>You put the airlock electronics into the backpack.</span><br>
+<span class='notice'>Jack Trasen presses the lift button.</span><br>
+<span class='notice'>You put the steel sheets into the backpack.</span><br>
+Elevator Door's motors grind as they quickly reverse direction, unable to safely close.<br>
+The elevator button buzzes loudly.<br>
+<span class='notice'>Jack Trasen presses the lift button.</span><br>
+The elevator rises smoothly.<br>
+<b>The elevator</b> announces, "Ding!"<br>
+<span class='notice'>Changed mode to 'Floor & Walls'</span><br>
+<span class='notice'>Changed mode to 'Airlock'</span><br>
+<span class='notice'>Changed mode to 'Deconstruction'</span><br>
+<span class='warning'>You are deconstructing Security Airlock (All Personnel)!</span><br>
+<span class='notice'>You put the rapid construction device into the backpack.</span><br>
+<span class='warning'>Jack Trasen starts climbing onto the reinforced steel table!</span><br>
+<span class='warning'>Jack Trasen climbs onto the reinforced steel table!</span><br>
+You knock on the reinforced window.<br>
+<span class='ooc'><span class='everyone'><IMG src='[0xc000004]' class='text_tag' iconstate='ooc' alt='OOC:'> <EM>Mirkoloio:</EM> <span class='message'>&gt;When you pop out dead of cryo, but cryo&#39;d alive.</span></span></span><br>
+<span class='warning'>The airlock electronics flashes a yellow LED near the ID scanner. Did you remember to scan your ID or PDA?</span><br>
+<span class='warning'>The airlock electronics flashes a yellow LED near the ID scanner. Did you remember to scan your ID or PDA?</span><br>
+<span class='notice'>You put Korl Adams's ID Card NT-(Junior Foreman) into the backpack.</span><br>
+You can only make assignments in your own category.<br>
+You can only make assignments in your own category.<br>
+<span class='notice'>You remove the ID from the PDA-Korl Adams (Advanced Science Chief).</span><br>
+<span class='notice'>You put the ID into PDA-Korl Adams (Advanced Science Chief)'s slot.</span><br>
+You can only make assignments in your own category.<br>
+You can only make assignments in your own category.<br>
+You can only make assignments in your own category.<br>
+You can only make assignments in your own category.<br>
+You can only make assignments in your own category.<br>
+Only command staff can grant custom titles.<br>
+<span class='notice'>You put Korl Adams's ID Card NT-(Junior Foreman) into the backpack.</span><br>
+<span class='notice'>Building security airlock assembly ...</span><br>
+<span class='notice'>You put the steel sheets into the backpack.</span><br>
+You starts securing the airlock assembly to the floor.<br>
+<span class='notice'>You secured the airlock assembly!</span><br>
+<span class='notice'>You put the wrench into the tool-belt (100).</span><br>
+<span class='danger'>Secured Security Airlock Assembly has been hit by Jack Trasen with the airlock electronics.</span><br>
+You start to wire the airlock assembly.<br>
+<span class='notice'>You wire the airlock.</span><br>
+You start to install electronics into the airlock assembly.<br>
+<span class='notice'>You installed the airlock electronics!</span><br>
+<span class='notice'>Now finishing the airlock.</span><br>
+<span class='notice'>You finish the airlock!</span><br>
+<span class='notice'>You put the screwdriver into the tool-belt (100).</span><br>
+The ÿEmergency Shutter is not functioning, you'll have to force it open manually.<br>
+You start forcing the ÿEmergency Shutter open with the pry bar!<br>
+You start forcing the ÿEmergency Shutter open with the pry bar!<br>
+You force the ÿEmergency Shutter open with the pry bar!<br>
+You force the ÿEmergency Shutter closed with the pry bar!<br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Ailia Kellian</span> <span class='message'>asks, <span class='body'>"Hello?"</span></span></span><br>
+<span class='info'>*---------*<br>
+This is <IMG CLASS=icon SRC=[0xc00108a]> <EM>Ailia Kellian</EM>, <b><font color='#ffc896'> a ÿHuman!</font></b><br>She is wearing <IMG CLASS=icon SRC=[0xc000302] ICONSTATE='jumpsuit'> a grey jumpsuit.<br>
+She has <IMG CLASS=icon SRC=[0xc000078] ICONSTATE='satchel-norm'> a satchel on her back.<br>
+She has <IMG CLASS=icon SRC=[0xc0002e3] ICONSTATE='emergency_engi'> an extended-capacity emergency oxygen tank about her waist.<br>
+She is wearing <span class='warning'><IMG CLASS=icon SRC=[0xc00032a] ICONSTATE='black'> some blood-stained the black shoes</span> on her feet.<br>
+She has <IMG CLASS=icon SRC=[0xc0002c9] ICONSTATE='breath'> a breath mask on her face.<br>
+She is wearing <IMG CLASS=icon SRC=[0xc0002c3] ICONSTATE='id'> Ailia Kellian's ID Card NT-(Unassigned).<br>
+<span class='warning'></span>*---------*</span><br><br>
+You start forcing the ÿEmergency Shutter open with the pry bar!<br>
+<span class='notice'>You lever off the tiles.</span><br>
+You start forcing the ÿEmergency Shutter open with the pry bar!<br>
+You force the ÿEmergency Shutter open with the pry bar!<br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='srv_headset'><b>[Common]</b> <span class='name'>Jason Bennett</span> <span class='message'>says, <span class='body'>"Anyone who is new to the station I guess our commander is the RD."</span></span></span><br>
+<span class='notice'>You put the pry bar into the tool-belt (100).</span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='srv_headset'><b>[Common]</b> <span class='name'>Jason Bennett</span> <span class='message'>says, <span class='body'>"And I guess he&#39;s also the guy to talk to about getting a job."</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"I got an problem"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"<i>i got an problem</i>"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Ailia Kellian</span> <span class='message'>asks, <span class='body'>"What went on here?"</span></span></span><br>
+<span class='notice'>Ailia Kellian talks into the radio headset</span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"I got no access"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"<i>i got no access</i>"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='srv_headset'><b>[Common]</b> <span class='name'>Jason Bennett</span> <span class='message'>asks, <span class='body'>"Whats up Ailia?"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"Not longer"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"<i>not longer</i>"</span></span></span><br>
+<span class='notice'>Jack Trasen presses the lift button.</span><br>
+<span class='notice'>Jack Trasen presses the lift button.</span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Ailia Kellian</span> <span class='message'>says, <span class='body'>"The entrance doesn&#39;t look to good"</span></span></span><br>
+The elevator descends smoothly.<br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Ailia Kellian</span> <span class='message'>says, <span class='body'>"The blood, etc."</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='srv_headset'><b>[Common]</b> <span class='name'>Jason Bennett</span> <span class='message'>says, <span class='body'>"Oh that."</span></span></span><br>
+<b>The elevator</b> announces, "Ding!"<br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='srv_headset'><b>[Common]</b> <span class='name'>Jason Bennett</span> <span class='message'>says, <span class='body'>"Yea I don&#39;t know what happened, go through disposals."</span></span></span><br>
+<pre class="system system">Unrecognized or inaccessible verb: sa<br>
+</pre><span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"Fucking i fixed it"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"<i>fucking i fixed it</i>"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"Stop telling peoples to go through disposals"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"<i>stop telling peoples to go through disposals</i>"</span></span></span><br>
+<span class='info'>*---------*<br>
+This is <IMG CLASS=icon SRC=[0xc001020]> <EM>Luis Ribeiro</EM>, <b><font color='#ffc896'> a ÿHuman!</font></b><br>He is wearing <IMG CLASS=icon SRC=[0xc000302] ICONSTATE='jumpsuit'> a grey jumpsuit.<br>
+He has <IMG CLASS=icon SRC=[0xc000078] ICONSTATE='backpack'> a backpack on his back.<br>
+He is wearing <IMG CLASS=icon SRC=[0xc00032a] ICONSTATE='black'> some black shoes on his feet.<br>
+He is wearing <IMG CLASS=icon SRC=[0xc0002c3] ICONSTATE='id'> Luis Ribeiro's ID Card NT-(Unassigned).<br>
+<span class='warning'>He has a tiny bruise on his head.<br>He has a pair of small scabs on his left hand.<br>He has a pair of small scabs on his right hand.<br></span>*---------*</span><br><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='srv_headset'><b>[Common]</b> <span class='name'>Jason Bennett</span> <span class='message'>asks, <span class='body'>"Oh so there&#39;s a door now?"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> exclaims, <span class='message'><span class='body'>"What your doing here!"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='srv_headset'><b>[Common]</b> <span class='name'>Jason Bennett</span> <span class='message'>says, <span class='body'>"Forget what I said there&#39;s a door now you can leave."</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"This is an restricted area"</span></span></span><br>
+<span class='game say'><span class='name'>Luis Ribeiro</span> says, <span class='message'><span class='body'>"THe janitor."</span></span></span><br>
+<span class='game say'><span class='name'>Luis Ribeiro</span> says, <span class='message'><span class='body'>"Brought me here."</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> asks, <span class='message'><span class='body'>"For the job?"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Amelia Felrow</span> <span class='message'>asks, <span class='body'>"Is it just me, or is the chemical dispenser quite... limited here?"</span></span></span><br>
+<span class='game say'><span class='name'>Luis Ribeiro</span> says, <span class='message'><span class='body'>"No."</span></span></span><br>
+<span class='notice'>The console flashes an "Access Denied" warning.</span><br>
+<span class='game say'><span class='name'>Luis Ribeiro</span> says, <span class='message'><span class='body'>"To wash my face."</span></span></span><br>
+<b>Vince Alpha</b> snores.<br>
+<span class='game say'><span class='name'>Luis Ribeiro</span> asks, <span class='message'><span class='body'>"So, what&#39;s advanced scince?"</span></span></span><br>
+<b>Jack Trasen</b> points to the sink<br>
+<span class='warning'>There is apparently no tubing in this. This area doesn't seem to have an Area Reagent Outlet.</span><br>
+<span class='game say'><span class='name'>Luis Ribeiro</span> says, <span class='message'><span class='body'>"Science rather."</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"Oh well"</span></span></span><br>
+<span class='game say'><span class='name'>Luis Ribeiro</span> says, <span class='message'><span class='body'>"Already did."</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='srv_headset'><b>[Common]</b> <span class='name'>Jason Bennett</span> <span class='message'>asks, <span class='body'>"Alright fess up, who was fighting in the lobby?"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"We are researchers but we also research many things"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"Not only rnd"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"We are offerring free cloning"</span></span></span><br>
+<span class='game say'><span class='name'>Luis Ribeiro</span> asks, <span class='message'><span class='body'>"Do you research living things?"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"Not for now but planning it"</span></span></span><br>
+<span class='notice'>The console flashes an "Access Denied" warning.</span><br>
+<span class='notice'>The console flashes an "Access Denied" warning.</span><br>
+<b>Karn Driez</b> snores.<br>
+<span class='notice'>The console flashes an "Access Denied" warning.</span><br>
+<span class='notice'>You put Korl Adams's ID Card (Junior Foreman) into the backpack.</span><br>
+ID cards have been devalidated. You will need to print a new one.<br>
+Your card devalidate was rejected. You have devalidated your ID card in the last 5 mintues.<br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Amelia Felrow</span> <span class='message'>asks, <span class='body'>"How am I to make something innovative with only 7 chemicals in the selection?"</span></span></span><br>
+You place Korl Adams's ID Card NT-(Junior Foreman) into the the disposal unit.<br>
+You place Devalidated's ID Card (Devalidated) into the the disposal unit.<br>
+<span class='notice'>You remove the ID from the PDA-Korl Adams (Advanced Science Chief).</span><br>
+You place Devalidated's ID Card (Devalidated) into the the disposal unit.<br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='srv_headset'><b>[Common]</b> <span class='name'>Jason Bennett</span> <span class='message'>says, <span class='body'>"Hey doc we have a dying woman her- Nope they&#39;re just dead."</span></span></span><br>
+<span class='game say'><span class='name'>Luis Ribeiro</span> asks, <span class='message'><span class='body'>"And what can i do to join you guys?"</span></span></span><br>
+<b>Vince Alpha</b> snores.<br>
+<span class='game say'><span class='name'>Korl Adams</span>(as Unknown) says, <span class='message'><span class='body'>"Well in what experience do you have"</span></span></span><br>
+<span class='game say'><span class='name'>Luis Ribeiro</span> says, <span class='message'><span class='body'>"None."</span></span></span><br>
+Your card print was rejected. You have printed an ID card in the last 5 mintues.<br>
+<span class='game say'><span class='name'>Korl Adams</span>(as Unknown) says, <span class='message'><span class='body'>"You cant do much"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span>(as Unknown) says, <span class='message'><span class='body'>"But maybe"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span>(as Unknown) asks, <span class='message'><span class='body'>"Cooking?"</span></span></span><br>
+<b>Karn Driez</b> snores.<br>
+<span class='game say'><span class='name'>Luis Ribeiro</span> asks, <span class='message'><span class='body'>"Cooking for research?"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span>(as Unknown) says, <span class='message'><span class='body'>"We arent doing only research"</span></span></span><br>
+<b>Karn Driez</b> snores.<br>
+<span class='game say'><span class='name'>Korl Adams</span>(as Unknown) says, <span class='message'><span class='body'>"Its named food research"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span>(as Unknown) says, <span class='message'><span class='body'>"Food research plant research R&amp;D"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span>(as Unknown) asks, <span class='message'><span class='body'>"Computer science?"</span></span></span><br>
+<span class='game say'><span class='name'>Luis Ribeiro</span> says, <span class='message'><span class='body'>"Oh."</span></span></span><br>
+<b>Vince Alpha</b> snores.<br>
+The console shuts down.<br>
+You press a hard-reset button on the console. It displays a brief debug screen before shutting down.<br>
+You press the power button and start up the console<br>
+The console shuts down.<br>
+<span class='newscaster'><EM>newscaster</EM> beeps, "Breaking news from The Gibson Gazette!"</span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Ailia Kellian</span> <span class='message'>asks, <span class='body'>"Is anyone able to come to assignments?"</span></span></span><br>
+<span class='game say'><span class='name'>Luis Ribeiro</span> asks, <span class='message'><span class='body'>"And, does it pay well?"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span>(as Unknown) says, <span class='message'><span class='body'>"We dont do things for money"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span>(as Unknown) says, <span class='message'><span class='body'>"For do it for research"</span></span></span><br>
+You press the power button and start up the console<br>
+<b>Karn Driez</b> snores.<br>
+<span class='notice'>The console flashes an "RFID Error - Unable to scan ID" warning.</span><br>
+<b>Vince Alpha</b> snores.<br>
+There is no card in the console<br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='srv_headset'><b>[Common]</b> <span class='name'>Jason Bennett</span> <span class='message'>says, <span class='body'>"I guess I&#39;ll just stick around the lobby and be a greeter."</span></span></span><br>
+<span class='notice'>PDA-Korl Adams (Advanced Science Chief) does not have an ID in it.</span><br>
+Your card print was rejected. You have printed an ID card in the last 5 mintues.<br>
+<span class='game say'><span class='name'>Luis Ribeiro</span> says, <span class='message'><span class='body'>"But research wont put you food in the table as you already know."</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='srv_headset'><b>[Common]</b> <span class='name'>Jason Bennett</span> <span class='message'>says, <span class='body'>"All the emergency shutters are down for some reason."</span></span></span><br>
+<b>Vince Alpha</b> snores.<br>
+<span class='notice'>You remove the pen from PDA-Korl Adams (Advanced Science Chief).</span><br>
+<span class='game say'><span class='name'>Luis Ribeiro</span> says, <span class='message'><span class='body'>"I sure love research, but moey interests me as well."</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Styffee Kellian</span> <span class='message'>says, <span class='body'>"Also wanted to ask if you saw my sibling"</span></span></span><br>
+<span class='game say'><span class='name'>Luis Ribeiro</span> says, <span class='message'><span class='body'>"Money rather."</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span>(as Unknown) says, <span class='message'><span class='body'>"We are low at money"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span>(as Unknown) says, <span class='message'><span class='body'>"We are collecting 5000$"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span>(as Unknown) says, <span class='message'><span class='body'>"For business creation"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Styffee Kellian</span> <span class='message'>asks, <span class='body'>"Unless shes not on this station or ship?"</span></span></span><br>
+<b>Karn Driez</b> snores.<br>
+The console shuts down.<br>
+You press a hard-reset button on the console. It displays a brief debug screen before shutting down.<br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='srv_headset'><b>[Common]</b> <span class='name'>Jason Bennett</span> <span class='message'>asks, <span class='body'>"Name?"</span></span></span><br>
+<span class='game say'><span class='name'>Luis Ribeiro</span> asks, <span class='message'><span class='body'>"How much you got by now?"</span></span></span><br>
+<span class='notice'>You slide the pen into PDA-Korl Adams (Advanced Science Chief).</span><br>
+<IMG CLASS=icon SRC=[0xc000259] ICONSTATE='atm'> <span class='warning'>Unable to log in to account, additional information may be required.</span><br>
+<IMG CLASS=icon SRC=[0xc000259] ICONSTATE='atm'> <span class='info'>Access granted. Welcome user 'Korl Adams.'</span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Styffee Kellian</span> <span class='message'>says, <span class='body'>"Ailia Kellian"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='srv_headset'><b>[Common]</b> <span class='name'>Jason Bennett</span> <span class='message'>says, <span class='body'>"They&#39;re in the lobby."</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span>(as Unknown) says, <span class='message'><span class='body'>"718"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Ailia Kellian</span> <span class='message'>says, <span class='body'>"Trying to get a job"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Styffee Kellian</span> <span class='message'>says, <span class='body'>"Ah"</span></span></span><br>
+<span class='game say'><span class='name'>Luis Ribeiro</span> says, <span class='message'><span class='body'>"Going to take you a while."</span></span></span><br>
+You press the power button and start up the console<br>
+<span class='notice'>You put the ID into PDA-Korl Adams (Advanced Science Chief)'s slot.</span><br>
+<span class='notice'>The console flashes an "Access Denied" warning.</span><br>
+<span class='notice'>The console flashes an "Access Denied" warning.</span><br>
+<span class='notice'>The console flashes an "Access Denied" warning.</span><br>
+<span class='notice'>The console flashes an "Access Denied" warning.</span><br>
+<IMG CLASS=icon SRC=[0xc0002ba] ICONSTATE='pda'> That's PDA-Korl Adams (Advanced Science Chief). It is a small item.<br>
+A portable microcomputer by Thinktronic Systems, LTD. Functionality determined by a preprogrammed ROM cartridge.<br>
+The time 02:52 is displayed in the corner of the screen.<br>
+<span class='ooc'><span class='looc'><IMG src='[0xc000004]' class='text_tag' iconstate='looc' alt='LOOC:'> <span class='prefix'></span><EM>Luis Ribeiro:</EM> <span class='message'>btw, how&#39;s payment work?</span></span></span><br>
+The console shuts down.<br>
+<span class='ooc'><span class='looc'><IMG src='[0xc000004]' class='text_tag' iconstate='looc' alt='LOOC:'> <span class='prefix'></span><EM>Luis Ribeiro:</EM> <span class='message'>the game pays you?</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='srv_headset'><b>[Common]</b> <span class='name'>Jason Bennett</span> <span class='message'>says, <span class='body'>"No one&#39;s around to man assignments unfortunately."</span></span></span><br>
+<span class='ooc'><span class='looc'><IMG src='[0xc000004]' class='text_tag' iconstate='looc' alt='LOOC:'> <span class='prefix'></span><EM>Luis Ribeiro:</EM> <span class='message'>or its the station economical flow?</span></span></span><br>
+<span class='ooc'><span class='looc'><IMG src='[0xc000004]' class='text_tag' iconstate='looc' alt='LOOC:'> <span class='prefix'></span><EM>Jack Trasen:</EM> <span class='message'>when you set on duty when you have job</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='srv_headset'><b>[Common]</b> <span class='name'>Jason Bennett</span> <span class='message'>says, <span class='body'>"Try asking the RD I think they can get you a job."</span></span></span><br>
+Your duty signal was rejected.<br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"Someone is fucking with me"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"<i>someone is fucking with me</i>"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"Someone demoted me"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"<i>someone demoted me</i>"</span></span></span><br>
+<span class='ooc'><span class='looc'><IMG src='[0xc000004]' class='text_tag' iconstate='looc' alt='LOOC:'> <span class='prefix'></span><EM>Luis Ribeiro:</EM> <span class='message'>then you are paid like every day by the game?</span></span></span><br>
+<span class='ooc'><span class='looc'><IMG src='[0xc000004]' class='text_tag' iconstate='looc' alt='LOOC:'> <span class='prefix'></span><EM>Jack Trasen:</EM> <span class='message'>yeah</span></span></span><br>
+You press the power button and start up the console<br>
+<span class='ooc'><span class='looc'><IMG src='[0xc000004]' class='text_tag' iconstate='looc' alt='LOOC:'> <span class='prefix'></span><EM>Luis Ribeiro:</EM> <span class='message'>oh ok</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='srv_headset'><b>[Common]</b> <span class='name'>Jason Bennett</span> <span class='message'>asks, <span class='body'>"Seriously?"</span></span></span><br>
+<span class='danger'>The console's screen shows "NETWORK ERROR - Unable to connect to NTNet. Please retry. If problem persists contact your system administrator." warning.</span><br>
+The console shuts down.<br>
+<span class='game say'><span class='name'>Luis Ribeiro</span> asks, <span class='message'><span class='body'>"This is where research works?"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"This is an additional section of research"</span></span></span><br>
+<span class='game say'><span class='name'>Luis Ribeiro</span> says, <span class='message'><span class='body'>"Im seeing a bunch of DA&#39;s and things like that."</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"The main research is up corridor"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"But its smaller"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"And doesnt include botany"</span></span></span><br>
+<IMG CLASS=icon SRC=[0xc000235] ICONSTATE='jukebox2'> That's a space jukebox. <br>
+<br>
+<b>Karn Driez</b> snores.<br>
+<span class='game say'><span class='name'>Luis Ribeiro</span> says, <span class='message'><span class='body'>"Oh."</span></span></span><br>
+<IMG CLASS=icon SRC=[0xc00020c] ICONSTATE='body_scanner_0'> That's a neural lace resleever. <br>
+It's a machine that allows neural laces to be sleeved into new bodies.<br>
+<span class='game say'><span class='name'>Luis Ribeiro</span> asks, <span class='message'><span class='body'>"So you still dont have xenobiology?"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"Main does"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"But this is additional"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"Okay so"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"Main got R&amp;D and xenobiology"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"And additional cooking botany and R&amp;D"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Eric McArthur</span> <span class='message'><span class='body'>coughs</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"But also including medical"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Ailia Kellian</span> <span class='message'>says, <span class='body'>"Someone broke a hole into assignments"</span></span></span><br>
+<b>Karn Driez</b> snores.<br>
+<span class='game say'><span class='name'>Luis Ribeiro</span> asks, <span class='message'><span class='body'>"And how do i get to the main?"</span></span></span><br>
+<h1 class='alert'>CA Relay Outpost Update</h1><br><h2 class='alert'>CA Relay Outpost Update</h2><br><span class='alert'>Ionospheric anomalies detected. Temporary telecommunication failu*3mga;b4;&#39;1v¬-BZZZT</span><br><br><br>
+<span class='newscaster'><EM>newscaster</EM> beeps, "New Announcement Available"</span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"Someone fucked up  my job"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"I should have access into main"</span></span></span><br>
+<span class='game say'><span class='name'>Luis Ribeiro</span> asks, <span class='message'><span class='body'>"And you dont have?"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"Yes"</span></span></span><br>
+<span class='ooc'><span class='looc'><IMG src='[0xc000004]' class='text_tag' iconstate='looc' alt='LOOC:'> <span class='prefix'></span><EM>Luis Ribeiro:</EM> <span class='message'>lagging as fuck</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"I recommend signing up at maystation"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"F"</span></span></span><br>
+<span class='game say'><span class='name'>Luis Ribeiro</span> asks, <span class='message'><span class='body'>"And how would i apply for xenobiology?"</span></span></span><br>
+<span class='ooc'><span class='everyone'><IMG src='[0xc000004]' class='text_tag' iconstate='ooc' alt='OOC:'> <EM>Sodaduija:</EM> <span class='message'>phew</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"At assigments i think"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"At lobby there should be someone to handle it"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"If there isnt i could check it out"</span></span></span><br>
+<span class='ooc'><span class='everyone'><IMG src='[0xc000004]' class='text_tag' iconstate='ooc' alt='OOC:'> <EM>MrFaust96:</EM> <span class='message'>*drinks soda*</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"Just i will lock the office"</span></span></span><br>
+<span class='game say'><span class='name'>Luis Ribeiro</span> says, <span class='message'><span class='body'>"But no one&#39;s there."</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"So wait a while"</span></span></span><br>
+<span class='game say'><span class='name'>Luis Ribeiro</span> says, <span class='message'><span class='body'>"Roger that."</span></span></span><br>
+<span class='notice'>Jack Trasen presses the lift button.</span><br>
+<IMG CLASS=icon SRC=[0xc0002c9] ICONSTATE='trasen'> That's Jack Trasen mask (50). It is a normal-sized item.<br>
+CEO of Nanotrasen corporation. Perfect for scaring the unionizing children.<br>
+The elevator descends smoothly.<br>
+<b>The elevator</b> announces, "Ding!"<br>
+<span class='notice'>You push the elevator panelling reinforced elevator panelling wall, but nothing happens.</span><br>
+<span class='notice'>Jack Trasen presses the lift button.</span><br>
+<span class='notice'>Jack Trasen presses the lift button.</span><br>
+The elevator rises smoothly.<br>
+<b>The elevator</b> announces, "Ding!"<br>
+<span class='info'>*---------*<br>
+This is <IMG CLASS=icon SRC=[0xc0006b7]> <EM>Edward Jones</EM>, <b><font color='#ffc896'> a ÿHuman!</font></b><br>He is wearing <IMG CLASS=icon SRC=[0xc000302] ICONSTATE='jumpsuit'> a grey jumpsuit.<br>
+He has <IMG CLASS=icon SRC=[0xc000078] ICONSTATE='courierbag'> a messenger bag on his back.<br>
+He is wearing <span class='warning'><IMG CLASS=icon SRC=[0xc00032a] ICONSTATE='black'> some blood-stained the black shoes</span> on his feet.<br>
+He has <IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'> a radio headset on his left ear.<br>
+<span class='warning'>He isn't responding to anything around him and seems to be unconscious.</span><br>
+<span class='deadsay'>He is fast asleep.</span><br>
+<span class='warning'>He has a small scab on his head.<br><span class='danger'>He has blood soaking through the grey jumpsuit!</span><br>He has a small scab on his left hand.<br>He has a small scab on his right hand.<br></span><span class='notice'>He doesn&#39;t look too friendly.  An av... <a href='byond://?src=[0x3000aaa];flavor_more=1'>More...</a></span><br>
+*---------*</span><br><br>
+<span class='ooc'><span class='everyone'><IMG src='[0xc000004]' class='text_tag' iconstate='ooc' alt='OOC:'> <EM>Mirkoloio:</EM> <span class='message'>I wonder when the holster bug is going to be fixed</span></span></span><br>
+<span class='ooc'><span class='everyone'><IMG src='[0xc000004]' class='text_tag' iconstate='ooc' alt='OOC:'> <EM>Soldier101:</EM> <span class='message'>what is the holster bug?</span></span></span><br>
+Cleanbot begins to clean up the dirt<br>
+<span class='info'>*---------*<br>
+This is <IMG CLASS=icon SRC=[0xc00108a]> <EM>Ailia Kellian</EM>, <b><font color='#ffc896'> a ÿHuman!</font></b><br>She is wearing <IMG CLASS=icon SRC=[0xc000302] ICONSTATE='jumpsuit'> a grey jumpsuit.<br>
+She has <IMG CLASS=icon SRC=[0xc000078] ICONSTATE='satchel-norm'> a satchel on her back.<br>
+She has <IMG CLASS=icon SRC=[0xc0002e3] ICONSTATE='emergency_engi'> an extended-capacity emergency oxygen tank about her waist.<br>
+She is wearing <span class='warning'><IMG CLASS=icon SRC=[0xc00032a] ICONSTATE='black'> some blood-stained the black shoes</span> on her feet.<br>
+She has <IMG CLASS=icon SRC=[0xc0002c9] ICONSTATE='breath'> a breath mask on her face.<br>
+She has <IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'> a radio headset on her left ear.<br>
+She is wearing <IMG CLASS=icon SRC=[0xc0002c3] ICONSTATE='id'> Ailia Kellian's ID Card (Unassigned).<br>
+<span class='warning'></span>*---------*</span><br><br>
+<span class='warning'>It is too far away.</span><br>
+<span class='info'>*---------*<br>
+This is <IMG CLASS=icon SRC=[0xc0010b0]> <EM>Styffee Kellian</EM>, <b><font color='#ffc896'> a ÿHuman!</font></b><br>She is wearing <IMG CLASS=icon SRC=[0xc000302] ICONSTATE='jumpsuit'> a grey jumpsuit.<br>
+She has <IMG CLASS=icon SRC=[0xc000078] ICONSTATE='backpack'> a backpack on her back.<br>
+She has <IMG CLASS=icon SRC=[0xc00027f] ICONSTATE='glowstick'> a green glowstick about her waist.<br>
+She is wearing <IMG CLASS=icon SRC=[0xc00032a] ICONSTATE='black'> some black shoes on her feet.<br>
+She has <IMG CLASS=icon SRC=[0xc0002c9] ICONSTATE='breath'> a breath mask on her face.<br>
+She is wearing <IMG CLASS=icon SRC=[0xc0002c3] ICONSTATE='id'> Styffee Kellian's ID Card NT-(Unassigned).<br>
+<span class='warning'></span>*---------*</span><br><br>
+<span class='ooc'><span class='everyone'><IMG src='[0xc000004]' class='text_tag' iconstate='ooc' alt='OOC:'> <EM>MrFaust96:</EM> <span class='message'>was about to ask the same</span></span></span><br>
+<span class='game say'><span class='name'>Ailia Kellian</span> says, <span class='message'><span class='body'>"No command staff."</span></span></span><br>
+<span class='game say'><span class='name'>Ailia Kellian</span> says, <span class='message'><span class='body'>"No jobs."</span></span></span><br>
+<span class='ooc'><span class='everyone'><IMG src='[0xc000004]' class='text_tag' iconstate='ooc' alt='OOC:'> <EM>Mirkoloio:</EM> <span class='message'>Holsters being unable to use/detach when on clothing, after popping outta cryo.</span></span></span><br>
+<span class='notice'>You remove the ID from the PDA-Korl Adams (Advanced Science Chief).</span><br>
+<span class='notice'>You put the ID into PDA-Korl Adams (Advanced Science Chief)'s slot.</span><br>
+<span class='info'>*---------*<br>
+This is <IMG CLASS=icon SRC=[0xc0010c6]> <EM>James Wood</EM>, <b><font color='#ffc896'> a ÿHuman!</font></b><br>He has <IMG CLASS=icon SRC=[0xc000078] ICONSTATE='pocketbook'> a black pocketbook on his back.<br>
+He is wearing <IMG CLASS=icon SRC=[0xc00032a] ICONSTATE='black'> some black shoes on his feet.<br>
+He is wearing <IMG CLASS=icon SRC=[0xc0002c3] ICONSTATE='id'> James Wood's ID Card NT-(Unassigned).<br>
+<span class='warning'>He isn't responding to anything around him and seems to be unconscious.</span><br>
+<span class='deadsay'>He is fast asleep.</span><br>
+<span class='warning'></span>*---------*</span><br><br>
+<b>Ailia Kellian</b> points to Jack Trasen<br>
+<span class='ooc'><span class='everyone'><IMG src='[0xc000004]' class='text_tag' iconstate='ooc' alt='OOC:'> <EM>Mirkoloio:</EM> <span class='message'>Need someone else to rip it off you</span></span></span><br>
+<span class='game say'><span class='name'>Luis Ribeiro</span> asks, <span class='message'><span class='body'>"You dont have access?"</span></span></span><br>
+<span class='ooc'><span class='everyone'><IMG src='[0xc000004]' class='text_tag' iconstate='ooc' alt='OOC:'> <EM>Mirkoloio:</EM> <span class='message'>Then re-attach to use</span></span></span><br>
+<span class='game say'><span class='name'>Ailia Kellian</span> asks, <span class='message'><span class='body'>"Are you able to give us jobs?"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"Some fucker demoted me"</span></span></span><br>
+<span class='ooc'><span class='everyone'><IMG src='[0xc000004]' class='text_tag' iconstate='ooc' alt='OOC:'> <EM>Mirkoloio:</EM> <span class='message'>This bug does not affect the Detective&#39;s suit, for whatever reason</span></span></span><br>
+<span class='game say'><span class='name'>Ailia Kellian</span> asks, <span class='message'><span class='body'>"How?"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"To junior foreman"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"As i was Research Supervisor"</span></span></span><br>
+<span class='game say'><span class='name'>Styffee Kellian</span> says, <span class='message'><span class='body'>"Ouch"</span></span></span><br>
+<span class='info'>*---------*<br>
+This is <EM>Unknown (as Eric McArthur)</EM><br>They are wearing <IMG CLASS=icon SRC=[0xc000311] ICONSTATE='rig0-secalt'> a riot security voidsuit helmet on their head.<br>
+They are wearing <IMG CLASS=icon SRC=[0xc000320] ICONSTATE='rig-secalt'> a riot security voidsuit.<br>
+They are carrying <IMG CLASS=icon SRC=[0xc0002e3] ICONSTATE='oxygen_f'> an oxygen tank on their riot security voidsuit.<br>
+They have <IMG CLASS=icon SRC=[0xc000078] ICONSTATE='courierbag'> a messenger bag on their back.<br>
+They are holding <IMG CLASS=icon SRC=[0xc000302] ICONSTATE='swatunder'> a tactical jumpsuit with <IMG CLASS=icon SRC=[0xc000334] ICONSTATE='holster'> an occupied armpit holster attached in their right hand.<br>
+They have <IMG CLASS=icon SRC=[0xc0002bf] ICONSTATE='swatbelt'> a combat belt about their waist.<br>
+They are wearing <IMG CLASS=icon SRC=[0xc0002c3] ICONSTATE='id'> Eric McArthur's ID Card CYO-(CPS Cadet).<br>
+<span class='warning'></span>*---------*</span><br><br>
+<span class='ooc'><span class='everyone'><IMG src='[0xc000004]' class='text_tag' iconstate='ooc' alt='OOC:'> <EM>MrFaust96:</EM> <span class='message'>can you make something out of the metric ass ton of de-activated IDs laying about?</span></span></span><br>
+<span class='game say'><span class='name'>Ailia Kellian</span> asks, <span class='message'><span class='body'>"Someone with access?"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"No"</span></span></span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"Nice mask."</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"Its some fucker from agency"</span></span></span><br>
+<span class='ooc'><span class='admin'><IMG src='[0xc000004]' class='text_tag' iconstate='ooc' alt='OOC:'> <EM>Andrew Fall:</EM> <span class='message'>You can put them into a papershredder</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"Or something"</span></span></span><br>
+<span class='ooc'><span class='admin'><IMG src='[0xc000004]' class='text_tag' iconstate='ooc' alt='OOC:'> <EM>DimasW:</EM> <span class='message'>Shred them</span></span></span><br>
+<span class='game say'><span class='name'>Styffee Kellian</span> asks, <span class='message'><span class='body'>"Hm?"</span></span></span><br>
+<span class='ooc'><span class='everyone'><IMG src='[0xc000004]' class='text_tag' iconstate='ooc' alt='OOC:'> <EM>Mirkoloio:</EM> <span class='message'>Shred them</span></span></span><br>
+<span class='game say'><span class='name'>Ailia Kellian</span> asks, <span class='message'><span class='body'>"Someone got into the database?"</span></span></span><br>
+<span class='ooc'><span class='everyone'><IMG src='[0xc000004]' class='text_tag' iconstate='ooc' alt='OOC:'> <EM>MrFaust96:</EM> <span class='message'>thank you senpais</span></span></span><br>
+<span class='game say'><span class='name'>Ailia Kellian</span> says, <span class='message'><span class='body'>"Great security"</span></span></span><br>
+<span class='ooc'><span class='everyone'><IMG src='[0xc000004]' class='text_tag' iconstate='ooc' alt='OOC:'> <EM>Mirkoloio:</EM> <span class='message'>N-NANI?</span></span></span><br>
+<span class='ooc'><span class='admin'><IMG src='[0xc000004]' class='text_tag' iconstate='ooc' alt='OOC:'> <EM>Andrew Fall:</EM> <span class='message'>Yes you can bring SSD people to cryo</span></span></span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"I&#39;m not security here."</span></span></span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"I don&#39;t care."</span></span></span><br>
+<span class='game say'><span class='name'>Ailia Kellian</span> says, <span class='message'><span class='body'>"Wasn&#39;t talking about you"</span></span></span><br>
+<span class='game say'><span class='name'>Styffee Kellian</span> says, <span class='message'><span class='body'>"Yet you have a riot void suit"</span></span></span><br>
+<b>Adam Keeller</b> snores.<br>
+<span class='info'>*---------*<br>
+This is <IMG CLASS=icon SRC=[0xc001083]> <EM>Madra Tossilan Jr</EM>, <b><font color='#ffc896'> a ÿHuman!</font></b><br>He is wearing <IMG CLASS=icon SRC=[0xc000302] ICONSTATE='black_suit_fem'> an executive suit (300).<br>
+He has <IMG CLASS=icon SRC=[0xc000078] ICONSTATE='satchel-norm'> a satchel on his back.<br>
+He has <IMG CLASS=icon SRC=[0xc000333] ICONSTATE='material'> an uranium ring (20) on his hands.<br>
+He is wearing <IMG CLASS=icon SRC=[0xc00032a] ICONSTATE='laceups'> some dress shoes (200) on his feet.<br>
+He has <IMG CLASS=icon SRC=[0xc0002c9] ICONSTATE='cobpipeoff'> an empty corn cob pipe on his face.<br>
+He has <IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'> a radio headset on his left ear.<br>
+He is wearing <IMG CLASS=icon SRC=[0xc0002c3] ICONSTATE='id'> Madra Tossilan Jr's ID Card NT-(Unassigned).<br>
+<span class='warning'></span>*---------*</span><br><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"I work for Cythos."</span></span></span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"A different corp"</span></span></span><br>
+<b>May Alexandra</b> snores.<br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"Better one, even"</span></span></span><br>
+<span class='game say'><span class='name'>Madra Tossilan Jr</span> says, <span class='message'><span class='body'>"Hum"</span></span></span><br>
+<span class='game say'><span class='name'>Ailia Kellian</span> says, <span class='message'><span class='body'>"Congrats"</span></span></span><br>
+<span class='game say'><span class='name'>Ailia Kellian</span> says, <span class='message'><span class='body'>"I work for no one"</span></span></span><br>
+<span class='game say'><span class='name'>Ailia Kellian</span> says, <span class='message'><span class='body'>"Waiting for a damn job"</span></span></span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"Sucks to be you."</span></span></span><br>
+<span class='game say'><span class='name'>Ailia Kellian</span> says, <span class='message'><span class='body'>"It does"</span></span></span><br>
+<span class='notice'>Unknown (as Eric McArthur) puts the tactical jumpsuit into the messenger bag.</span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"Okay"</span></span></span><br>
+<span class='notice'>Slab Beefloader finishes eating the protein bar.</span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"Im giving jobs at advanced science"</span></span></span><br>
+<b>Adam Keeller</b> snores.<br>
+<span class='ooc'><span class='looc'><IMG src='[0xc000004]' class='text_tag' iconstate='looc' alt='LOOC:'> <span class='prefix'></span><EM>Luis Ribeiro:</EM> <span class='message'>cant we just ahelp it?</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"Science cooking and botany"</span></span></span><br>
+<b>Current Staff (2/2):</b><br>
+	Andrew Fall is a <b>ÿDevAdmin</b><br>
+	DimasW is a <b>ÿTrialAdmin</b><br>
+<B>Eric McArthur</B> fluffs up his amazing hair.<br>
+<span class='ooc'><span class='looc'><IMG src='[0xc000004]' class='text_tag' iconstate='looc' alt='LOOC:'> <span class='prefix'></span><EM>Luis Ribeiro:</EM> <span class='message'>since this is causing the game to not progress?</span></span></span><br>
+<span class='info'>*---------*<br>
+This is <EM>Unknown (as Joshua Rader)</EM><br>They are wearing <IMG CLASS=icon SRC=[0xc000311] ICONSTATE='rig0-salvage'> a salvaged voidsuit helmet on their head.<br>
+They are wearing <IMG CLASS=icon SRC=[0xc000320] ICONSTATE='rig-salvage'> a salvaged voidsuit.<br>
+They are carrying <IMG CLASS=icon SRC=[0xc0002e3] ICONSTATE='oxygen_f'> an oxygen tank on their salvaged voidsuit.<br>
+They have <IMG CLASS=icon SRC=[0xc000078] ICONSTATE='backpack'> a backpack on their back.<br>
+They have <IMG CLASS=icon SRC=[0xc0002bf] ICONSTATE='utilitybelt'> a tool-belt about their waist.<br>
+They are wearing <IMG CLASS=icon SRC=[0xc0002ba] ICONSTATE='pda'> PDA-Joshua Rader (F: R&D Director).<br>
+<span class='warning'></span>*---------*</span><br><br>
+<span class='game say'><span class='name'>Ailia Kellian</span> asks, <span class='message'><span class='body'>"What do you expect from your scientists?"</span></span></span><br>
+<span class='ooc'><span class='everyone'><IMG src='[0xc000004]' class='text_tag' iconstate='ooc' alt='OOC:'> <EM>Zuperned:</EM> <span class='message'>still dead? fuck.. i want to respawn man .-. i got reverted to my previous dead state.</span></span></span><br>
+<span class='warning'>Unknown (as Joshua Rader) was hit by the foam dart!</span><br>
+<span class='warning'>Jack Trasen was hit by the foam dart!</span><br>
+<span class='warning'>Jack Trasen was hit by the foam dart!</span><br>
+<span class='game say'><span class='name'>Ailia Kellian</span> whispers, <span class='message'><span class='body'>"<i>I think he has your job.</i>"</span></span></span><br>
+<span class='info'>*---------*<br>
+This is <IMG CLASS=icon SRC=[0xc0010b0]> <EM>Styffee Kellian</EM>, <b><font color='#ffc896'> a ÿHuman!</font></b><br>She is wearing <IMG CLASS=icon SRC=[0xc000302] ICONSTATE='jumpsuit'> a grey jumpsuit.<br>
+She has <IMG CLASS=icon SRC=[0xc000078] ICONSTATE='backpack'> a backpack on her back.<br>
+She has <IMG CLASS=icon SRC=[0xc00027f] ICONSTATE='glowstick'> a green glowstick about her waist.<br>
+She is wearing <IMG CLASS=icon SRC=[0xc00032a] ICONSTATE='black'> some black shoes on her feet.<br>
+She has <IMG CLASS=icon SRC=[0xc0002c9] ICONSTATE='breath'> a breath mask on her face.<br>
+She has <IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'> a radio headset on her left ear.<br>
+She is wearing <IMG CLASS=icon SRC=[0xc0002c3] ICONSTATE='id'> Styffee Kellian's ID Card NT-(Unassigned).<br>
+<span class='warning'></span>*---------*</span><br><br>
+<span class='warning'>Styffee Kellian was hit by the foam dart!</span><br>
+<span class='warning'>Jason Bennett was hit by the foam dart!</span><br>
+<span class='info'>*---------*<br>
+This is <IMG CLASS=icon SRC=[0xc000e28]> <EM>Jason Bennett</EM>, <b><font color='#ffc896'> a ÿHuman!</font></b><br>He is wearing <IMG CLASS=icon SRC=[0xc000302] ICONSTATE='jeansyoungfolks'> some young folks jeans (30) with <IMG CLASS=icon SRC=[0xc000334] ICONSTATE='suspenders'> a suspenders (150) attached.<br>
+He is wearing <IMG CLASS=icon SRC=[0xc000311] ICONSTATE='beret'> a beret (200) on his head.<br>
+He is wearing <IMG CLASS=icon SRC=[0xc000320] ICONSTATE='brown_jacket'> a leather jacket (200).<br>
+He has <IMG CLASS=icon SRC=[0xc000078] ICONSTATE='satchel_black'> a black leather satchel on his back.<br>
+He has <IMG CLASS=icon SRC=[0xc00032d] ICONSTATE='black'> some work gloves on his hands.<br>
+He is wearing <span class='warning'><IMG CLASS=icon SRC=[0xc00032a] ICONSTATE='leather'> some blood-stained the leather shoes (100)</span> on his feet.<br>
+He is wearing <IMG CLASS=icon SRC=[0xc0002ba] ICONSTATE='pda-j'> PDA-Jason Bennett (Janitor).<br>
+<span class='warning'></span><span class='notice'>Average build verging on athletic. R... <a href='byond://?src=[0x30008c9];flavor_more=1'>More...</a></span><br>
+*---------*</span><br><br>
+<span class='warning'>Styffee Kellian has thrown the foam dart.</span><br>
+<span class='warning'>Ailia Kellian has been hit in the upper body by the foam dart.</span><br>
+<span class='notice'>Changed mode to 'Floor & Walls'</span><br>
+<span class='notice'>Changed mode to 'Airlock'</span><br>
+<span class='notice'>Changed mode to 'Deconstruction'</span><br>
+<span class='notice'>Changed mode to 'Floor & Walls'</span><br>
+<span class='notice'>Changed mode to 'Airlock'</span><br>
+<span class='notice'>Changed mode to 'Deconstruction'</span><br>
+<span class='notice'>Changed mode to 'Floor & Walls'</span><br>
+<span class='notice'>Changed mode to 'Airlock'</span><br>
+<span class='notice'>Changed mode to 'Deconstruction'</span><br>
+<span class='notice'>Changed mode to 'Floor & Walls'</span><br>
+<span class='notice'>Changed mode to 'Airlock'</span><br>
+<span class='notice'>Changed mode to 'Deconstruction'</span><br>
+<span class='notice'>Changed mode to 'Floor & Walls'</span><br>
+<span class='notice'>Changed mode to 'Airlock'</span><br>
+<span class='notice'>Changed mode to 'Deconstruction'</span><br>
+<span class='notice'>Changed mode to 'Floor & Walls'</span><br>
+<span class='notice'>Changed mode to 'Airlock'</span><br>
+<span class='notice'>Changed mode to 'Deconstruction'</span><br>
+<span class='notice'>Changed mode to 'Floor & Walls'</span><br>
+<span class='notice'>Changed mode to 'Airlock'</span><br>
+<span class='notice'>Changed mode to 'Deconstruction'</span><br>
+<span class='notice'>Changed mode to 'Floor & Walls'</span><br>
+<span class='notice'>Changed mode to 'Airlock'</span><br>
+<span class='notice'>Changed mode to 'Deconstruction'</span><br>
+<span class='notice'>Changed mode to 'Floor & Walls'</span><br>
+<span class='notice'>Changed mode to 'Airlock'</span><br>
+<span class='notice'>Changed mode to 'Deconstruction'</span><br>
+<span class='notice'>Changed mode to 'Floor & Walls'</span><br>
+<span class='notice'>Changed mode to 'Airlock'</span><br>
+<span class='notice'>Changed mode to 'Deconstruction'</span><br>
+<span class='notice'>Changed mode to 'Floor & Walls'</span><br>
+<span class='notice'>Changed mode to 'Airlock'</span><br>
+<span class='notice'>Changed mode to 'Deconstruction'</span><br>
+<span class='notice'>Changed mode to 'Floor & Walls'</span><br>
+<span class='notice'>Changed mode to 'Airlock'</span><br>
+<span class='notice'>Changed mode to 'Deconstruction'</span><br>
+<span class='notice'>Changed mode to 'Floor & Walls'</span><br>
+<span class='notice'>Changed mode to 'Airlock'</span><br>
+<span class='notice'>Changed mode to 'Deconstruction'</span><br>
+<span class='notice'>Changed mode to 'Floor & Walls'</span><br>
+<span class='notice'>Changed mode to 'Airlock'</span><br>
+<span class='notice'>Changed mode to 'Deconstruction'</span><br>
+<span class='notice'>Changed mode to 'Floor & Walls'</span><br>
+<span class='notice'>Changed mode to 'Airlock'</span><br>
+<span class='notice'>Changed mode to 'Deconstruction'</span><br>
+<span class='notice'>Changed mode to 'Floor & Walls'</span><br>
+<span class='notice'>Changed mode to 'Airlock'</span><br>
+<span class='notice'>Changed mode to 'Deconstruction'</span><br>
+<span class='notice'>Changed mode to 'Floor & Walls'</span><br>
+<span class='notice'>Changed mode to 'Airlock'</span><br>
+<span class='notice'>Changed mode to 'Deconstruction'</span><br>
+<span class='notice'>Changed mode to 'Floor & Walls'</span><br>
+<span class='game say'><span class='name'>Luis Ribeiro</span> says, <span class='message'><span class='body'>"Flickerin time."</span></span></span><br>
+<span class='notice'>Changed mode to 'Airlock'</span><br>
+<span class='notice'>Changed mode to 'Deconstruction'</span><br>
+<span class='notice'>Changed mode to 'Floor & Walls'</span><br>
+<span class='notice'>Changed mode to 'Airlock'</span><br>
+<span class='notice'>Changed mode to 'Deconstruction'</span><br>
+<span class='notice'>Changed mode to 'Floor & Walls'</span><br>
+<span class='notice'>Changed mode to 'Airlock'</span><br>
+<span class='notice'>Changed mode to 'Deconstruction'</span><br>
+<span class='notice'>Changed mode to 'Floor & Walls'</span><br>
+<span class='notice'>Changed mode to 'Airlock'</span><br>
+<span class='notice'>Changed mode to 'Deconstruction'</span><br>
+<span class='notice'>Changed mode to 'Floor & Walls'</span><br>
+<span class='notice'>Changed mode to 'Airlock'</span><br>
+<span class='game say'><span class='name'>Jason Bennett</span> says, <span class='message'><span class='body'>"Hey uhh"</span></span></span><br>
+<span class='notice'>Changed mode to 'Deconstruction'</span><br>
+<span class='game say'><span class='name'>Ailia Kellian</span> asks, <span class='message'><span class='body'>"This gets me a job how?"</span></span></span><br>
+<span class='notice'>Changed mode to 'Floor & Walls'</span><br>
+<span class='notice'>Changed mode to 'Airlock'</span><br>
+<span class='notice'>Changed mode to 'Deconstruction'</span><br>
+<span class='notice'>Changed mode to 'Floor & Walls'</span><br>
+<span class='notice'>Changed mode to 'Airlock'</span><br>
+<span class='notice'>Changed mode to 'Deconstruction'</span><br>
+<span class='notice'>Changed mode to 'Floor & Walls'</span><br>
+<span class='notice'>Changed mode to 'Airlock'</span><br>
+<span class='notice'>Changed mode to 'Deconstruction'</span><br>
+<span class='notice'>Changed mode to 'Floor & Walls'</span><br>
+<span class='notice'>Changed mode to 'Airlock'</span><br>
+<span class='notice'>Changed mode to 'Deconstruction'</span><br>
+<span class='notice'>Changed mode to 'Floor & Walls'</span><br>
+<span class='notice'>Changed mode to 'Airlock'</span><br>
+<span class='notice'>Changed mode to 'Deconstruction'</span><br>
+<span class='notice'>Changed mode to 'Floor & Walls'</span><br>
+<span class='notice'>Changed mode to 'Airlock'</span><br>
+<span class='notice'>Changed mode to 'Deconstruction'</span><br>
+<span class='notice'>You put the rapid construction device into the backpack.</span><br>
+<b>Jason Bennett</b> points to Unknown (as Joshua Rader)<br>
+<span class='game say'><span class='name'>Joshua Rader</span> asks, <span class='message'><span class='body'>"What?"</span></span></span><br>
+<span class='game say'><span class='name'>Jason Bennett</span> asks, <span class='message'><span class='body'>"Who&#39;re you?"</span></span></span><br>
+<span class='game say'><span class='name'>Joshua Rader</span> says, <span class='message'><span class='body'>"Joshua Rader."</span></span></span><br>
+<span class='game say'><span class='name'>Jason Bennett</span> says, <span class='message'><span class='body'>"Got some pretty fancy space gear."</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> asks, <span class='message'><span class='body'>"For who you work and whats your assigment?"</span></span></span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"My NT goggles say he&#39;s an asshole."</span></span></span><br>
+<span class='game say'><span class='name'>Joshua Rader</span> says, <span class='message'><span class='body'>"It&#39;s not that fancy. I left the science voidsuit back at my office."</span></span></span><br>
+<span class='info'>*---------*<br>
+This is <IMG CLASS=icon SRC=[0xc0008d4]> <EM>Stefanny Zeroford</EM>, <b><font color='#ffc896'> a ÿHuman!</font></b><br>She is wearing <IMG CLASS=icon SRC=[0xc000302] ICONSTATE='jumpsuit'> a blue jumpsuit.<br>
+She has <IMG CLASS=icon SRC=[0xc000078] ICONSTATE='courierbag'> a messenger bag on her back.<br>
+She is wearing <IMG CLASS=icon SRC=[0xc00032a] ICONSTATE='black'> some black shoes on her feet.<br>
+She is wearing <IMG CLASS=icon SRC=[0xc0002c3] ICONSTATE='id'> Stefanny Zeroford's ID Card NT-(Civilian).<br>
+<span class='warning'>She has a tiny bruise on her head.<br>She has a tiny bruise on her left hand.<br>She has a tiny bruise on her right hand.<br></span>*---------*</span><br><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"Wew, nice hair there, girl."</span></span></span><br>
+<b>Stefanny Zeroford</b> snaps their fingers.<br>
+<span class='warning'>Jason Bennett was hit by the foam dart!</span><br>
+<span class='info'>*---------*<br>
+This is <EM>Unknown (as Joshua Rader)</EM><br>They are wearing <IMG CLASS=icon SRC=[0xc000311] ICONSTATE='rig0-salvage'> a salvaged voidsuit helmet on their head.<br>
+They are wearing <IMG CLASS=icon SRC=[0xc000320] ICONSTATE='rig-salvage'> a salvaged voidsuit.<br>
+They are carrying <IMG CLASS=icon SRC=[0xc0002e3] ICONSTATE='oxygen_f'> an oxygen tank on their salvaged voidsuit.<br>
+They have <IMG CLASS=icon SRC=[0xc000078] ICONSTATE='backpack'> a backpack on their back.<br>
+They have <IMG CLASS=icon SRC=[0xc0002bf] ICONSTATE='utilitybelt'> a tool-belt about their waist.<br>
+They are wearing <IMG CLASS=icon SRC=[0xc0002ba] ICONSTATE='pda'> PDA-Joshua Rader (F: R&D Director).<br>
+<span class='warning'></span>*---------*</span><br><br>
+<span class='game say'><span class='name'>Jason Bennett</span> asks, <span class='message'><span class='body'>"Why was I the only one that was friendly to the dude with a space suit?"</span></span></span><br>
+<b>Jack Trasen</b> points to Unknown (as Joshua Rader)<br>
+<span class='warning'>Jason Bennett was hit by the foam dart!</span><br>
+<span class='game say'><span class='name'>Jason Bennett</span> says, <span class='message'><span class='body'>"You&#39;re all giving a bad name to the crew here."</span></span></span><br>
+<span class='game say'><span class='name'>Ailia Kellian</span> says, <span class='message'><span class='body'>"I was not unfriendly"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> asks, <span class='message'><span class='body'>"For what corporation do you work?"</span></span></span><br>
+<span class='warning'>Jason Bennett was hit by the foam dart!</span><br>
+<span class='game say'><span class='name'>Ailia Kellian</span> says, <span class='message'><span class='body'>"I just said nothing."</span></span></span><br>
+<span class='warning'>Jason Bennett was hit by the foam dart!</span><br>
+<span class='warning'>Jason Bennett was hit by the foam dart!</span><br>
+<span class='warning'>Eric McArthur realized they were out of ammo and starting scrounging for some!</span><br>
+<span class='game say'><span class='name'>Styffee Kellian</span> asks, <span class='message'><span class='body'>"What happened?"</span></span></span><br>
+<span class='game say'><span class='name'>Joshua Rader</span> says, <span class='message'><span class='body'>"I&#39;m from Shell Inc. I have no idea who the hell you guys are..."</span></span></span><br>
+<span class='game say'><span class='name'>Ailia Kellian</span> says, <span class='message'><span class='body'>"Nothing"</span></span></span><br>
+<span class='game say'><span class='name'>Stefanny Zeroford</span> asks, <span class='message'><span class='body'>"Someone ccan give me a ride to may ?"</span></span></span><br>
+<span class='game say'><span class='name'>Ailia Kellian</span> says, <span class='message'><span class='body'>"That&#39;s the issue"</span></span></span><br>
+<span class='game say'><span class='name'>Ailia Kellian</span> says, <span class='message'><span class='body'>"We don&#39;t have jobs"</span></span></span><br>
+<span class='game say'><span class='name'>Jason Bennett</span> says, <span class='message'><span class='body'>"I&#39;m the friendly neighbourhood janitor, Bennett."</span></span></span><br>
+<span class='game say'><span class='name'>Joshua Rader</span> says, <span class='message'><span class='body'>"Uhhhhh."</span></span></span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> asks, <span class='message'><span class='body'>"Maystation?"</span></span></span><br>
+<span class='game say'><span class='name'>Stefanny Zeroford</span> says, <span class='message'><span class='body'>"Yeah"</span></span></span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"Got a suit, I can take you there."</span></span></span><br>
+<span class='game say'><span class='name'>Joshua Rader</span> says, <span class='message'><span class='body'>"Well do to a bluespace storm our entire station lacks air."</span></span></span><br>
+<span class='game say'><span class='name'>Stefanny Zeroford</span> says, <span class='message'><span class='body'>"This is the fourth day i am trying to get there again"</span></span></span><br>
+<span class='game say'><span class='name'>Joshua Rader</span> says, <span class='message'><span class='body'>"Or I would say ours would be decent."</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"I need my access back"</span></span></span><br>
+<IMG CLASS=icon SRC=[0xc0002c9] ICONSTATE='trasen'> That's Jack Trasen mask (50). It is a normal-sized item.<br>
+CEO of Nanotrasen corporation. Perfect for scaring the unionizing children.<br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"As said, girl, if you got a suit, I can take ya there."</span></span></span><br>
+<span class='info'>*---------*<br>
+This is <IMG CLASS=icon SRC=[0xc0006b7]> <EM>Steven Butcher</EM>, <b><font color='#ffc896'> a ÿHuman!</font></b><br>He is wearing <IMG CLASS=icon SRC=[0xc000302] ICONSTATE='jumpsuit'> a grey jumpsuit.<br>
+He is wearing <IMG CLASS=icon SRC=[0xc000320] ICONSTATE='leathercoat'> a leather coat.<br>
+He has <IMG CLASS=icon SRC=[0xc000078] ICONSTATE='backpack'> a backpack on his back.<br>
+He is wearing <IMG CLASS=icon SRC=[0xc00032a] ICONSTATE='black'> some black shoes on his feet.<br>
+He has <IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'> a radio headset on his left ear.<br>
+He is wearing <IMG CLASS=icon SRC=[0xc0002c3] ICONSTATE='id'> Steven Butcher's ID Card NT-(Unassigned).<br>
+<span class='warning'></span><span class='notice'>Looks like a chentaflop.  </span><br>
+*---------*</span><br><br>
+<span class='game say'><span class='name'>Stefanny Zeroford</span> says, <span class='message'><span class='body'>"Hmmm"</span></span></span><br>
+<span class='warning'>Eric McArthur's hailer rasps, "NT SUCKS"</span><br>
+<span class='game say'><span class='name'>Ailia Kellian</span> says, <span class='message'><span class='body'>"Lets go make a bomb"</span></span></span><br>
+<span class='game say'><span class='name'>Jason Bennett</span> says, <span class='message'><span class='body'>"Uhh"</span></span></span><br>
+<span class='game say'><span class='name'>Joshua Rader</span> says, <span class='message'><span class='body'>"Well I&#39;m getting outta here before I get charged with terorism."</span></span></span><br>
+<span class='game say'><span class='name'>Jason Bennett</span> asks, <span class='message'><span class='body'>"Did no one else hear her say &#34;Lets go make a bomb&#34;?"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"IM GOING BACK TO ADVANCED SCIENCE"</span></span></span><br>
+<B>Eric McArthur</B> shrugs<br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"Not my problem."</span></span></span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"I don&#39;t work here."</span></span></span><br>
+<span class='game say'><span class='name'>Luis Ribeiro</span> says, <span class='message'><span class='body'>"Eric."</span></span></span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"Luis."</span></span></span><br>
+<span class='game say'><span class='name'>Luis Ribeiro</span> asks, <span class='message'><span class='body'>"In your station do you have someone that can assign jobs?"</span></span></span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"Yes."</span></span></span><br>
+<span class='game say'><span class='name'>Luis Ribeiro</span> asks, <span class='message'><span class='body'>"Could you take me there then?"</span></span></span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> asks, <span class='message'><span class='body'>"Got a spacesuit?"</span></span></span><br>
+<span class='danger'>Jack Trasen is trying to set Unknown (as Eric McArthur)'s sensors!</span><br>
+<span class='disarm'>Unknown (as Eric McArthur) blinds Jack Trasen with the flash!</span><br>
+<span class='game say'><span class='name'>Luis Ribeiro</span> says, <span class='message'><span class='body'>"Fuck, no."</span></span></span><br>
+<span class='notice'>Unknown (as Eric McArthur) puts the flash into the combat belt.</span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"No touching, asshole."</span></span></span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"Then, can&#39;t take ya there."</span></span></span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"Sorry."</span></span></span><br>
+<span class='danger'>Jack Trasen attempted to strike Unknown (as Eric McArthur), but missed!</span><br>
+<span class='danger'>Unknown (as Eric McArthur) fires the taser gun!</span><br>
+<span class='danger'>Jack Trasen is hit by the stun beam in the chest!</span><br>
+<span class='notice'>Jack Trasen presses the lift button.</span><br>
+<span class='notice'>Jack Trasen presses the lift button.</span><br>
+<span class='notice'>Jack Trasen presses the lift button.</span><br>
+<span class='danger'>Unknown (as Eric McArthur) fires the taser gun!</span><br>
+<b>Jack Trasen</b> screams!<br>
+<b>Jack Trasen</b> screams!<br>
+<span class='danger'>Jack Trasen is hit by the stun beam in the left arm!</span><br>
+<span class='danger'>Unknown (as Eric McArthur) fires the taser gun!</span><br>
+<span class='danger'>Jack Trasen is hit by the stun beam in the chest!</span><br>
+<span class='danger'>Unknown (as Eric McArthur) fires the taser gun!</span><br>
+<span class='notice'>The stun beam misses Jack Trasen narrowly!</span><br>
+*click click*<br>
+The elevator descends smoothly.<br>
+<b>The elevator</b> announces, "Ding!"<br>
+<b>Jack Trasen</b> screams!<br>
+<B>Jack Trasen</B> collapses!<br>
+<span class='danger'>Dear god, the pain!</span><br>
+<span class='danger'>Unknown (as Eric McArthur) fires the taser gun!</span><br>
+<span class='notice'>The stun beam misses Jack Trasen narrowly!</span><br>
+<span class='danger'>Unknown (as Eric McArthur) fires the taser gun!</span><br>
+<span class='danger'>Jack Trasen is hit by the stun beam in the chest!</span><br>
+<b>The elevator</b> announces, "Ding!"<br>
+<span class='notice'>Unknown (as Eric McArthur) puts the taser gun into the messenger bag.</span><br>
+<span class='danger'>Unknown (as Eric McArthur) attempted to grab Jack Trasen!</span><br>
+<span class='warning'>Unknown (as Eric McArthur) has grabbed Jack Trasen's upper body!</span><br>
+<span class='danger'>Jack Trasen attempted to disarm Unknown (as Eric McArthur)!</span><br>
+<span class='danger'>Unknown (as Eric McArthur) attempted to disarm Jack Trasen!</span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Sigmund Opalite</span> <span class='message'>asks, <span class='body'>"Looking to become a miner or a trader. how do i start my own business?"</span></span></span><br>
+<span class='danger'>Jack Trasen attempted to disarm Unknown (as Eric McArthur)!</span><br>
+<span class='danger'>Jack Trasen attempted to disarm Unknown (as Eric McArthur)!</span><br>
+Unknown (as Eric McArthur) sprays Jack Trasen with the pepperspray.<br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Joshua Rader</span> <span class='message'>says, <span class='body'>"Well first you need five thousand ethercoins."</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Sigmund Opalite</span> <span class='message'>asks, <span class='body'>"Ethercoins?"</span></span></span><br>
+<span class='warning'>Jack Trasen attempted to push Unknown (as Eric McArthur)!</span><br>
+Unknown (as Eric McArthur) sprays Jack Trasen with the pepperspray.<br>
+<span class='warning'>Jack Trasen attempted to push Unknown (as Eric McArthur)!</span><br>
+Unknown (as Eric McArthur) sprays Jack Trasen with the pepperspray.<br>
+Unknown (as Eric McArthur) sprays Jack Trasen with the pepperspray.<br>
+<span class='danger'>Jack Trasen has disarmed Unknown (as Eric McArthur)!</span><br>
+<span class='danger'>Jack Trasen attempted to disarm Unknown (as Eric McArthur)!</span><br>
+<span class='danger'>Jack Trasen attempted to disarm Unknown (as Eric McArthur)!</span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Luis Ribeiro</span> <span class='message'>says, <span class='body'>"First you need someone that assigns you to miner/trader."</span></span></span><br>
+<span class='notice'>The pepperspray is empty!</span><br>
+<span class='notice'>The pepperspray is empty!</span><br>
+<span class='notice'>The pepperspray is empty!</span><br>
+<span class='notice'>The pepperspray is empty!</span><br>
+<b>Jack Trasen</b> is having trouble keeping his eyes open.<br>
+<span class='notice'>You put the pepperspray into the backpack.</span><br>
+<span class='danger'>Jack Trasen attempted to disarm Unknown (as Eric McArthur)!</span><br>
+<span class='danger'>Jack Trasen attempted to disarm Unknown (as Eric McArthur)!</span><br>
+<span class='danger'>Unknown (as Eric McArthur) fires the taser gun!</span><br>
+<b>Jack Trasen</b> screams!<br>
+<b>Jack Trasen</b> screams!<br>
+<span class='danger'>Jack Trasen is hit by the stun beam in the head!</span><br>
+<span class='danger'>Jack Trasen has disarmed Unknown (as Eric McArthur)!</span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Sigmund Opalite</span> <span class='message'>asks, <span class='body'>"Who can do that for me?"</span></span></span><br>
+<span class='danger'>Jack Trasen attempted to disarm Unknown (as Eric McArthur)!</span><br>
+<span class='danger'>Unknown (as Eric McArthur) fires the taser gun!</span><br>
+<b>Jack Trasen</b> screams!<br>
+<span class='danger'>Jack Trasen is hit by the stun beam in the head!</span><br>
+<span class='warning'>The pain is too severe for you to keep going...</span><br>
+<B>Jack Trasen</B> slumps over, too weak to continue fighting....<br>
+You hear a laser blast!<br>
+<span class='notice'>Unknown (as Eric McArthur) puts the taser gun into the messenger bag.</span><br>
+<span class = 'game_say'>...<i>You almost hear someone talking</i>...</span><br>
+<span class = 'game_say'>...<i>You almost hear someone talking</i>...</span><br>
+<span class='notice'>Unknown (as Eric McArthur) shakes Jack Trasen trying to wake him up!</span><br>
+<span class='info'>*---------*<br>
+This is <IMG CLASS=icon SRC=[0xc0006b7]> <EM>Jack Trasen</EM>, <b><font color='#ffc896'> a ÿHuman!</font></b><br>He is wearing <IMG CLASS=icon SRC=[0xc000302] ICONSTATE='mailman'> a mailman's jumpsuit (100).<br>
+He is wearing <IMG CLASS=icon SRC=[0xc000320] ICONSTATE='detective-armor'> an armor (200).<br>
+He has <IMG CLASS=icon SRC=[0xc000078] ICONSTATE='backpack'> a backpack on his back.<br>
+He has <IMG CLASS=icon SRC=[0xc0002bf] ICONSTATE='utilitybelt'> a tool-belt (100) about his waist.<br>
+He is wearing <span class='warning'><IMG CLASS=icon SRC=[0xc00032a] ICONSTATE='black'> some blood-stained the black shoes</span> on his feet.<br>
+He has <IMG CLASS=icon SRC=[0xc0002c9] ICONSTATE='trasen'> Jack Trasen mask (50) on his face.<br>
+He has <IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'> a science radio headset on his left ear.<br>
+He is wearing <IMG CLASS=icon SRC=[0xc0002ba] ICONSTATE='pda'> PDA-Korl Adams (Advanced Science Chief).<br>
+<span class='warning'>He is <IMG CLASS=icon SRC=[0xc000185] ICONSTATE='handcuff'> handcuffed!</span><br>
+<span class='warning'>He has a tiny bruise on his lower body.<br>He has a tiny bruise on his head.<br>He has a tiny bruise on his left arm.<br>He has a tiny bruise on his left leg.<br>He has a tiny bruise on his right leg.<br>He has a tiny bruise on his left hand.<br>He has a tiny bruise on his right hand.<br>He has a tiny bruise on his left foot.<br>He has a tiny bruise on his right foot.<br></span>*---------*</span><br><br>
+<span class='danger'><font size=2>Your whole body is going numb!</font></span><br>
+<span class='notice'>Unknown (as Eric McArthur) runs the health analyzer over Jack Trasen.</span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"Hey, asshole."</span></span></span><br>
+<span class='notice'>Unknown (as Eric McArthur) puts the health analyzer into the messenger bag.</span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> asks, <span class='message'><span class='body'>"You gonna continue being a cunt?"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"PLEASE JUST LET ME GO BACK TO MY office fucker"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Sigmund Opalite</span> <span class='message'>asks, <span class='body'>"How is chemistry products doing for sales?"</span></span></span><br>
+<span class='notice'>You feel a tiny prick!</span><br>
+<span class='warning'>Unknown (as Eric McArthur) injects Jack Trasen with the autoinjector.</span><br>
+<span class='info'>*---------*<br>
+This is <EM>Unknown (as Eric McArthur)</EM><br>They are wearing <IMG CLASS=icon SRC=[0xc000311] ICONSTATE='rig0-secalt'> a riot security voidsuit helmet on their head.<br>
+They are wearing <IMG CLASS=icon SRC=[0xc000320] ICONSTATE='rig-secalt'> a riot security voidsuit.<br>
+They are carrying <IMG CLASS=icon SRC=[0xc0002e3] ICONSTATE='oxygen_f'> an oxygen tank on their riot security voidsuit.<br>
+They have <IMG CLASS=icon SRC=[0xc000078] ICONSTATE='courierbag'> a messenger bag on their back.<br>
+They are holding <IMG CLASS=icon SRC=[0xc000078] ICONSTATE='advfirstaid'> an advanced first-aid kit in their left hand.<br>
+They are holding <IMG CLASS=icon SRC=[0xc0002b7] ICONSTATE='blue0'> an autoinjector in their right hand.<br>
+They have <IMG CLASS=icon SRC=[0xc0002bf] ICONSTATE='swatbelt'> a combat belt about their waist.<br>
+They are wearing <IMG CLASS=icon SRC=[0xc0002c3] ICONSTATE='id'> Eric McArthur's ID Card CYO-(CPS Cadet).<br>
+<span class='warning'></span>*---------*</span><br><br>
+<span class='game say'><span class='name'>Eric McArthur</span> asks, <span class='message'><span class='body'>"Fucker, eh?"</span></span></span><br>
+<span class='notice'>Eric McArthur puts the autoinjector into the advanced first-aid kit.</span><br>
+<span class='notice'>Unknown (as Eric McArthur) puts the advanced first-aid kit into the messenger bag.</span><br>
+<span class='notice'>You're restrained! You can't move!</span><br>
+<span class='notice'>You're restrained! You can't move!</span><br>
+<span class='notice'>You're restrained! You can't move!</span><br>
+<span class='notice'>You're restrained! You can't move!</span><br>
+<span class='notice'>You're restrained! You can't move!</span><br>
+<span class='notice'>You're restrained! You can't move!</span><br>
+<span class='notice'>You're restrained! You can't move!</span><br>
+<span class='notice'>You're restrained! You can't move!</span><br>
+<span class='notice'>You're restrained! You can't move!</span><br>
+<span class='notice'>You're restrained! You can't move!</span><br>
+<span class='notice'>You're restrained! You can't move!</span><br>
+<span class='notice'>You're restrained! You can't move!</span><br>
+<span class='notice'>You're restrained! You can't move!</span><br>
+<span class='notice'>You're restrained! You can't move!</span><br>
+<span class='notice'>You're restrained! You can't move!</span><br>
+<span class='notice'>You're restrained! You can't move!</span><br>
+<span class='notice'>You're restrained! You can't move!</span><br>
+<span class='notice'>You're restrained! You can't move!</span><br>
+<span class='notice'>You're restrained! You can't move!</span><br>
+<span class='notice'>You're restrained! You can't move!</span><br>
+<span class='notice'>Unknown (as Eric McArthur) runs the health analyzer over Jack Trasen.</span><br>
+<span class='info'>*---------*<br>
+This is <IMG CLASS=icon SRC=[0xc0008d4]> <EM>Stefanny Zeroford</EM>, <b><font color='#ffc896'> a ÿHuman!</font></b><br>She is wearing <IMG CLASS=icon SRC=[0xc000302] ICONSTATE='jumpsuit'> a blue jumpsuit.<br>
+She has <IMG CLASS=icon SRC=[0xc000078] ICONSTATE='courierbag'> a messenger bag on her back.<br>
+She is wearing <IMG CLASS=icon SRC=[0xc00032a] ICONSTATE='black'> some black shoes on her feet.<br>
+She is wearing <IMG CLASS=icon SRC=[0xc0002c3] ICONSTATE='id'> Stefanny Zeroford's ID Card NT-(Civilian).<br>
+<span class='warning'>She has a tiny bruise on her head.<br>She has a tiny bruise on her left hand.<br>She has a tiny bruise on her right hand.<br></span>*---------*</span><br><br>
+<span class='notice'>Unknown (as Eric McArthur) puts the health analyzer into the messenger bag.</span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"You gotta appologise first."</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>exclaims, <span class='body'>"Help me!"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> exclaims, <span class='message'><span class='body'>"<i>help me!</i>"</span></span></span><br>
+<span class='danger'>Unknown (as Eric McArthur) is trying to remove Jack Trasen's backpack!</span><br>
+<b>Jack Trasen</b> screams!<br>
+<B>Jack Trasen</B> collapses!<br>
+<b>Jack Trasen</b>'s body becomes limp.<br>
+<span class='notice'>Unknown (as Eric McArthur) puts the pepperspray into the messenger bag.</span><br>
+<span class='notice'>Unknown (as Eric McArthur) runs the health analyzer over Jack Trasen.</span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"I can&#39;t hear you say sorry. I&#39;ll drag you around till you apologise."</span></span></span><br>
+<span class='notice'>Unknown (as Eric McArthur) puts the health analyzer into the messenger bag.</span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"I apologise"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"Sorry"</span></span></span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"C&#39;Mon. You can do better."</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"Just let me go"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"Im very very very sorry man"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"I didnt want to hurt you"</span></span></span><br>
+<span class='danger'>Unknown (as Eric McArthur) is trying to empty Jack Trasen's pockets!</span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"No."</span></span></span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"Try better."</span></span></span><br>
+<span class='danger'>Eric McArthur empties Jack Trasen's pockets!</span><br>
+<span class='notice'>Unknown (as Eric McArthur) puts the key into the backpack.</span><br>
+<span class='notice'>Unknown (as Eric McArthur) presses the lift button.</span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"Your the best guy on the space"</span></span></span><br>
+<span class='notice'>Unknown (as Eric McArthur) presses the lift button.</span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Sigmund Opalite</span> <span class='message'>says, <span class='body'>"I dunno."</span></span></span><br>
+The elevator rises smoothly.<br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"Right."</span></span></span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"Now do it all again, over comms."</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"I did very wrong thing"</span></span></span><br>
+<b>The elevator</b> announces, "Ding!"<br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"Say over comms what you did wrong."</span></span></span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"And why it&#39;s bad."</span></span></span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"Then apologise."</span></span></span><br>
+<span class='danger'>The metal detector sends off an alarm!</span><br>
+<span class='danger'>The metal detector sends off an alarm!</span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Adam Tobortim</span> <span class='message'>asks, <span class='body'>"Yo what do I do?"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"I did try to hurt Eric McArthur"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"<i>I did try to hurt Eric McArthur</i>"</span></span></span><br>
+Steven Butcher opens a book titled "Nanotrasen Regulations" and begins reading intently.<br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Nikolai Mechnikov</span> <span class='message'>asks, <span class='body'>"Does somebody going to maystation?"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"I didnt want to do that"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"<i>I didnt want to do that</i>"</span></span></span><br>
+<span class='notice'>Steven Butcher puts Nanotrasen Regulations into the backpack.</span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"Go on."</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"I want to say sorry to all peoples i did hurt"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"<i>I want to say sorry to all peoples i did hurt</i>"</span></span></span><br>
+<span class='danger'><font size=3>Your whole body is going numb!</font></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Stefanny Zeroford</span> <span class='message'>says, <span class='body'>"I am"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Sigmund Opalite</span> <span class='message'>says, <span class='body'>"I am looking for work. or becoming a trader."</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Stefanny Zeroford</span> <span class='message'>says, <span class='body'>"Again"</span></span></span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"There we go."</span></span></span><br>
+<span class='danger'>Unknown (as Eric McArthur) is trying to remove Jack Trasen's handcuffs!</span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Nikolai Mechnikov</span> <span class='message'>says, <span class='body'>"That&#39;s pretty sad."</span></span></span><br>
+<span class='game say'><span class='name'>Styffee Kellian</span> says, <span class='message'><span class='body'>"Give me my id back"</span></span></span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"Now get the fuck back to your office."</span></span></span><br>
+<span class='notice'>Ailia Kellian handed Styffee Kellian's ID Card NT-(Unassigned) to Styffee Kellian.</span><br>
+<span class='notice'>Ailia Kellian hugs Styffee Kellian to make her feel better!</span><br>
+<span class='game say'><span class='name'>Styffee Kellian</span> says, <span class='message'><span class='body'>"Thanks"</span></span></span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"Before I break out the ral gun"</span></span></span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"Real, even"</span></span></span><br>
+<span class='warning'>Unknown (as Eric McArthur) has thrown the backpack.</span><br>
+<span class='notice'>Unknown (as Eric McArthur) buckles themselves to the blue chair.</span><br>
+<span class='notice'>Ailia Kellian shakes Jack Trasen trying to wake him up!</span><br>
+<span class='notice'>Unknown (as Eric McArthur) unbuckled themselves!</span><br>
+<span class='notice'>Unknown (as Eric McArthur) buckles themselves to the blue chair.</span><br>
+<span class='danger'><font size=3>Your whole body is going numb!</font></span><br>
+<span class='info'>*---------*<br>
+This is <IMG CLASS=icon SRC=[0xc0006b7]> <EM>Edward Jones</EM>, <b><font color='#ffc896'> a ÿHuman!</font></b><br>He is wearing <IMG CLASS=icon SRC=[0xc000302] ICONSTATE='pants'> some black pants (30).<br>
+He has <IMG CLASS=icon SRC=[0xc000078] ICONSTATE='courierbag'> a messenger bag on his back.<br>
+He has <IMG CLASS=icon SRC=[0xc0002bf] ICONSTATE='utilitybelt'> a tool-belt (100) about his waist.<br>
+He is wearing <span class='warning'><IMG CLASS=icon SRC=[0xc00032a] ICONSTATE='black'> some blood-stained the black shoes</span> on his feet.<br>
+<span class='warning'>He has a tiny bruise on his upper body.<br>He has a small scab on his head.<br>He has a fresh skin on his left arm.<br>He has a small scab on his right arm.<br>He has a small scab on his left hand.<br>He has a small scab on his right hand.<br></span><span class='notice'>He doesn&#39;t look too friendly.  An av... <a href='byond://?src=[0x3000aaa];flavor_more=1'>More...</a></span><br>
+*---------*</span><br><br>
+<span class='danger'>Your heart has stopped!</span><br>
+<span class = 'game_say'>...<i>You almost hear someone talking</i>...</span><br>
+<span class = 'game_say'>...<i>You almost hear someone talking</i>...</span><br>
+<span class = 'game_say'>...<i>You almost hear someone talking</i>...</span><br>
+<span class='notice'>You hear metal clanking.</span><br>
+<span class = 'game_say'>...<i>You almost hear someone talking</i>...</span><br>
+<span class = 'game_say'>...<i>You almost hear someone talking</i>...</span><br>
+<span class = 'game_say'>...You hear something about...into</span><br>
+<span class = 'game_say'>...<i>You almost hear someone talking</i>...</span><br>
+<span class='notice'>You feel a breath of fresh air enter your lungs. It feels good.</span><br>
+<span class='notice'>You feel a breath of fresh air enter your lungs. It feels good.</span><br>
+<span class='notice'>You feel a breath of fresh air enter your lungs. It feels good.</span><br>
+<span class = 'game_say'>...<i>You almost hear someone talking</i>...</span><br>
+<span class='notice'>Eric McArthur talks into the radio headset</span><br>
+<span class = 'game_say'>...<i>You almost hear someone talking</i>...</span><br>
+<span class = 'game_say'>...<i>You almost hear someone talking</i>...</span><br>
+<span class='notice'>Eric McArthur talks into the radio headset</span><br>
+<span class = 'game_say'>...<i>You almost hear someone talking</i>...</span><br>
+<span class='notice'>Eric McArthur hugs Korl Adams to make him feel better!</span><br>
+<span class='notice'>Eric McArthur runs the health analyzer over Korl Adams.</span><br>
+<span class='notice'>Eric McArthur runs the health analyzer over Korl Adams.</span><br>
+<span class='notice'>Eric McArthur runs the health analyzer over Korl Adams.</span><br>
+<span class='notice'>Eric McArthur runs the health analyzer over Korl Adams.</span><br>
+<span class='info'>*---------*<br>
+This is <IMG CLASS=icon SRC=[0xc0006b7]> <EM>Korl Adams</EM>, <b><font color='#ffc896'> a ÿHuman!</font></b><br>He is wearing <IMG CLASS=icon SRC=[0xc000302] ICONSTATE='mailman'> a mailman's jumpsuit (100).<br>
+He is wearing <IMG CLASS=icon SRC=[0xc000320] ICONSTATE='detective-armor'> an armor (200).<br>
+He has <IMG CLASS=icon SRC=[0xc000078] ICONSTATE='backpack'> a backpack on his back.<br>
+He has <IMG CLASS=icon SRC=[0xc0002bf] ICONSTATE='utilitybelt'> a tool-belt (100) about his waist.<br>
+He is wearing <span class='warning'><IMG CLASS=icon SRC=[0xc00032a] ICONSTATE='black'> some blood-stained the black shoes</span> on his feet.<br>
+He has <IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'> a science radio headset on his left ear.<br>
+He is wearing <IMG CLASS=icon SRC=[0xc0002ba] ICONSTATE='pda'> PDA-Korl Adams (Advanced Science Chief).<br>
+<span class='warning'>He is twitching ever so slightly.</span><br>
+<span class='warning'>He has a tiny bruise on his lower body.<br>He has a tiny bruise on his head.<br>He has a tiny bruise on his left arm.<br>He has a tiny bruise on his left leg.<br>He has a tiny bruise on his right leg.<br>He has a tiny bruise on his left hand.<br>He has a tiny bruise on his right hand.<br>He has a tiny bruise on his left foot.<br>He has a tiny bruise on his right foot.<br></span>*---------*</span><br><br>
+<span class='game say'><span class='name'>Adam Tobortim</span> says, <span class='message'><span class='body'>"Woah"</span></span></span><br>
+<span class='game say'><span class='name'>Adam Tobortim</span> says, <span class='message'><span class='body'>"Brutallity"</span></span></span><br>
+<span class='notice'>Eric McArthur runs the health analyzer over Korl Adams.</span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"Deadly tasers"</span></span></span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"Adrenaline."</span></span></span><br>
+<span class='game say'><span class='name'>Ailia Kellian</span> asks, <span class='message'><span class='body'>"Do you normally terrify people to the extent they nearly die?"</span></span></span><br>
+<span class='game say'><span class='name'>Adam Tobortim</span> says, <span class='message'><span class='body'>"He fucking dead"</span></span></span><br>
+<span class='notice'>Eric McArthur runs the health analyzer over Edward Jones.</span><br>
+<span class='notice'>Styffee Kellian begins placing Styffee Kellian into the cryogenic freezer.</span><br>
+<b>Eric McArthur</b> checks Edward Jones's pulse.<br>
+<span class='notice'>Eric McArthur shakes Edward Jones trying to wake him up!</span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"He has an infected wound, that one"</span></span></span><br>
+<span class='game say'><span class='name'>Adam Tobortim</span> asks, <span class='message'><span class='body'>"You on meth or some shit kORL?"</span></span></span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"No"</span></span></span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"Adrenaline"</span></span></span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"Went into shock"</span></span></span><br>
+<span class='notice'>Eric McArthur runs the health analyzer over Korl Adams.</span><br>
+<span class='notice'>Eric McArthur runs the health analyzer over Korl Adams.</span><br>
+<span class='danger'>Edward Jones is buckled to the blue chair by Adam Tobortim!</span><br>
+<span class='info'>*---------*<br>
+This is <IMG CLASS=icon SRC=[0xc0006b7]> <EM>Korl Adams</EM>, <b><font color='#ffc896'> a ÿHuman!</font></b><br>He is wearing <IMG CLASS=icon SRC=[0xc000302] ICONSTATE='mailman'> a mailman's jumpsuit (100).<br>
+He is wearing <IMG CLASS=icon SRC=[0xc000320] ICONSTATE='detective-armor'> an armor (200).<br>
+He has <IMG CLASS=icon SRC=[0xc000078] ICONSTATE='backpack'> a backpack on his back.<br>
+He has <IMG CLASS=icon SRC=[0xc0002bf] ICONSTATE='utilitybelt'> a tool-belt (100) about his waist.<br>
+He is wearing <span class='warning'><IMG CLASS=icon SRC=[0xc00032a] ICONSTATE='black'> some blood-stained the black shoes</span> on his feet.<br>
+He has <IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'> a science radio headset on his left ear.<br>
+He is wearing <IMG CLASS=icon SRC=[0xc0002ba] ICONSTATE='pda'> PDA-Korl Adams (Advanced Science Chief).<br>
+<span class='warning'>He is twitching ever so slightly.</span><br>
+<span class='warning'>He has a tiny bruise on his lower body.<br>He has a tiny bruise on his head.<br>He has a tiny bruise on his left arm.<br>He has a tiny bruise on his left leg.<br>He has a tiny bruise on his right leg.<br>He has a tiny bruise on his left hand.<br>He has a tiny bruise on his right hand.<br>He has a tiny bruise on his left foot.<br>He has a tiny bruise on his right foot.<br></span>*---------*</span><br><br>
+<span class='game say'><span class='name'>Adam Tobortim</span> says, <span class='message'><span class='body'>"He is a-ok"</span></span></span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"Keep it cool, Korl. And don&#39;t ever fuck with the wrong people again."</span></span></span><br>
+<span class='info'>*---------*<br>
+This is <IMG CLASS=icon SRC=[0xc0006c7]> <EM>Eric McArthur</EM>, <b><font color='#ffc896'> a ÿHuman!</font></b><br>He is wearing <IMG CLASS=icon SRC=[0xc000320] ICONSTATE='rig-secalt'> a riot security voidsuit.<br>
+He is carrying <IMG CLASS=icon SRC=[0xc0002e3] ICONSTATE='oxygen_f'> an oxygen tank on his riot security voidsuit.<br>
+He has <IMG CLASS=icon SRC=[0xc000078] ICONSTATE='courierbag'> a messenger bag on his back.<br>
+He is holding <IMG CLASS=icon SRC=[0xc00020d] ICONSTATE='health'> a health analyzer in his left hand.<br>
+He has <IMG CLASS=icon SRC=[0xc0002bf] ICONSTATE='swatbelt'> a combat belt about his waist.<br>
+He has <IMG CLASS=icon SRC=[0xc000326] ICONSTATE='swatgoggles'> a tactical goggles covering his eyes.<br>
+He has <IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'> a radio headset on his left ear.<br>
+He is wearing <IMG CLASS=icon SRC=[0xc0002c3] ICONSTATE='id'> Eric McArthur's ID Card CYO-(CPS Cadet).<br>
+<span class='warning'></span>*---------*</span><br><br>
+<span class='notice'>Edward Jones unbuckled themselves!</span><br>
+<span class='game say'><span class='name'>Korl Adams</span> whispers, <span class='message'><span class='body'>"<i>i never stop fucking with peoples</i>"</span></span></span><br>
+<span class='game say'><span class='name'>Adam Tobortim</span> says, <span class='message'><span class='body'>"I am solving issues"</span></span></span><br>
+<span class='warning'>Eric McArthur has thrown Jack Trasen mask (50).</span><br>
+<span class='game say'><span class='name'>Gar Gree</span> says, <span class='message'><span class='body'>"I&#39;m hungry and want a job"</span></span></span><br>
+<span class='game say'><span class='name'>Adam Tobortim</span> says, <span class='message'><span class='body'>"Issues solved"</span></span></span><br>
+<span class='game say'><span class='name'>Ailia Kellian</span> says, <span class='message'><span class='body'>"Yeah"</span></span></span><br>
+<span class='warning'>You are unable to equip that.</span><br>
+<span class='notice'>You put Jack Trasen mask (50) into the backpack.</span><br>
+<span class='notice'>Korl Adams presses the lift button.</span><br>
+<span class='notice'>Korl Adams presses the lift button.</span><br>
+The elevator descends smoothly.<br>
+<b>The elevator</b> announces, "Ding!"<br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Gar Gree</span> <span class='message'>says, <span class='body'>"Hi"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Gar Gree</span> <span class='message'>asks, <span class='body'>"Can i get a job please?"</span></span></span><br>
+<span class='danger'>Your head feels numb and painful.</span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Gar Gree</span> <span class='message'>says, <span class='body'>"Preferably a science one with slimes"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"Fuck you Eric McArthur"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"<i>fuck you Eric McArthur</i>"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Eric McArthur</span> <span class='message'>asks, <span class='body'>"You know I can taze you again?"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"Find me first"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"<i>find me first</i>"</span></span></span><br>
+<b>Vince Alpha</b> snores.<br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='med_headset'><b>[Common]</b> <span class='name'>Nickster Wilson</span> <span class='message'>asks, <span class='body'>"Is anybody injured?"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"ERIC MCARTHUR IS THE WORST PERSON IN THE UNIVERSE"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"<i>ERIC MCARTHUR IS THE WORST PERSON IN THE UNIVERSE</i>"</span></span></span><br>
+<span class='info'>*---------*<br>
+This is <IMG CLASS=icon SRC=[0xc000d22]> <EM>Vince Alpha</EM>, <b><font color='#ffc896'> a ÿHuman!</font></b><br>He is wearing <IMG CLASS=icon SRC=[0xc000302] ICONSTATE='jumpsuit'> a grey jumpsuit.<br>
+He is wearing <IMG CLASS=icon SRC=[0xc000320] ICONSTATE='coatscience'> a science winter coat.<br>
+He has <IMG CLASS=icon SRC=[0xc000078] ICONSTATE='engiepack'> an industrial backpack on his back.<br>
+He has <IMG CLASS=icon SRC=[0xc0002bf] ICONSTATE='utilitybelt'> a tool-belt about his waist.<br>
+He is wearing <IMG CLASS=icon SRC=[0xc00032a] ICONSTATE='magboots0'> some magboots on his feet.<br>
+He has <IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'> a radio headset on his left ear.<br>
+He is wearing <IMG CLASS=icon SRC=[0xc0002ba] ICONSTATE='pda'> PDA-Vince Alpha (Junior Xenobiologist).<br>
+<span class='warning'>He isn't responding to anything around him and seems to be unconscious.</span><br>
+<span class='deadsay'>He is fast asleep.</span><br>
+<span class='warning'></span><span class='notice'>He looks like he can&#39;t smile at all.... <a href='byond://?src=[0x300093f];flavor_more=1'>More...</a></span><br>
+*---------*</span><br><br>
+You check Vince Alpha's pulse.<br>
+<span class='deadsay'>He has a pulse!</span><br>
+<b>Karn Driez</b> snores.<br>
+<b>Vince Alpha</b> snores.<br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"Your going to find me first fucker"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"<i>your going to find me first fucker</i>"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>asks, <span class='body'>"You know where im am?"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> asks, <span class='message'><span class='body'>"<i>you know where im am?</i>"</span></span></span><br>
+Your suit will now report your vital lifesigns.<br>
+<span class='game say'><span class='name'>Medbot</span> beeps, <span class='message'><span class='body'>"There&#39;s always a catch, and it&#39;s the best there is."</span></span></span><br>
+<IMG CLASS=icon SRC=[0xc00008c] ICONSTATE='papershredder0'> That's a paper shredder. <br>
+For those documents you don't want seen.<br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Eric McArthur</span> <span class='message'>says, <span class='body'>"Yeah"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='srv_headset'><b>[Common]</b> <span class='name'>Jason Bennett</span> <span class='message'>asks, <span class='body'>"Whats going on?"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Eric McArthur</span> <span class='message'>says, <span class='body'>"IN a whole world of pain and trouble."</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"I LOVE THAT PIZZA"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"<i>I LOVE THAT PIZZA</i>"</span></span></span><br>
+<span class='danger'>You hungrily chew out a piece of Meatpizza slice and gobble it!</span><br>
+<span class='notice'>You can taste a hint of pizza crust, a hint of tomato and cheese.</span><br>
+<span class='danger'>You hungrily chew out a piece of Meatpizza slice and gobble it!</span><br>
+<span class='danger'>You hungrily chew out a piece of Meatpizza slice and gobble it!</span><br>
+<span class='danger'>You hungrily chew out a piece of Meatpizza slice and gobble it!</span><br>
+<span class='danger'>You hungrily chew out a piece of Meatpizza slice and gobble it!</span><br>
+<span class='notice'>You finish eating Meatpizza slice.</span><br>
+<span class='notice'>You turn on the electronic cigarette. </span> <br>
+<span class='notice'>You turn off the electronic cigarette. </span> <br>
+<span class='notice'>You turn on the electronic cigarette. </span> <br>
+<IMG CLASS=icon SRC=[0xc0002b3] ICONSTATE='ccigon'> That's an electronic cigarette. It is a tiny item.<br>
+A cheap electronic cigarette. The metal still has a few shavings from being rolled in an autolathe.<br>
+<b>Vince Alpha</b> snores.<br>
+<span class='danger'>The soft drink dispenser has been hit by Korl Adams with the electronic cigarette.</span><br>
+<span class='danger'>The soft drink dispenser has been hit by Korl Adams with the electronic cigarette.</span><br>
+<span class='notice'>You turn on the electronic cigarette. </span> <br>
+<span class='notice'>You turn off the electronic cigarette. </span> <br>
+<span class='danger'>The soft drink dispenser has been hit by Korl Adams with the electronic cigarette.</span><br>
+<span class='notice'>You set the rocks glass on the soft drink dispenser.</span><br>
+<pre class="system system">Unrecognized or inaccessible verb: dsay<br>
+</pre><span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>asks, <span class='body'>"So you know where im am?"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> asks, <span class='message'><span class='body'>"<i>so you know where im am?</i>"</span></span></span><br>
+<IMG CLASS=icon SRC=[0xc0001bd] ICONSTATE='door_locked'> That's Keypad Airlock. <br>
+A door with a keypad lock.<br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"You know where im am?&#34;"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>asks, <span class='body'>"So you know where im am?"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> asks, <span class='message'><span class='body'>"<i>so you know where im am?</i>"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"Why your not going in"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"<i>why your not going in</i>"</span></span></span><br>
+<b>Karn Driez</b> snores.<br>
+You fill the autolathe with the steel sheets.<br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='srv_headset'><b>[Common]</b> <span class='name'>Jason Bennett</span> <span class='message'>asks, <span class='body'>"Uhhh Rader?"</span></span></span><br>
+<b>Karn Driez</b> snores.<br>
+<h1 class='alert'>CA Relay Outpost Update</h1><br><h2 class='alert'>Major Bill&#39;s Shipping Critter Sensor</h2><br><span class='alert'>Bioscans indicate that mice have been breeding in the construction 1/4. Clear them out, before this starts to affect productivity.</span><br><br><br>
+<span class='danger'>Your head feels numb and painful.</span><br>
+<span class='ooc'><span class='admin'><IMG src='[0xc000004]' class='text_tag' iconstate='ooc' alt='OOC:'> <EM>Andrew Fall:</EM> <span class='message'>Love those area names</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Sigmund Opalite</span> <span class='message'>asks, <span class='body'>"Can anyone deliver me and a friend to maystation?"</span></span></span><br>
+<b>Current Staff (2/2):</b><br>
+	Andrew Fall is a <b>ÿDevAdmin</b><br>
+	DimasW is a <b>ÿTrialAdmin</b><br>
+<span class='ooc'><span class='everyone'><IMG src='[0xc000004]' class='text_tag' iconstate='ooc' alt='OOC:'> <EM>Soldier101:</EM> <span class='message'>admins should really think it out</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='med_headset'><b>[Common]</b> <span class='name'>Nickster Wilson</span> <span class='message'>says, <span class='body'>"Joshua, could you come to the medbay? I found a way to cure your lungs"</span></span></span><br>
+<span class='ooc'><span class='admin'><IMG src='[0xc000004]' class='text_tag' iconstate='ooc' alt='OOC:'> <EM>Andrew Fall:</EM> <span class='message'>Admins don&#39;t make those xD</span></span></span><br>
+<span class='danger'>You feel a dull pain in your head</span><br>
+<span class='ooc'><span class='everyone'><IMG src='[0xc000004]' class='text_tag' iconstate='ooc' alt='OOC:'> <EM>Soldier101:</EM> <span class='message'>i mean</span></span></span><br>
+<span class='ooc'><span class='everyone'><IMG src='[0xc000004]' class='text_tag' iconstate='ooc' alt='OOC:'> <EM>Soldier101:</EM> <span class='message'>multiple peoples without any job</span></span></span><br>
+<b>Karn Driez</b> snores.<br>
+<span class='danger'>Your head feels numb and painful.</span><br>
+<span class='ooc'><span class='admin'><IMG src='[0xc000004]' class='text_tag' iconstate='ooc' alt='OOC:'> <EM>Andrew Fall:</EM> <span class='message'>We are mostly here to solve bugs, that stuff is player run. However discussions are being made about how to make that a better experience</span></span></span><br>
+<b>Karn Driez</b> snores.<br>
+<span class='ooc'><span class='everyone'><IMG src='[0xc000004]' class='text_tag' iconstate='ooc' alt='OOC:'> <EM>LanceLynxx:</EM> <span class='message'>idea</span></span></span><br>
+<span class='ooc'><span class='everyone'><IMG src='[0xc000004]' class='text_tag' iconstate='ooc' alt='OOC:'> <EM>LanceLynxx:</EM> <span class='message'>pay IAA more.</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Eric McArthur</span> <span class='message'>says, <span class='body'>"Fucking hell, I got no time for this."</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Eric McArthur</span> <span class='message'>says, <span class='body'>"Going back to Cythos."</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='med_headset'><b>[Common]</b> <span class='name'>Nickster Wilson</span> <span class='message'>asks, <span class='body'>"Any virologists online?"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Sigmund Opalite</span> <span class='message'>asks, <span class='body'>"Can someone deliver us to maystation?"</span></span></span><br>
+<span class='ooc'><span class='admin'><IMG src='[0xc000004]' class='text_tag' iconstate='ooc' alt='OOC:'> <EM>Andrew Fall:</EM> <span class='message'>Once again, that is a player run thing, someone IC needs to buff their pay for that.</span></span></span><br>
+<span class='ooc'><span class='everyone'><IMG src='[0xc000004]' class='text_tag' iconstate='ooc' alt='OOC:'> <EM>LanceLynxx:</EM> <span class='message'>just sayan</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Stefanny Zeroford</span> <span class='message'>asks, <span class='body'>"Oi,nick no way to may still ?"</span></span></span><br>
+<span class='ooc'><span class='everyone'><IMG src='[0xc000004]' class='text_tag' iconstate='ooc' alt='OOC:'> <EM>Meth-Chan:</EM> <span class='message'>thats neat</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Adam Keeller</span> <span class='message'>asks, <span class='body'>"Anyone on assigments?"</span></span></span><br>
+<span class='ooc'><span class='everyone'><IMG src='[0xc000004]' class='text_tag' iconstate='ooc' alt='OOC:'> <EM>Meth-Chan:</EM> <span class='message'>could do with someone in command thats online frequently, or more people in command roles that can provide vital functions</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Natascha Sukhoi</span> <span class='message'>says, <span class='body'>"I need an engineer to Science"</span></span></span><br>
+<span class='ooc'><span class='everyone'><IMG src='[0xc000004]' class='text_tag' iconstate='ooc' alt='OOC:'> <EM>Soldier101:</EM> <span class='message'>i do!</span></span></span><br>
+<span class='ooc'><span class='everyone'><IMG src='[0xc000004]' class='text_tag' iconstate='ooc' alt='OOC:'> <EM>Soldier101:</EM> <span class='message'>i can!</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Natascha Sukhoi</span> <span class='message'>says, <span class='body'>"Someone broke the desk windoor"</span></span></span><br>
+<span class='ooc'><span class='everyone'><IMG src='[0xc000004]' class='text_tag' iconstate='ooc' alt='OOC:'> <EM>Soldier101:</EM> <span class='message'>do much!</span></span></span><br>
+<span class='game say'><span class='name'>Medbot</span> beeps, <span class='message'><span class='body'>"Radar, put a mask on!"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Natascha Sukhoi</span> <span class='message'>says, <span class='body'>"Just had to expel someone from the labs"</span></span></span><br>
+<span class='danger'>Your head feels numb and painful.</span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"Lier"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"<i>lier</i>"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"No time for this"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"<i>no time for this</i>"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Natascha Sukhoi</span> <span class='message'>says, <span class='body'>"I&#39;m not lying"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Natascha Sukhoi</span> <span class='message'>says, <span class='body'>"Someone broke in to use our chem dispenser"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"I didnt mean you"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"<i>i didnt mean you</i>"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"I mean that cythos fucker with security suit"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"<i>i mean that cythos fucker with security suit</i>"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"Who waits for me to come out"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"<i>who waits for me to come out</i>"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Adam Tobortim</span> <span class='message'>says, <span class='body'>"Yo, anyone from shell willing to talk to me"</span></span></span><br>
+<span class='game say'><span class='name'>Medbot</span> beeps, <span class='message'><span class='body'>"Radar, put a mask on!"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Sigmund Opalite</span> <span class='message'>says, <span class='body'>"This station is horribly managed."</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"Eric"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"<i>Eric</i>"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"Can we talk"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"<i>can we talk</i>"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Sigmund Opalite</span> <span class='message'>asks, <span class='body'>"Where is the administrators?"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Steven Butcher</span> <span class='message'>says, <span class='body'>"It isn&#39;t managed at all."</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Eric McArthur</span> <span class='message'>says, <span class='body'>"Sure, open up."</span></span></span><br>
+<b>Karn Driez</b> snores.<br>
+<b>Karn Driez</b> snores.<br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Sigmund Opalite</span> <span class='message'>says, <span class='body'>"I have an urge to riot or sue this place."</span></span></span><br>
+<span class='notice'>You put the steel sheets into the backpack.</span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"I dont trust you"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"<i>i dont trust you</i>"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Adam Tobortim</span> <span class='message'>says, <span class='body'>"I will join in on the riot"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"I think you have taser on your hand"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"<i>i think you have taser on your hand</i>"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Eric McArthur</span> <span class='message'>says, <span class='body'>"YOU are the one who fucked up, not I"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"And willing to arret me"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"<i>and willing to arret me</i>"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Natascha Sukhoi</span> <span class='message'>asks, <span class='body'>"Any engineering available please?"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Eric McArthur</span> <span class='message'>says, <span class='body'>"And my tazer is out of charge-"</span></span></span><br>
+<IMG CLASS=icon SRC=[0xc0003d1] ICONSTATE='The Cavern'> That's a barsign. <br>
+A jumbo-sized LED sign. This one seems to be showing its age.<br>
+It says 'The Cavern'<br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Ailia Kellian</span> <span class='message'>says, <span class='body'>"Maybe we should board a ship"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Adam Tobortim</span> <span class='message'>asks, <span class='body'>"Korl and eric, do you perhaps need a diplomat?"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Ailia Kellian</span> <span class='message'>says, <span class='body'>"And take it to another station"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Sigmund Opalite</span> <span class='message'>says, <span class='body'>"Nobody is willing to send us to another station."</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Eric McArthur</span> <span class='message'>says, <span class='body'>"Open it"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Sigmund Opalite</span> <span class='message'>says, <span class='body'>"Cause nobody is willing to help."</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"If you wont arrest me"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"<i>if you wont arrest me</i>"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"I will"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"<i>i will</i>"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Adam Tobortim</span> <span class='message'>says, <span class='body'>"Guys guys guys"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Ailia Kellian</span> <span class='message'>says, <span class='body'>"That&#39;s why we board the ship"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Edward Jones</span> <span class='message'>says, <span class='body'>"We are on our own."</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"But if you do arrest me"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"<i>but if you do arrest me</i>"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Eric McArthur</span> <span class='message'>says, <span class='body'>"I won&#39;t."</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Adam Tobortim</span> <span class='message'>says, <span class='body'>"We can start a new life on our own"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Korl Adams</span> <span class='message'>says, <span class='body'>"Okay i dont care"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"<i>okay i dont care</i>"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Adam Tobortim</span> <span class='message'>says, <span class='body'>"No need for violence"</span></span></span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"So"</span></span></span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"Tal"</span></span></span><br>
+<span class='notice'>You buckle yourself to the chair.</span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"Actually."</span></span></span><br>
+<span class='danger'>Eric McArthur draws .45 signal pistol, ready to go!</span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Sigmund Opalite</span> <span class='message'>says, <span class='body'>"We got no work! getting violent is pretty much our option to get things done."</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"Come on"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"Stop"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Sigmund Opalite</span> <span class='message'>says, <span class='body'>"As this place is horribly managed and we are stuck on this decrepit hole."</span></span></span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> asks, <span class='message'><span class='body'>"Why should I?"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"Why do you want to kill me"</span></span></span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"I&#39;ll lock the door, nobody will find you."</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Natascha Sukhoi</span> <span class='message'>says, <span class='body'>"Go back to where you came from, then"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Adam Tobortim</span> <span class='message'>says, <span class='body'>"Ok everyone, we will al be ok"</span></span></span><br>
+<span class='danger'>Your head feels numb and painful.</span><br>
+<span class='game say'><span class='name'>Medbot</span> beeps, <span class='message'><span class='body'>"Radar, put a mask on!"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"Except other me will find me"</span></span></span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"Except I don&#39;t care."</span></span></span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"Lay down"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"You know"</span></span></span><br>
+<span class='danger'>Korl Adams attempted to grab Korl Adams!</span><br>
+<span class='notice'>You can't grab yourself.</span><br>
+<span class='notice'>You unbuckle yourself from the chair.</span><br>
+<span class='notice'>Changed mode to 'Floor & Walls'</span><br>
+<span class='notice'>Changed mode to 'Airlock'</span><br>
+<span class='notice'>Changed mode to 'Deconstruction'</span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Adam Tobortim</span> <span class='message'>says, <span class='body'>"I&#39;m sure someone will be willing to solve these issues if we all just pray to space jesus"</span></span></span><br>
+<span class='notice'>Changed mode to 'Floor & Walls'</span><br>
+<span class='notice'>You begin constructing a wall.</span><br>
+<span class='notice'>You begin constructing a wall.</span><br>
+<span class='notice'>You begin constructing a wall.</span><br>
+<span class='notice'>You begin constructing a wall.</span><br>
+<span class='notice'>Eric McArthur holsters .45 signal pistol.</span><br>
+<span class='notice'>Changed mode to 'Airlock'</span><br>
+<span class='notice'>Changed mode to 'Deconstruction'</span><br>
+<span class='disarm'>Eric McArthur blinds Korl Adams with the flash!</span><br>
+<span class='notice'>Eric McArthur puts the flash into the large storage pouches.</span><br>
+<span class='danger'>Eric McArthur attempted to grab Korl Adams!</span><br>
+<span class='warning'>Eric McArthur has grabbed Korl Adams's upper body!</span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"Come on kill me"</span></span></span><br>
+<span class='ooc'><span class='admin'><IMG src='[0xc000004]' class='text_tag' iconstate='ooc' alt='OOC:'> <EM>Andrew Fall:</EM> <span class='message'>Try to keep memes IC to a minimum.</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"KILL ME"</span></span></span><br>
+<span class='warning'>Eric McArthur covers Korl Adams's eyes!</span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Sigmund Opalite</span> <span class='message'>says, <span class='body'>"I bet maystation is bettter then here.."</span></span></span><br>
+<span class='warning'>Eric McArthur covers Korl Adams's mouth!</span><br>
+<span class='danger'>Eric McArthur is attempting to put handcuffs on Korl Adams!</span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Natascha Sukhoi</span> <span class='message'>says, <span class='body'>"Then leave."</span></span></span><br>
+<span class='danger'>Korl Adams resists!</span><br>
+<span class='danger'>Eric McArthur has put handcuffs on Korl Adams!</span><br>
+<span class='warning'>Korl Adams has broken free of Eric McArthur's grip!</span><br>
+<span class='danger'>Korl Adams resists!</span><br>
+<span class='warning'>You attempt to remove the handcuffs. (This will take around 2 minutes and you need to stand still)</span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Sigmund Opalite</span> <span class='message'>asks, <span class='body'>"I cant?"</span></span></span><br>
+<span class='danger'>Eric McArthur is trying to remove Korl Adams's science radio headset!</span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='com_headset'><b>[Common]</b> <span class='name'>Natascha Sukhoi</span> <span class='message'>says, <span class='body'>"Sucks to be you"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"COME ON YOU WANTED TO KILL ME"</span></span></span><br>
+<span class='notice'>You're restrained! You can't move!</span><br>
+<span class='notice'>You're restrained! You can't move!</span><br>
+<span class='warning'>Eric McArthur has thrown the science radio headset.</span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"SO DO IT"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Sigmund Opalite</span> <span class='message'>says, <span class='body'>"Well sorry if you felt offended."</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"KILL ME MAN"</span></span></span><br>
+<b>Vince Alpha</b> snores.<br>
+<span class='game say'><span class='name'>Eric McArthur</span> asks, <span class='message'><span class='body'>"Who owns this place?"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"KILL ME"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> asks, <span class='message'><span class='body'>"Me?"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Adam Tobortim</span> <span class='message'>asks, <span class='body'>"Hey Natashca, can you leave the station?"</span></span></span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> asks, <span class='message'><span class='body'>"Did you buy it?"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> asks, <span class='message'><span class='body'>"Yes?"</span></span></span><br>
+<span class='radio'><IMG CLASS=icon SRC=[0xc000341] ICONSTATE='headset'><b>[Common]</b> <span class='name'>Sigmund Opalite</span> <span class='message'>says, <span class='body'>"But this place really looks utter crap."</span></span></span><br>
+<span class='newscaster'><EM>newscaster</EM> beeps, "Breaking news from THE PEOPLE&#39;S GAZETTE!"</span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> asks, <span class='message'><span class='body'>"From?"</span></span></span><br>
+<span class='danger'>Eric McArthur is trying to remove Korl Adams's PDA-Korl Adams (Advanced Science Chief)!</span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"Not your interrest"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"Uncuff me and i will tell you"</span></span></span><br>
+<span class='danger'>You are buckled to the steel chair by Eric McArthur!</span><br>
+<b>Karn Driez</b> snores.<br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"Sit down while I steal it."</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> asks, <span class='message'><span class='body'>"You steal what?"</span></span></span><br>
+<span class='warning'>You attempt to unbuckle yourself. (This will take around 2 minutes and you need to stand still)</span><br>
+<span class='game say'><span class='name'>Medbot</span> beeps, <span class='message'><span class='body'>"Delicious!"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> asks, <span class='message'><span class='body'>"What do you steal?"</span></span></span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"All mine now."</span></span></span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"Your money."</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> asks, <span class='message'><span class='body'>"What mine?"</span></span></span><br>
+<b>Vince Alpha</b> snores.<br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"Haha"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"You dont even have my money"</span></span></span><br>
+<span class='game say'><span class='name'>Korl Adams</span> says, <span class='message'><span class='body'>"Fucker fucking with me"</span></span></span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"Not yet."</span></span></span><br>
+<span class='notice'>You were unbuckled from the steel chair by Eric McArthur.</span><br>
+<b>Vince Alpha</b> snores.<br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"So.."</span></span></span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> says, <span class='message'><span class='body'>"Doorcode.."</span></span></span><br>
+<span class='game say'><span class='name'>Eric McArthur</span> asks, <span class='message'><span class='body'>"78383, or something like tht?"</span></span></span><br>
+<span class='danger'>You have been banned by andrewfall.<br>
+Reason: Ban Evasion.</span><br>
+<span class='warning'>This is a ban until appeal.</span><br>
+<span class='warning'>No ban appeals URL has been set.</span><br>
+<pre class="system system">Connection died.</pre><pre class="system system"><br>
+</pre>
